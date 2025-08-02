@@ -8,7 +8,8 @@ const AuthenticationUI = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-const navigate = useNavigate();
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -35,51 +36,64 @@ const navigate = useNavigate();
     }));
   };
 
-const handleSubmit = async (e) => {
-  e.preventDefault(); // prevent default form submit behavior
-  setIsLoading(true);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
 
-  const endpoint = isLogin ? 'http://localhost:3000/auth/login' : 'http://localhost:3000/auth/register';
-
-  try {
-    const res = await fetch(endpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData)
-    });
-
-    const result = await res.json();
-
-    if (!res.ok) {
-      alert(result.message || 'Something went wrong');
-      setIsLoading(false);  // ✅ FIXED: Reset loading here on error
+    // Client-side validation
+    if (!formData.email || !formData.password) {
+      alert('Email and password are required');
+      setIsLoading(false);
       return;
     }
 
-    alert(`${isLogin ? 'Login' : 'Registration'} successful!`);
-
-    if (isLogin) {
-      const role = result.user.role;
-      const token = result.token;
-
-      sessionStorage.setItem("authToken", token);
-      sessionStorage.setItem("role", role);
-
-      if (role === 'admin') {
-        navigate('/admin-dashboard');
-      } else {
-        navigate('/user-dashboard');
-      }
+    if (!isLogin && formData.password !== formData.confirmPassword) {
+      alert('Passwords do not match');
+      setIsLoading(false);
+      return;
     }
 
-    setIsLoading(false);  // ✅ Also fine here
-  } catch (error) {
-    setIsLoading(false); // ✅ Also here on catch
-    alert('An error occurred. Please try again.');
-    console.error(error);
-  }
-};
+    try {
+      // For demo purposes, we'll simulate different scenarios
+      await new Promise(resolve => setTimeout(resolve, 1500));
 
+      if (isLogin) {
+        // Simulate login logic
+        if (formData.email === 'admin@example.com' && formData.password === 'admin123') {
+          // Admin login
+          sessionStorage.setItem("authToken", "admin-token-123");
+          sessionStorage.setItem("role", "admin");
+          sessionStorage.setItem("userEmail", formData.email);
+          alert('Admin login successful!');
+          navigate('/admin-dashboard');
+        } else if (formData.email === 'user@example.com' && formData.password === 'user123') {
+          // User login
+          sessionStorage.setItem("authToken", "user-token-456");
+          sessionStorage.setItem("role", "user");
+          sessionStorage.setItem("userEmail", formData.email);
+          alert('User login successful!');
+          navigate('/user-dashboard');
+        } else {
+          // For demo, allow any email/password combination for users
+          sessionStorage.setItem("authToken", "demo-token-789");
+          sessionStorage.setItem("role", isAdmin ? "admin" : "user");
+          sessionStorage.setItem("userEmail", formData.email);
+          alert(`${isAdmin ? 'Admin' : 'User'} login successful!`);
+          navigate(isAdmin ? '/admin-dashboard' : '/user-dashboard');
+        }
+      } else {
+        // Registration logic
+        alert(`${isAdmin ? 'Admin' : 'User'} registration successful! Please login.`);
+        setIsLogin(true);
+        resetForm();
+      }
+    } catch (error) {
+      alert('An error occurred. Please try again.');
+      console.error(error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const resetForm = () => {
     setFormData({
@@ -126,6 +140,15 @@ const handleSubmit = async (e) => {
               {isAdmin ? 'Admin' : 'User'} {isLogin ? 'Login' : 'Registration'}
             </h1>
           </div>
+          
+          {/* Demo Credentials Info */}
+          {isLogin && (
+            <div className="bg-blue-500 bg-opacity-30 rounded-lg p-3 mb-4 text-sm">
+              <p className="font-semibold mb-1">Demo Credentials:</p>
+              <p>Admin: admin@example.com / admin123</p>
+              <p>User: user@example.com / user123</p>
+            </div>
+          )}
           
           {/* User Type Toggle */}
           <div className="flex items-center justify-center space-x-4 mb-4">
@@ -185,7 +208,7 @@ const handleSubmit = async (e) => {
         </div>
 
         {/* Form */}
-        <div className="p-6 space-y-4">
+        <form onSubmit={handleSubmit} className="p-6 space-y-4">
           {/* Email */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -464,7 +487,7 @@ const handleSubmit = async (e) => {
 
           {/* Submit Button */}
           <button
-            onClick={handleSubmit}
+            type="submit"
             disabled={isLoading}
             className={`w-full py-3 px-4 rounded-lg font-semibold text-white transition-all ${
               isLoading
@@ -493,7 +516,7 @@ const handleSubmit = async (e) => {
               </button>
             </div>
           )}
-        </div>
+        </form>
       </div>
     </div>
   );

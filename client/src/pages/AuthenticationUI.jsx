@@ -40,7 +40,6 @@ const AuthenticationUI = () => {
     e.preventDefault();
     setIsLoading(true);
 
-    // Client-side validation
     if (!formData.email || !formData.password) {
       alert('Email and password are required');
       setIsLoading(false);
@@ -54,41 +53,63 @@ const AuthenticationUI = () => {
     }
 
     try {
-      // For demo purposes, we'll simulate different scenarios
-      await new Promise(resolve => setTimeout(resolve, 1500));
-
       if (isLogin) {
-        // Simulate login logic
-        if (formData.email === 'admin@example.com' && formData.password === 'admin123') {
-          // Admin login
-          sessionStorage.setItem("authToken", "admin-token-123");
-          sessionStorage.setItem("role", "admin");
-          sessionStorage.setItem("userEmail", formData.email);
+        // LOGIN FLOW
+        const response = await fetch('http://localhost:3000/auth/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            email: formData.email,
+            password: formData.password,
+          }),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.message || 'Login failed');
+        }
+
+        const { token, user } = data; // user contains role, name, email, etc.
+
+        sessionStorage.setItem('authToken', token);
+        sessionStorage.setItem('user', JSON.stringify(user));
+
+        if (user.role === 'admin') {
           alert('Admin login successful!');
           navigate('/admin-dashboard');
-        } else if (formData.email === 'user@example.com' && formData.password === 'user123') {
-          // User login
-          sessionStorage.setItem("authToken", "user-token-456");
-          sessionStorage.setItem("role", "user");
-          sessionStorage.setItem("userEmail", formData.email);
+        } else if (user.role === 'user') {
           alert('User login successful!');
           navigate('/user-dashboard');
         } else {
-          // For demo, allow any email/password combination for users
-          sessionStorage.setItem("authToken", "demo-token-789");
-          sessionStorage.setItem("role", isAdmin ? "admin" : "user");
-          sessionStorage.setItem("userEmail", formData.email);
-          alert(`${isAdmin ? 'Admin' : 'User'} login successful!`);
-          navigate(isAdmin ? '/admin-dashboard' : '/user-dashboard');
+          alert('Unknown role. Please contact support.');
         }
+
       } else {
-        // Registration logic
-        alert(`${isAdmin ? 'Admin' : 'User'} registration successful! Please login.`);
+        // REGISTER FLOW
+        const response = await fetch('http://localhost:3000/auth/register', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.message || 'Registration failed');
+        }
+
+        alert(`${isAdmin ? "Admin" : "User"} registration successful! Please login.`);
         setIsLogin(true);
         resetForm();
       }
+
     } catch (error) {
-      alert('An error occurred. Please try again.');
+      alert(error.message || 'Something went wrong.');
       console.error(error);
     } finally {
       setIsLoading(false);

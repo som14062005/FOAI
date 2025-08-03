@@ -1,6 +1,6 @@
 // utils/api.js
 export const getAuthHeaders = () => {
-  const token = sessionStorage.getItem("token");
+  const token = sessionStorage.getItem("authToken");
   return {
     Authorization: `Bearer ${token}`,
     'Content-Type': 'application/json'

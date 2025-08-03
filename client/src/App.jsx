@@ -4,6 +4,7 @@ import AuthenticationUI from "./pages/AuthenticationUI";
 import AdminDashboardUI from "./pages/AdminDashboardUI";
 import UserDashboardUI from "./pages/UserDashboardUI";
 import ProtectedRoute from "./components/ProtectedRoute";
+import UserQuizUI from './pages/UserQuiz';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
             </ProtectedRoute>
           }
         />
-
+        <Route path="/userquiz" element={<UserQuizUI />} />
         {/* Catch all route - redirect to home */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

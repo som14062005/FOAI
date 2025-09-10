@@ -54,59 +54,72 @@ const AuthenticationUI = () => {
 
     try {
       if (isLogin) {
-        // LOGIN FLOW
-        const response = await fetch('http://localhost:3000/auth/login', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            email: formData.email,
-            password: formData.password,
-          }),
-        });
+  // LOGIN FLOW
+  const response = await fetch('http://localhost:3000/auth/login', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      email: formData.email,
+      password: formData.password,
+    }),
+  });
 
-        const data = await response.json();
+  const data = await response.json();
 
-        if (!response.ok) {
-          throw new Error(data.message || 'Login failed');
-        }
+  if (!response.ok) {
+    throw new Error(data.message || 'Login failed');
+  }
 
-        const { token, user } = data; // user contains role, name, email, etc.
+  const { token, user } = data; // user contains role, name, email, etc.
 
-        sessionStorage.setItem('authToken', token);
-        sessionStorage.setItem('user', JSON.stringify(user));
+  // ✅ Store in session
+  sessionStorage.setItem('authToken', token);
+  sessionStorage.setItem('user', JSON.stringify(user));
 
-        if (user.role === 'admin') {
-          alert('Admin login successful!');
-          navigate('/admin-dashboard');
-        } else if (user.role === 'user') {
-          alert('User login successful!');
-          navigate('/user-dashboard');
-        } else {
-          alert('Unknown role. Please contact support.');
-        }
+  // ✅ Show in console (F12)
+  console.log("🔑 Login Successful!");
+  console.log("User ID:", user.id || user._id);  // depends on backend
+  console.log("Username:", user.name || user.firstName); 
+  console.log("Token:", token);
 
-      } else {
-        // REGISTER FLOW
-        const response = await fetch('http://localhost:3000/auth/register', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formData),
-        });
+  if (user.role === 'admin') {
+    alert('Admin login successful!');
+    navigate('/admin-dashboard');
+  } else if (user.role === 'user') {
+    alert('User login successful!');
+    navigate('/user-dashboard');
+  } else {
+    alert('Unknown role. Please contact support.');
+  }
 
-        const data = await response.json();
+} else {
+  // REGISTER FLOW
+  const response = await fetch('http://localhost:3000/auth/register', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(formData),
+  });
 
-        if (!response.ok) {
-          throw new Error(data.message || 'Registration failed');
-        }
+  const data = await response.json();
 
-        alert(`${isAdmin ? "Admin" : "User"} registration successful! Please login.`);
-        setIsLogin(true);
-        resetForm();
-      }
+  if (!response.ok) {
+    throw new Error(data.message || 'Registration failed');
+  }
+
+  // ✅ Log registration details
+  console.log("📝 Registration Successful!");
+  console.log("User ID:", data.user?.id || data.user?._id);
+  console.log("Username:", data.user?.name || data.user?.firstName);
+  console.log("Token (if returned):", data.token);
+
+  alert(`${isAdmin ? "Admin" : "User"} registration successful! Please login.`);
+  setIsLogin(true);
+  resetForm();
+}
 
     } catch (error) {
       alert(error.message || 'Something went wrong.');

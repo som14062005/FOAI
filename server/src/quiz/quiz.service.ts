@@ -1,24 +1,24 @@
 // src/quiz/quiz.service.ts
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
-import { CreateQuizDto } from './dto/create-quiz/create-quiz.dto';
-import { Quiz, QuizDocument } from './entities/quiz_entity/quiz.entity';
+import { SubmitQuizDto } from './dto/submit-quiz.dto';
 
 @Injectable()
 export class QuizService {
-  constructor(@InjectModel(Quiz.name) private quizModel: Model<QuizDocument>) {}
+  private quizAnswers: SubmitQuizDto[] = []; // 🔹 Temporary storage
 
-  async create(createQuizDto: CreateQuizDto): Promise<Quiz> {
-    const quiz = new this.quizModel(createQuizDto);
-    return quiz.save();
+  async saveQuiz(submitQuizDto: SubmitQuizDto) {
+    this.quizAnswers.push(submitQuizDto);
+    return {
+      message: 'Quiz answers saved successfully!',
+      data: submitQuizDto,
+    };
   }
 
-  async findByUsername(username: string): Promise<Quiz | null> {
-    return this.quizModel.findOne({ username }).exec();
+  async getAllQuizzes() {
+    return this.quizAnswers; // return all stored answers
   }
 
-  async findAll(): Promise<Quiz[]> {
-    return this.quizModel.find().exec();
+  async getQuizByUserId(userId: string) {
+    return this.quizAnswers.find((quiz) => quiz.userId === userId);
   }
 }

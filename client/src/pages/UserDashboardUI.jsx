@@ -82,7 +82,7 @@ const TravelInfoDisplay = ({ userLocation, destination, formData }) => {
 
   // ⭐ WEATHER API FUNCTION - Uses your .env variable
   const fetchWeather = async () => {
-    const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY; // ⭐ Your API key from .env
+    const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;// ⭐ Your API key from .env
     if (!API_KEY) {
       console.log('Weather API key not found in .env file');
       return;

@@ -1,15 +1,206 @@
 import React, { useState, useEffect } from 'react';
 import {
   MapPin, Calendar, DollarSign, Users, Sparkles, LogOut,
-  User, Brain, RefreshCw, MessageCircle, X
+  User, Brain, RefreshCw, MessageCircle, X, Navigation, Clock, Thermometer
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { getDistance } from 'geolib';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
 import './UserDashboardUI.css';
+
+// ✅ Fix Leaflet marker icons
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+let DefaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41]
+});
+L.Marker.prototype.options.icon = DefaultIcon;
+
+// ✅ FREE Location Search Hook
+const useLocationSearch = () => {
+  const searchLocation = async (query) => {
+    if (query.length < 3) return [];
+    
+    try {
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=5&addressdetails=1`
+      );
+      const data = await response.json();
+      
+      return data.map(item => ({
+        display_name: item.display_name,
+        lat: parseFloat(item.lat),
+        lon: parseFloat(item.lon)
+      }));
+    } catch (error) {
+      console.error('Location search error:', error);
+      return [];
+    }
+  };
+  
+  return { searchLocation };
+};
+
+// ✅ Enhanced Travel Info Component with Tailwind CSS (NO COST OR SMART TIPS)
+const TravelInfoDisplay = ({ userLocation, destination, formData }) => {
+  const [travelInfo, setTravelInfo] = useState(null);
+  const [weather, setWeather] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (userLocation && destination) {
+      setLoading(true);
+      calculateTravelInfo();
+      fetchWeather(); // ⭐ WEATHER API USED HERE
+    }
+  }, [userLocation, destination]);
+
+  const calculateTravelInfo = () => {
+    const distance = getDistance(
+      { latitude: userLocation.lat, longitude: userLocation.lng },
+      { latitude: destination.lat, longitude: destination.lon }
+    );
+    
+    const distanceKm = (distance / 1000).toFixed(1);
+    const estimatedHours = distance / 1000 / 50;
+    const hours = Math.floor(estimatedHours);
+    const minutes = Math.round((estimatedHours - hours) * 60);
+    
+    setTravelInfo({
+      distance: `${distanceKm} km`,
+      time: hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`,
+      distanceValue: distance
+    });
+    setLoading(false);
+  };
+
+  // ⭐ WEATHER API FUNCTION - Uses your .env variable
+  const fetchWeather = async () => {
+    const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY; // ⭐ Your API key from .env
+    if (!API_KEY) {
+      console.log('Weather API key not found in .env file');
+      return;
+    }
+    
+    try {
+      // ⭐ OpenWeatherMap API call
+      const response = await fetch(
+        `https://api.openweathermap.org/data/2.5/weather?lat=${destination.lat}&lon=${destination.lon}&appid=${API_KEY}&units=metric`
+      );
+      const data = await response.json();
+      setWeather({
+        temp: Math.round(data.main.temp),
+        description: data.weather[0].description,
+        feelsLike: Math.round(data.main.feels_like),
+        humidity: data.main.humidity
+      });
+    } catch (error) {
+      console.error('Weather API error:', error);
+    }
+  };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center gap-3 p-10 mt-5 bg-gradient-to-br from-slate-50 to-slate-200 rounded-2xl text-slate-600">
+        <div className="w-5 h-5 border-2 border-slate-300 border-t-blue-500 rounded-full animate-spin"></div>
+        <span className="font-medium">Loading travel information...</span>
+      </div>
+    );
+  }
+
+  if (!travelInfo) return null;
+
+  return (
+    <div className="relative mt-5 p-6 bg-gradient-to-br from-indigo-500 via-purple-600 to-indigo-700 rounded-2xl text-white overflow-hidden shadow-xl shadow-indigo-500/30 animate-fadeIn">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 bg-white/5 bg-[radial-gradient(circle_at_1px_1px,_white_1px,_transparent_0)] bg-[length:20px_20px] pointer-events-none"></div>
+      
+      {/* Header */}
+      <div className="relative z-10 flex items-center gap-4 mb-6">
+        <div className="flex items-center justify-center w-12 h-12 bg-white/10 backdrop-blur-md rounded-xl border border-white/20">
+          <Navigation size={20} className="text-white" />
+        </div>
+        <div>
+          <h4 className="text-xl font-semibold text-white">Travel Information</h4>
+          <p className="text-sm text-white/80 mt-1">Distance and weather details for your journey</p>
+        </div>
+      </div>
+      
+      {/* Metrics Grid */}
+      <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-4 mb-5">
+        {/* Distance Card */}
+        <div className="group relative p-5 bg-white/10 backdrop-blur-md rounded-xl border border-white/15 hover:bg-white/15 hover:-translate-y-1 transition-all duration-300 hover:shadow-lg hover:shadow-black/10 overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-500"></div>
+          <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg border border-emerald-300/30">
+              <span className="text-lg">📏</span>
+            </div>
+            <div className="flex-1">
+              <span className="block text-xs font-medium text-white/70 uppercase tracking-wider">Distance</span>
+              <span className="block text-lg font-bold text-white">{travelInfo.distance}</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Time Card */}
+        <div className="group relative p-5 bg-white/10 backdrop-blur-md rounded-xl border border-white/15 hover:bg-white/15 hover:-translate-y-1 transition-all duration-300 hover:shadow-lg hover:shadow-black/10 overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-500"></div>
+          <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg border border-blue-300/30">
+              <Clock size={18} className="text-white" />
+            </div>
+            <div className="flex-1">
+              <span className="block text-xs font-medium text-white/70 uppercase tracking-wider">Estimated Travel Time</span>
+              <span className="block text-lg font-bold text-white">{travelInfo.time}</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Weather Card */}
+        {weather && (
+          <div className="group relative p-5 bg-white/10 backdrop-blur-md rounded-xl border border-white/15 hover:bg-white/15 hover:-translate-y-1 transition-all duration-300 hover:shadow-lg hover:shadow-black/10 overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-500"></div>
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg border border-amber-300/30">
+                <Thermometer size={18} className="text-white" />
+              </div>
+              <div className="flex-1">
+                <span className="block text-xs font-medium text-white/70 uppercase tracking-wider">Weather</span>
+                <span className="block text-lg font-bold text-white">{weather.temp}°C</span>
+                <span className="block text-xs text-white/60 capitalize mt-0.5">{weather.description}</span>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+      
+      {/* Weather Details */}
+      {weather && (
+        <div className="relative z-10 flex flex-col sm:flex-row gap-6 p-4 bg-white/5 backdrop-blur-md rounded-xl border border-white/10">
+          <div className="flex items-center gap-2">
+            <span className="text-base">🌡️</span>
+            <span className="text-sm font-medium text-white/90">Feels like {weather.feelsLike}°C</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-base">💧</span>
+            <span className="text-sm font-medium text-white/90">{weather.humidity}% humidity</span>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
 
 const UserDashboardUI = () => {
   const navigate = useNavigate();
   const [userEmail, setUserEmail] = useState('');
-  const [userName, setUserName] = useState(''); // ✅ Add this state
+  const [userName, setUserName] = useState('');
   const [userProfile, setUserProfile] = useState(null);
   const [formData, setFormData] = useState({
     destination: '',
@@ -17,12 +208,16 @@ const UserDashboardUI = () => {
     budget: '',
     travelWith: ''
   });
-  
 
+  // ✅ NEW MAP STATES
+  const [userLocation, setUserLocation] = useState(null);
+  const [destinationLocation, setDestinationLocation] = useState(null);
+  const [locationSuggestions, setLocationSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  // All existing states
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
-
-  // AI-related states
   const [aiSuggestions, setAiSuggestions] = useState([]);
   const [showAiChat, setShowAiChat] = useState(false);
   const [chatMessages, setChatMessages] = useState([]);
@@ -30,11 +225,48 @@ const UserDashboardUI = () => {
   const [isChatLoading, setIsChatLoading] = useState(false);
   const [aiOptimizing, setAiOptimizing] = useState(false);
 
+  const { searchLocation } = useLocationSearch();
+
+  // ✅ Get user's current location
+  useEffect(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setUserLocation({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          });
+        },
+        (error) => {
+          console.error('Location error:', error);
+          // Fallback to Mumbai
+          setUserLocation({ lat: 19.0760, lng: 72.8777 });
+        }
+      );
+    }
+  }, []);
+
+  // ✅ Search locations when typing destination
+  useEffect(() => {
+    const searchTimeout = setTimeout(async () => {
+      if (formData.destination.length >= 3) {
+        const results = await searchLocation(formData.destination);
+        setLocationSuggestions(results);
+        setShowSuggestions(true);
+      } else {
+        setLocationSuggestions([]);
+        setShowSuggestions(false);
+      }
+    }, 500);
+    
+    return () => clearTimeout(searchTimeout);
+  }, [formData.destination, searchLocation]);
+
   useEffect(() => {
     const user = JSON.parse(sessionStorage.getItem('user'));
     if (user) {
       setUserEmail(user.email || '');
-      setUserName(user.name || ''); // ✅ Set userName from sessionStorage
+      setUserName(user.name || '');
     }
 
     const profile = sessionStorage.getItem('userProfile');
@@ -60,52 +292,17 @@ const UserDashboardUI = () => {
   };
 
   const budgetOptions = [
-    {
-      id: 'cheap',
-      label: 'Cheap',
-      description: 'Stay conscious of costs',
-      icon: '💰',
-      range: '< ₹5,000'
-    },
-    {
-      id: 'moderate',
-      label: 'Moderate',
-      description: 'Keep cost on the average side',
-      icon: '💵',
-      range: '₹5,000 - ₹15,000'
-    },
-    {
-      id: 'luxury',
-      label: 'Luxury',
-      description: "Don't worry about cost",
-      icon: '💎',
-      range: '> ₹15,000'
-    }
+    { id: 'Limited', label: 'Limited', description: 'Stay conscious of costs', icon: '💰', range: '< ₹5,000' },
+    { id: 'moderate', label: 'Moderate', description: 'Keep cost on the average side', icon: '💵', range: '₹5,000 - ₹15,000' },
+    { id: 'luxury', label: 'Luxury', description: "Don't worry about cost", icon: '💎', range: '> ₹15,000' }
   ];
 
   const travelOptions = [
-    {
-      id: 'solo',
-      label: 'Just Me',
-      description: 'Solo adventure',
-      icon: '🚶‍♂️'
-    },
-    {
-      id: 'couple',
-      label: 'A Couple',
-      description: 'Two travelers in tandem',
-      icon: '👫'
-    },
-    {
-      id: 'family',
-      label: 'Family',
-      description: 'A group of fun loving souls',
-      icon: '👨‍👩‍👧‍👦'
-    }
+    { id: 'solo', label: 'Just Me', description: 'Solo adventure', icon: '🚶‍♂️' },
+    { id: 'couple', label: 'A Couple', description: 'Two travelers in tandem', icon: '👫' },
+    { id: 'family', label: 'Family', description: 'A group of fun loving souls', icon: '👨‍👩‍👧‍👦' }
   ];
-    
 
-  // AI Functions
   const getAISuggestions = async (destination) => {
     if (destination.length > 3 && userProfile) {
       try {
@@ -122,7 +319,6 @@ const UserDashboardUI = () => {
         if (response.ok) {
           const result = await response.json();
           if (result.success) {
-            // Parse suggestions from AI response
             const suggestions = result.message.split('\n').filter(line => line.trim()).slice(0, 3);
             setAiSuggestions(suggestions);
           }
@@ -157,7 +353,6 @@ const UserDashboardUI = () => {
       if (response.ok) {
         const result = await response.json();
         if (result.success) {
-          // Show AI optimization results
           setChatMessages(prev => [...prev, 
             { type: 'user', message: 'Optimize my trip plan' },
             { type: 'ai', message: result.message }
@@ -211,65 +406,53 @@ const UserDashboardUI = () => {
 
   const validateForm = () => {
     const newErrors = {};
-
     if (!formData.destination.trim()) {
       newErrors.destination = 'Destination is required';
     } else if (formData.destination.length < 2) {
       newErrors.destination = 'Destination must be at least 2 characters';
     }
-
     if (!formData.days) {
       newErrors.days = 'Number of days is required';
     } else if (parseInt(formData.days) < 1 || parseInt(formData.days) > 30) {
       newErrors.days = 'Days must be between 1 and 30';
     }
-
     if (!formData.budget) {
       newErrors.budget = 'Budget selection is required';
     }
-
     if (!formData.travelWith) {
       newErrors.travelWith = 'Please select who you\'re traveling with';
     }
-
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
 
   const handleInputChange = (field, value) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
-    
-    // Get AI suggestions for destination
+    setFormData(prev => ({ ...prev, [field]: value }));
     if (field === 'destination') {
       getAISuggestions(value);
     }
-    
     if (errors[field]) {
-      setErrors(prev => ({
-        ...prev,
-        [field]: ''
-      }));
+      setErrors(prev => ({ ...prev, [field]: '' }));
     }
+  };
+
+  // ✅ Handle location selection from suggestions
+  const handleLocationSelect = (location) => {
+    setFormData(prev => ({ ...prev, destination: location.display_name }));
+    setDestinationLocation({ lat: location.lat, lon: location.lon });
+    setShowSuggestions(false);
+    getAISuggestions(location.display_name);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    if (!validateForm()) {
-      return;
-    }
-
+    if (!validateForm()) return;
     setIsLoading(true);
     
     try {
-      // Enhanced AI trip planning
       let enhancedTripData = { ...formData, userProfile: userProfile };
       
       if (userProfile) {
-        // Call AI service to enhance trip planning
         const aiResponse = await fetch('http://localhost:3000/ai/generate-trip', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -284,25 +467,18 @@ const UserDashboardUI = () => {
         }
       }
 
-      // Simulate processing time
       await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      // Navigate to trip results page with AI-enhanced data
       navigate('/trip-results', { state: enhancedTripData });
       
     } catch (error) {
       console.error('Error with AI trip planning:', error);
-      // Fallback to regular trip planning
       navigate('/trip-results', { state: { ...formData, userProfile: userProfile } });
     } finally {
       setIsLoading(false);
     }
   };
 
-    const handleRetakeQuiz = () => {
-    navigate('/userquiz');
-  };
-
+  const handleRetakeQuiz = () => { navigate('/userquiz'); };
   const handleLogout = () => {
     sessionStorage.removeItem('authToken');
     sessionStorage.removeItem('role');
@@ -313,7 +489,7 @@ const UserDashboardUI = () => {
 
   return (
     <div className="trip-planner-container">
-      {/* Enhanced Header with better layout */}
+      {/* Header */}
       <div className="enhanced-user-header">
         <div className="header-left">
           <div className="user-welcome">
@@ -327,7 +503,6 @@ const UserDashboardUI = () => {
         </div>
 
         <div className="header-center">
-          {/* User Profile Display with better styling */}
           {userProfile && userProfile.userType ? (
             <div className="user-profile-display">
               <div className="profile-badge">
@@ -361,7 +536,6 @@ const UserDashboardUI = () => {
         </div>
 
         <div className="header-right">
-          {/* AI Chat Toggle */}
           {userProfile && (
             <button 
               onClick={() => setShowAiChat(!showAiChat)} 
@@ -417,7 +591,7 @@ const UserDashboardUI = () => {
         </div>
       )}
 
-      {/* Conditional Content Based on Profile Status */}
+      {/* Conditional Content */}
       {!userProfile || !userProfile.userType ? (
         <div className="quiz-call-to-action">
           <div className="cta-content">
@@ -489,7 +663,6 @@ const UserDashboardUI = () => {
         </div>
       )}
 
-      {/* Main Header */}
       <div className="trip-planner-header">
         <div className="header-content">
           <h1>Plan Your Perfect Adventure</h1>
@@ -498,22 +671,80 @@ const UserDashboardUI = () => {
       </div>
 
       <form className="trip-planner-form" onSubmit={handleSubmit}>
-        {/* Destination Section with AI Suggestions */}
+        {/* ✅ Enhanced Destination Section with Map */}
         <div className="form-section">
           <div className="section-header">
             <MapPin className="section-icon" />
             <h2>What is destination of choice?</h2>
           </div>
           <div className="input-group">
-            <input
-              type="text"
-              placeholder="Enter destination (e.g., Las Vegas, NV, USA)"
-              value={formData.destination}
-              onChange={(e) => handleInputChange('destination', e.target.value)}
-              className={`destination-input ${errors.destination ? 'error' : ''}`}
-            />
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Enter destination (e.g., Las Vegas, NV, USA)"
+                value={formData.destination}
+                onChange={(e) => handleInputChange('destination', e.target.value)}
+                className={`destination-input ${errors.destination ? 'error' : ''}`}
+              />
+              
+              {/* ✅ Location Suggestions with Tailwind */}
+              {showSuggestions && locationSuggestions.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-xl max-h-48 overflow-y-auto z-50">
+                  {locationSuggestions.map((location, index) => (
+                    <div
+                      key={index}
+                      className="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 cursor-pointer border-b border-gray-100 last:border-b-0 transition-colors duration-150"
+                      onClick={() => handleLocationSelect(location)}
+                    >
+                      <MapPin size={16} className="text-gray-400 flex-shrink-0" />
+                      <span className="text-sm text-gray-700 truncate">{location.display_name}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+            
             {errors.destination && (
               <span className="error-message">{errors.destination}</span>
+            )}
+            
+            {/* ✅ Map Section with Tailwind */}
+            {destinationLocation && (
+              <div className="mt-5">
+                <div className="rounded-2xl overflow-hidden shadow-lg">
+                  <MapContainer
+                    center={destinationLocation ? [destinationLocation.lat, destinationLocation.lon] : [20.5937, 78.9629]}
+                    zoom={destinationLocation ? 10 : 5}
+                    style={{ height: '300px', width: '100%' }}
+                  >
+                    <TileLayer
+                      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                      attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    />
+                    
+                    {userLocation && (
+                      <Marker position={[userLocation.lat, userLocation.lng]}>
+                        <Popup>📱 Your Current Location</Popup>
+                      </Marker>
+                    )}
+                    
+                    {destinationLocation && (
+                      <Marker position={[destinationLocation.lat, destinationLocation.lon]}>
+                        <Popup>🎯 {formData.destination}</Popup>
+                      </Marker>
+                    )}
+                  </MapContainer>
+                </div>
+                
+                {/* ✅ Travel Information with Tailwind */}
+                {userLocation && (
+                  <TravelInfoDisplay
+                    userLocation={userLocation}
+                    destination={destinationLocation}
+                    formData={formData}
+                  />
+                )}
+              </div>
             )}
             
             {/* AI Suggestions */}

@@ -1,0 +1,1221 @@
+place_name,category,cost_category,indoor_outdoor,popularity_rating,destination_city
+Marina Beach,Nature Lover / Relaxation Lover / Romantic Couple,Budget,outdoor,5,Chennai
+Elliot's Beach,Nature Lover / Relaxation Lover / Budget Backpacker,Budget,outdoor,4,Chennai
+Besant Nagar Beach,Nature Lover / Relaxation Lover / Foodie,Budget,outdoor,4,Chennai
+Thiruvanmiyur Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chennai
+Covelong Beach,Adventure Seeker / Nature Lover,Budget,outdoor,2,Chennai
+Neelankarai Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chennai
+Breezy Beach,Nature Lover / Relaxation Lover / Romantic Couple,Budget,outdoor,2,Chennai
+Palavakkam Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chennai
+Injambakkam Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chennai
+Santhome Beach,Nature Lover / Relaxation Lover / Budget Backpacker,Budget,outdoor,4,Chennai
+Olcott Memorial Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chennai
+Broken Bridge Beach,Adventure Seeker / Nature Lover,Budget,outdoor,2,Chennai
+Bharathi Nagar Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chennai
+Kapaleeshwarar Temple,Culture Seeker / Spiritual Traveler,Mid-range,both,5,Chennai
+Parthasarathy Temple,Culture Seeker / Spiritual Traveler,Mid-range,both,4,Chennai
+Vadapalani Murugan Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,4,Chennai
+Ashtalakshmi Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,3,Chennai
+Marundeeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Chennai
+Shirdi Sai Baba Temple,Spiritual Traveler / Relaxation Lover,Budget,both,3,Chennai
+Kandaswamy Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,3,Chennai
+Adyar Shiva Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Chennai
+Thiruvalluvar Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Chennai
+Kalikambal Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,3,Chennai
+Mahabalipuram Shore Temple,Culture Seeker / Spiritual Traveler,Budget,outdoor,5,Chennai
+Santhome Cathedral Basilica,Culture Seeker / Spiritual Traveler,Budget,both,4,Chennai
+San Thome Church,Culture Seeker / Spiritual Traveler,Budget,both,3,Chennai
+Luz Church,Culture Seeker / Spiritual Traveler,Budget,both,3,Chennai
+St. Mary's Church,Culture Seeker / Spiritual Traveler,Budget,both,3,Chennai
+Fort St. George Museum,Culture Seeker / Budget Backpacker,Budget,indoor,3,Chennai
+Government Museum,Culture Seeker / Budget Backpacker,Mid-range,indoor,5,Chennai
+DakshinaChitra Museum,Culture Seeker / Family Planner,Mid-range,indoor,3,Chennai
+Gandhi Mandapam,Culture Seeker / Budget Backpacker,Budget,both,3,Chennai
+Vivekananda House,Culture Seeker / Spiritual Traveler,Budget,both,3,Chennai
+Birla Planetarium,Family Planner / Culture Seeker,Budget,indoor,3,Chennai
+Egmore Museum Complex,Culture Seeker / Budget Backpacker,Mid-range,indoor,3,Chennai
+Ayurveda College Museum,Culture Seeker / Relaxation Lover,Budget,indoor,3,Chennai
+Guindy National Park,Nature Lover / Family Planner,Mid-range,outdoor,4,Chennai
+Semmozhi Poonga,Nature Lover / Relaxation Lover,Budget,both,3,Chennai
+Nageswara Rao Park,Nature Lover / Family Planner,Mid-range,outdoor,3,Chennai
+Theosophical Society,Nature Lover / Relaxation Lover / Spiritual Traveler,Mid-range,both,3,Chennai
+Arignar Anna Zoological Park,Nature Lover / Family Planner,Mid-range,outdoor,3,Chennai
+Madras Crocodile Bank,Nature Lover / Adventure Seeker,Mid-range,both,4,Chennai
+Express Avenue Mall,Shopper / Urban Explorer / Foodie,Premium,indoor,5,Chennai
+Phoenix Marketcity,Shopper / Urban Explorer / Foodie,Premium,outdoor,5,Chennai
+Forum Vijaya Mall,Shopper / Urban Explorer / Foodie,Premium,indoor,4,Chennai
+Spencer Plaza,Shopper / Urban Explorer / Budget Backpacker,Mid-range,both,4,Chennai
+Ampa Skywalk Mall,Shopper / Urban Explorer / Foodie,Premium,indoor,4,Chennai
+VR Chennai,Shopper / Urban Explorer / Foodie,Premium,both,4,Chennai
+Chennai Citi Centre,Shopper / Urban Explorer / Foodie,Mid-range,both,3,Chennai
+Grand Square Mall,Shopper / Urban Explorer / Foodie,Mid-range,indoor,3,Chennai
+Alsa Mall,Shopper / Urban Explorer / Foodie,Premium,indoor,4,Chennai
+Pondy Bazaar,Shopper / Urban Explorer / Budget Backpacker,Budget,outdoor,4,Chennai
+Parrys Corner Market,Shopper / Urban Explorer / Foodie,Budget,outdoor,3,Chennai
+Sowcarpet Market,Shopper / Urban Explorer / Culture Seeker,Budget,outdoor,3,Chennai
+Ranganathan Street,Shopper / Urban Explorer / Foodie,Budget,outdoor,3,Chennai
+T Nagar Shopping District,Shopper / Urban Explorer / Foodie,Budget,indoor,4,Chennai
+Fort St George,Culture Seeker / Budget Backpacker,Budget,outdoor,5,Chennai
+Valluvar Kottam,Culture Seeker,Budget,both,3,Chennai
+Ripon Building,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Chennai
+High Court Building,Culture Seeker,Budget,outdoor,3,Chennai
+Connemara Public Library,Culture Seeker / Relaxation Lover,Budget,indoor,3,Chennai
+George Town Heritage Area,Culture Seeker / Shopper / Urban Explorer,Budget,outdoor,3,Chennai
+Mylapore Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Chennai
+Anna Memorial,Culture Seeker,Budget,outdoor,3,Chennai
+MGR Memorial,Culture Seeker,Budget,outdoor,4,Chennai
+Arjuna's Penance,Culture Seeker / Adventure Seeker,Budget,outdoor,3,Chennai
+Five Rathas,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Chennai
+MGR Film City,Culture Seeker / Family Planner,Premium,outdoor,4,Chennai
+Snow Kingdom,Adventure Seeker / Family Planner,Mid-range,indoor,3,Chennai
+Kishkinta Theme Park,Adventure Seeker / Family Planner,Mid-range,outdoor,3,Chennai
+VGP Marine Kingdom,Adventure Seeker / Family Planner,Mid-range,both,4,Chennai
+VGP Universal Kingdom,Adventure Seeker / Family Planner,Premium,both,4,Chennai
+Saravana Bhavan,Foodie / Budget Backpacker,Budget,indoor,3,Chennai
+Murugan Idli Shop,Foodie / Budget Backpacker,Budget,indoor,3,Chennai
+Buhari Hotel,Foodie / Culture Seeker,Budget,indoor,3,Chennai
+Annalakshmi Restaurant,Foodie / Spiritual Traveler,Budget,indoor,3,Chennai
+Madras Coffee House,Foodie / Budget Backpacker,Budget,indoor,3,Chennai
+Cafe Madras,Foodie / Budget Backpacker,Budget,indoor,3,Chennai
+Gokulam Restaurant,Foodie / Budget Backpacker,Budget,indoor,3,Chennai
+Sangeetha Restaurant,Foodie / Budget Backpacker,Budget,indoor,3,Chennai
+Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,3,Chennai
+Ratna Cafe,Foodie / Budget Backpacker,Budget,indoor,3,Chennai
+Woodlands Drive-In,Foodie / Family Planner,Budget,both,3,Chennai
+Amethyst Cafe,Foodie / Romantic Couple,Mid-range,indoor,3,Chennai
+The Flying Elephant,Foodie / Family Planner,Mid-range,both,3,Chennai
+Copper Chimney,Foodie / Romantic Couple,Premium,both,4,Chennai
+Dakshin Restaurant,Foodie / Culture Seeker,Mid-range,indoor,3,Chennai
+Pumpkin Tales,Foodie / Romantic Couple,Premium,both,4,Chennai
+Naturally Auroville,Foodie / Relaxation Lover,Mid-range,both,3,Chennai
+Chamiers Cafe,Foodie / Romantic Couple,Mid-range,indoor,3,Chennai
+Tuscana Pizzeria,Foodie / Family Planner,Premium,indoor,4,Chennai
+Writers Cafe,Foodie / Relaxation Lover,Mid-range,indoor,3,Chennai
+The Brew Room,Foodie / Shopper / Urban Explorer,Premium,both,4,Chennai
+Ciclo Cafe,Foodie / Romantic Couple,Mid-range,indoor,3,Chennai
+Kasi Theatre Coffee,Foodie / Romantic Couple,Mid-range,indoor,3,Chennai
+Kalakshetra Foundation,Culture Seeker / Spiritual Traveler,Mid-range,both,3,Chennai
+Cholamandal Artists Village,Culture Seeker / Relaxation Lover,Mid-range,both,3,Chennai
+Kalakendra Art Gallery,Culture Seeker,Mid-range,indoor,3,Chennai
+Muttukadu Boat House,Adventure Seeker / Nature Lover,Mid-range,outdoor,3,Chennai
+Bay of Life Water Sports,Adventure Seeker / Nature Lover,Budget,outdoor,3,Chennai
+Thiruthani Murugan Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,5,Tiruvallur
+Veeraraghava Perumal Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,3,Tiruvallur
+Sri Vadaranyeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Panchamukha Anjaneyar Temple,Spiritual Traveler / Adventure Seeker,Budget,both,3,Tiruvallur
+Siruvapuri Balamurugan Temple,Spiritual Traveler / Nature Lover,Mid-range,both,3,Tiruvallur
+Vaseeswarar Temple Thirupachur,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Bhaktavatsala Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Oondreeswarar Shiva Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Masilamaniswara Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Kadambathur Murugan Temple,Spiritual Traveler / Culture Seeker,Mid-range,outdoor,3,Tiruvallur
+Thyagaraja Temple Thiruvottiyur,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Sri Veera Anjaneya Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Jagannatha Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Bhavani Amman Temple Periyapalayam,Spiritual Traveler / Culture Seeker,Budget,indoor,3,Tiruvallur
+Devadhanam Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Sri Beteraya Swamy Temple,Spiritual Traveler,Budget,both,3,Tiruvallur
+Pulicat Lake,Nature Lover / Relaxation Lover,Budget,outdoor,5,Tiruvallur
+Pulicat Bird Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Tiruvallur
+Poondi Reservoir,Nature Lover / Relaxation Lover,Budget,outdoor,4,Tiruvallur
+Chembarambakkam Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Ponneri Lake,Nature Lover / Relaxation Lover / Romantic Couple,Budget,outdoor,2,Tiruvallur
+Red Hills Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Pulicat Lagoon Boat Ride,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Tiruvallur
+Ponneri Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Kattupalli Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Ennore Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Pulicat Beach,Nature Lover / Relaxation Lover / Budget Backpacker,Budget,outdoor,4,Tiruvallur
+Gudiyam Caves,Adventure Seeker / Culture Seeker,Budget,outdoor,3,Tiruvallur
+Dutch Cemetery Pulicat,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Tiruvallur
+Dutch Church Pulicat,Culture Seeker / Spiritual Traveler,Budget,both,3,Tiruvallur
+Ponneri Fort,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Tiruvallur
+Pulicat Lighthouse,Culture Seeker / Nature Lover,Budget,outdoor,2,Tiruvallur
+Queensland Amusement Park,Adventure Seeker / Family Planner,Mid-range,outdoor,4,Tiruvallur
+Peria Puliyur Forest,Nature Lover / Adventure Seeker,Budget,outdoor,2,Tiruvallur
+Community Park Tiruvallur,Nature Lover / Family Planner,Budget,outdoor,2,Tiruvallur
+Vetri Garden Free Park,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Suncity Park,Nature Lover / Family Planner,Budget,outdoor,2,Tiruvallur
+Ngo Colony Park,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Poondi Madha Basilica,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+St. Anthony's Church Ponneri,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Sacred Heart Church Tiruvallur,Spiritual Traveler,Budget,both,3,Tiruvallur
+Tiruvallur Main Market,Shopper / Urban Explorer / Foodie,Budget,outdoor,2,Tiruvallur
+Ponneri Local Market,Shopper / Urban Explorer / Culture Seeker,Budget,outdoor,2,Tiruvallur
+Gummidipundi Market,Shopper / Urban Explorer / Foodie,Budget,outdoor,2,Tiruvallur
+Thiruthani Market Street,Shopper / Urban Explorer / Budget Backpacker,Budget,outdoor,2,Tiruvallur
+Anjappar Chettinad Restaurant,Foodie / Culture Seeker,Mid-range,indoor,2,Tiruvallur
+Saravana Bhavan Tiruvallur,Foodie / Budget Backpacker,Budget,indoor,2,Tiruvallur
+Hotel Aryaas,Foodie / Budget Backpacker,Budget,indoor,2,Tiruvallur
+Murugan Idli Shop Tiruvallur,Foodie / Budget Backpacker,Budget,indoor,2,Tiruvallur
+SS Hyderabad Biryani,Foodie / Culture Seeker,Budget,indoor,2,Tiruvallur
+Thiruthani Darshini Restaurant,Foodie / Budget Backpacker,Budget,indoor,2,Tiruvallur
+Ponneri Hotel Annapoorna,Foodie / Budget Backpacker,Budget,indoor,2,Tiruvallur
+Gummidipundi Sangeetha Restaurant,Foodie / Budget Backpacker,Budget,indoor,2,Tiruvallur
+A2B - Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Tiruvallur
+Cafe Coffee Day Tiruvallur,Foodie / Romantic Couple,Mid-range,indoor,2,Tiruvallur
+Pulicat Fishing Experience,Adventure Seeker / Culture Seeker,Mid-range,outdoor,4,Tiruvallur
+Ponneri Lake Boating,Adventure Seeker / Nature Lover,Mid-range,outdoor,2,Tiruvallur
+Pulicat Flamingo Watching,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Tiruvallur
+Ponneri Fish Market,Culture Seeker / Foodie,Budget,outdoor,2,Tiruvallur
+Pulicat Village Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Tiruvallur
+Tiruvallur Cultural Center,Culture Seeker / Family Planner,Budget,indoor,2,Tiruvallur
+Poondi Dam Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Tiruvallur
+Red Hills Lake Viewpoint,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Pulicat Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,2,Tiruvallur
+Chembarambakkam Lake Viewpoint,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvallur
+Sri Lakshmi Narasimha Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Kailasanathar Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Arulmigu Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvallur
+Vinayagar Temple Ponneri,Spiritual Traveler,Budget,both,3,Tiruvallur
+Tiruvallur Shopping Complex,Shopper / Urban Explorer,Mid-range,indoor,2,Tiruvallur
+Ponneri Textile Market,Shopper / Urban Explorer / Budget Backpacker,Budget,outdoor,2,Tiruvallur
+Kamakshi Amman Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,5,Kanchipuram
+Ekambareswarar Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,5,Kanchipuram
+Varadharaja Perumal Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,5,Kanchipuram
+Kailasanathar Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Kanchipuram
+Ulagalantha Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Kanchipuram
+Vaikunda Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Kanchipuram
+Kumarakottam Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanchipuram
+Shore Temple Mahabalipuram,Spiritual Traveler / Culture Seeker,Mid-range,both,5,Kanchipuram
+Thirukacchi Ekambam Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanchipuram
+Kachapeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanchipuram
+Pancha Rathas,Culture Seeker / Budget Backpacker,Mid-range,outdoor,5,Kanchipuram
+Arjuna's Penance,Culture Seeker / Adventure Seeker,Mid-range,outdoor,5,Kanchipuram
+Krishna's Butterball,Culture Seeker / Family Planner,Budget,outdoor,2,Kanchipuram
+Mahabalipuram Open Air Museum,Culture Seeker / Budget Backpacker,Mid-range,outdoor,2,Kanchipuram
+Tiger Cave Mahabalipuram,Adventure Seeker / Culture Seeker,Budget,outdoor,3,Kanchipuram
+Mahishasuramardini Cave,Culture Seeker / Spiritual Traveler,Budget,outdoor,3,Kanchipuram
+Varaha Cave Temple,Culture Seeker / Spiritual Traveler,Budget,outdoor,3,Kanchipuram
+Mahabalipuram Beach,Nature Lover / Relaxation Lover,Budget,outdoor,4,Kanchipuram
+Covelong Beach,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Kanchipuram
+Silver Beach Mahabalipuram,Nature Lover / Relaxation Lover / Romantic Couple,Budget,outdoor,3,Kanchipuram
+Sadras Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Kanchipuram
+Kanchipuram Silk Saree Market,Shopper / Urban Explorer / Culture Seeker,Mid-range,indoor,4,Kanchipuram
+Kanchipuram Co-operative Silk Society,Shopper / Urban Explorer,Mid-range,indoor,2,Kanchipuram
+Gandhi Road Shopping Street,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Kanchipuram
+Kanchipuram Silk Weaving Center,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,3,Kanchipuram
+Mahabalipuram Handicrafts Market,Shopper / Urban Explorer / Budget Backpacker,Budget,indoor,2,Kanchipuram
+Kanchi Kudil Heritage House,Culture Seeker / Family Planner,Budget,indoor,3,Kanchipuram
+DakshinaChitra Museum,Culture Seeker / Family Planner,Mid-range,indoor,4,Kanchipuram
+India Seashell Museum Mahabalipuram,Family Planner / Nature Lover,Mid-range,indoor,3,Kanchipuram
+Vedanthangal Bird Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Kanchipuram
+Madras Crocodile Bank,Nature Lover / Family Planner,Mid-range,outdoor,4,Kanchipuram
+Muttukadu Backwaters,Nature Lover / Relaxation Lover,Budget,outdoor,3,Kanchipuram
+Muttukadu Boat House,Adventure Seeker / Nature Lover,Mid-range,outdoor,3,Kanchipuram
+Kanchi Kamakoti Peetham,Spiritual Traveler / Culture Seeker,Budget,both,3,Kanchipuram
+Adhi Varaha Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Kanchipuram
+Pandava Dootha Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Kanchipuram
+Saravana Bhavan Kanchipuram,Foodie / Budget Backpacker,Budget,indoor,2,Kanchipuram
+Hotel Saravana Bhavan Mahabalipuram,Foodie / Budget Backpacker,Budget,indoor,2,Kanchipuram
+Moonrakers Mahabalipuram,Foodie / Romantic Couple,Mid-range,both,2,Kanchipuram
+Le Yogi Mahabalipuram,Foodie / Relaxation Lover,Mid-range,both,2,Kanchipuram
+Mamalla Bhavan,Foodie / Culture Seeker,Budget,indoor,2,Kanchipuram
+Sea Shore Garden Restaurant,Foodie / Nature Lover,Mid-range,indoor,2,Kanchipuram
+Covelong Point Surf School,Adventure Seeker / Nature Lover,Premium,outdoor,4,Kanchipuram
+Mahabalipuram Water Sports Center,Adventure Seeker / Family Planner,Mid-range,outdoor,2,Kanchipuram
+Parasailing at Mahabalipuram,Adventure Seeker / Romantic Couple,Premium,outdoor,2,Kanchipuram
+Kanchipuram Town Park,Nature Lover / Family Planner,Budget,outdoor,2,Kanchipuram
+Mahabalipuram Beach Park,Nature Lover / Relaxation Lover,Budget,outdoor,4,Kanchipuram
+Lighthouse Mahabalipuram,Culture Seeker / Nature Lover,Budget,outdoor,2,Kanchipuram
+Mahabalipuram Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,2,Kanchipuram
+Covelong Beach Sunset View,Nature Lover / Romantic Couple,Budget,outdoor,4,Kanchipuram
+Sri Lakshmi Narayani Golden Temple,Spiritual Traveler / Culture Seeker,Budget,both,5,Vellore
+Jalakandeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Vellore
+Ratnagiri Murugan Temple,Spiritual Traveler / Adventure Seeker,Budget,both,4,Vellore
+Virinjipuram Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Vellore
+Margabandeeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Vellore
+Sathuvachari Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Vellore
+St. John's Church,Culture Seeker / Spiritual Traveler,Budget,both,2,Vellore
+Big Mosque Vellore Fort,Culture Seeker / Spiritual Traveler,Budget,both,5,Vellore
+Vellore Fort,Culture Seeker / Budget Backpacker,Mid-range,both,5,Vellore
+Archaeological Survey Museum Vellore,Culture Seeker / Budget Backpacker,Budget,indoor,2,Vellore
+Government Museum Vellore,Culture Seeker / Budget Backpacker,Budget,indoor,2,Vellore
+Tipu Sultan's Mosque,Culture Seeker / Spiritual Traveler,Budget,both,2,Vellore
+Yelagiri Hills,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Vellore
+Swamimalai Hills Yelagiri,Adventure Seeker / Nature Lover,Budget,outdoor,3,Vellore
+Jalagamparai Waterfalls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Vellore
+Punganur Lake Yelagiri,Nature Lover / Relaxation Lover,Budget,outdoor,2,Vellore
+Amirthi Zoological Park,Nature Lover / Family Planner,Mid-range,outdoor,4,Vellore
+Amirthi Forest,Nature Lover / Adventure Seeker,Budget,outdoor,3,Vellore
+Palamathi Hills,Adventure Seeker / Nature Lover,Budget,outdoor,3,Vellore
+Kavalur Observatory,Culture Seeker / Family Planner,Mid-range,indoor,2,Vellore
+Periyar Park,Nature Lover / Family Planner,Budget,outdoor,2,Vellore
+Science Park Vellore,Family Planner / Culture Seeker,Budget,outdoor,2,Vellore
+Botanical Garden Yelagiri,Nature Lover / Relaxation Lover,Budget,outdoor,2,Vellore
+Rose Garden Yelagiri,Nature Lover / Romantic Couple,Budget,outdoor,2,Vellore
+Yelagiri Adventure Camp,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Vellore
+Paragliding at Yelagiri,Adventure Seeker / Romantic Couple,Premium,outdoor,3,Vellore
+Trekking at Yelagiri,Adventure Seeker / Nature Lover,Budget,outdoor,4,Vellore
+Zip Line Yelagiri,Adventure Seeker / Family Planner,Mid-range,outdoor,3,Vellore
+Boating at Punganur Lake,Nature Lover / Family Planner,Mid-range,outdoor,2,Vellore
+Main Bazaar Vellore,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Vellore
+VIT Market Complex,Shopper / Urban Explorer,Budget,indoor,2,Vellore
+Gandhi Road Shopping,Shopper / Urban Explorer,Budget,indoor,2,Vellore
+Yelagiri Handicrafts Market,Shopper / Urban Explorer / Budget Backpacker,Budget,indoor,2,Vellore
+Darling Restaurant Vellore,Foodie / Budget Backpacker,Budget,indoor,2,Vellore
+Saravana Bhavan Vellore,Foodie / Budget Backpacker,Budget,indoor,2,Vellore
+The Vellore Kitchen,Foodie / Culture Seeker,Mid-range,indoor,2,Vellore
+Alankar Virundhu,Foodie / Culture Seeker,Mid-range,both,2,Vellore
+Sai Sangeet Restaurant,Foodie / Budget Backpacker,Budget,indoor,2,Vellore
+Yelagiri Lake View Cafe,Foodie / Romantic Couple,Mid-range,outdoor,2,Vellore
+Hotel Aryaas Vellore,Foodie / Budget Backpacker,Budget,indoor,2,Vellore
+Peter England Bakery,Foodie / Budget Backpacker,Budget,indoor,2,Vellore
+Yelagiri Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Vellore
+Telescope Observatory Yelagiri,Family Planner / Nature Lover,Mid-range,indoor,2,Vellore
+Sunset Point Yelagiri,Nature Lover / Romantic Couple,Budget,outdoor,2,Vellore
+CMC Vellore Campus Tour,Culture Seeker / Family Planner,Budget,outdoor,2,Vellore
+VIT University Campus,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Vellore
+Silk Farm Yelagiri,Culture Seeker / Family Planner,Budget,outdoor,2,Vellore
+Nilavoor Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Vellore
+Vellore Nature Park,Nature Lover / Family Planner,Budget,outdoor,2,Vellore
+Fundera Park Vellore,Family Planner / Nature Lover,Mid-range,outdoor,2,Vellore
+Shore Temple Mahabalipuram,Spiritual Traveler / Culture Seeker,Mid-range,both,5,Chengalpattu
+Vedagiriswarar Temple Thirukalukundram,Spiritual Traveler / Adventure Seeker,Budget,both,4,Chengalpattu
+Kandhaswamy Temple Tirupporur,Spiritual Traveler / Culture Seeker,Budget,both,2,Chengalpattu
+Nithya Kalyana Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Chengalpattu
+Srinivasa Perumal Temple Semmanjeri,Spiritual Traveler / Culture Seeker,Budget,both,2,Chengalpattu
+Tiruvidanthai Lakshmi Narasimha Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Chengalpattu
+Vallam Hill Cave Temple,Spiritual Traveler / Adventure Seeker,Budget,outdoor,3,Chengalpattu
+Sthalasayana Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Chengalpattu
+Pancha Rathas,Culture Seeker / Budget Backpacker,Mid-range,outdoor,5,Chengalpattu
+Arjuna's Penance,Culture Seeker / Adventure Seeker,Mid-range,outdoor,5,Chengalpattu
+Krishna's Butter Ball,Culture Seeker / Family Planner,Budget,outdoor,2,Chengalpattu
+Tiger Cave Mahabalipuram,Adventure Seeker / Culture Seeker,Budget,outdoor,3,Chengalpattu
+Varaha Cave Temple,Culture Seeker / Spiritual Traveler,Budget,outdoor,3,Chengalpattu
+Mahishasuramardini Cave,Culture Seeker / Spiritual Traveler,Budget,outdoor,2,Chengalpattu
+Alamparai Fort,Culture Seeker / Adventure Seeker,Budget,outdoor,3,Chengalpattu
+Sadras Fort,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Chengalpattu
+Mahabalipuram Beach,Nature Lover / Relaxation Lover,Budget,outdoor,4,Chengalpattu
+Kovalam Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chengalpattu
+Mudaliarkuppam Beach,Nature Lover / Romantic Couple,Budget,outdoor,3,Chengalpattu
+Covelong Beach,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Chengalpattu
+Arignar Anna Zoological Park Vandalur,Nature Lover / Family Planner,Mid-range,outdoor,5,Chengalpattu
+Madras Crocodile Bank,Nature Lover / Family Planner,Mid-range,outdoor,2,Chengalpattu
+Vedanthangal Bird Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Chengalpattu
+Karikili Bird Sanctuary,Nature Lover / Adventure Seeker,Budget,outdoor,3,Chengalpattu
+Muttukadu Boat House,Adventure Seeker / Nature Lover,Mid-range,outdoor,2,Chengalpattu
+Muttukadu Backwaters,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chengalpattu
+Mudaliarkuppam Boat House,Adventure Seeker / Family Planner,Mid-range,outdoor,3,Chengalpattu
+Kovalam Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Chengalpattu
+DakshinaChitra Museum,Culture Seeker / Family Planner,Mid-range,indoor,4,Chengalpattu
+India Seashell Museum,Family Planner / Nature Lover,Mid-range,indoor,2,Chengalpattu
+Sculpture Museum Mahabalipuram,Culture Seeker / Budget Backpacker,Budget,indoor,2,Chengalpattu
+MGM Dizzee World,Adventure Seeker / Family Planner,Premium,indoor,4,Chengalpattu
+Mayajaal Multiplex,Family Planner / Shopper / Urban Explorer,Mid-range,indoor,4,Chengalpattu
+Mahabalipuram Handicrafts Market,Shopper / Urban Explorer / Budget Backpacker,Budget,indoor,2,Chengalpattu
+Stone Sculpture Shops Mahabalipuram,Shopper / Urban Explorer / Culture Seeker,Mid-range,indoor,2,Chengalpattu
+Chengalpattu Main Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Chengalpattu
+Moonrakers Mahabalipuram,Foodie / Romantic Couple,Mid-range,both,2,Chengalpattu
+Le Yogi Mahabalipuram,Foodie / Relaxation Lover,Mid-range,both,2,Chengalpattu
+Mamalla Bhavan,Foodie / Culture Seeker,Budget,indoor,2,Chengalpattu
+Sea Shore Garden Restaurant,Foodie / Nature Lover,Mid-range,indoor,2,Chengalpattu
+Saravana Bhavan Chengalpattu,Foodie / Budget Backpacker,Budget,indoor,2,Chengalpattu
+Hotel Aryaas Chengalpattu,Foodie / Budget Backpacker,Budget,indoor,2,Chengalpattu
+Covelong Point Surf School,Adventure Seeker / Nature Lover,Premium,outdoor,4,Chengalpattu
+Mahabalipuram Water Sports,Adventure Seeker / Family Planner,Mid-range,outdoor,2,Chengalpattu
+Mahabalipuram Lighthouse,Culture Seeker / Nature Lover,Budget,outdoor,2,Chengalpattu
+Mahabalipuram Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,2,Chengalpattu
+Kovalam Beach Sunset View,Nature Lover / Romantic Couple,Budget,outdoor,2,Chengalpattu
+Chengalpattu Town Park,Nature Lover / Family Planner,Budget,outdoor,2,Chengalpattu
+Mahabalipuram Beach Park,Nature Lover / Relaxation Lover,Budget,outdoor,4,Chengalpattu
+Cholamandal Artists Village,Culture Seeker / Relaxation Lover,Mid-range,outdoor,2,Chengalpattu
+Gingee Fort,Culture Seeker / Adventure Seeker,Mid-range,outdoor,5,Villupuram
+Kalyana Mahal Gingee,Culture Seeker / Budget Backpacker,Budget,both,3,Villupuram
+Rajagiri Fort,Adventure Seeker / Culture Seeker,Budget,outdoor,4,Villupuram
+Krishnagiri Fort Gingee,Adventure Seeker / Culture Seeker,Budget,outdoor,2,Villupuram
+Auroville Matrimandir,Spiritual Traveler / Relaxation Lover,Budget,both,5,Villupuram
+Auroville Beach,Nature Lover / Relaxation Lover,Budget,outdoor,4,Villupuram
+Savitri Bhavan Auroville,Spiritual Traveler / Culture Seeker,Budget,indoor,2,Villupuram
+Sadhana Forest Auroville,Nature Lover / Adventure Seeker,Budget,outdoor,3,Villupuram
+Quiet Healing Centre Auroville,Relaxation Lover / Spiritual Traveler,Mid-range,both,2,Villupuram
+Botanical Garden Auroville,Nature Lover / Relaxation Lover,Budget,outdoor,2,Villupuram
+Venugopala Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Villupuram
+Mailam Murugan Temple,Spiritual Traveler / Adventure Seeker,Budget,both,3,Villupuram
+Thiruvamathur Chola Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Villupuram
+Melmalaiyanur Angalamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Villupuram
+Venkataramana Temple Gingee,Spiritual Traveler / Culture Seeker,Budget,both,2,Villupuram
+Panchavati Panchamukha Anjaneyar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Villupuram
+Lakshmi Narasimha Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Villupuram
+Ranganatha Temple Gingee,Spiritual Traveler / Culture Seeker,Budget,both,2,Villupuram
+National Fossil Wood Park Tiruvakkarai,Nature Lover / Family Planner,Mid-range,outdoor,4,Villupuram
+Kalvarayan Hills,Nature Lover / Adventure Seeker,Budget,outdoor,5,Villupuram
+Ousteri Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Villupuram
+Pichavaram Mangrove Forest,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Villupuram
+Marakkanam Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Villupuram
+Serenity Beach Auroville,Nature Lover / Romantic Couple,Budget,outdoor,2,Villupuram
+Auroville Beach Sunrise Point,Nature Lover / Romantic Couple,Budget,outdoor,4,Villupuram
+Dalavanur Rock Cut Temple,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Villupuram
+Mandagapattu Rock Temple,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Villupuram
+Panamalai Cave Temple,Spiritual Traveler / Adventure Seeker,Budget,outdoor,3,Villupuram
+Jain Caves Sirukadambur,Culture Seeker / Spiritual Traveler,Budget,outdoor,3,Villupuram
+Villupuram Main Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Villupuram
+Auroville Boutiques,Shopper / Urban Explorer / Culture Seeker,Mid-range,indoor,2,Villupuram
+Gingee Market Street,Shopper / Urban Explorer / Budget Backpacker,Budget,indoor,2,Villupuram
+Marc's Cafe Auroville,Foodie / Romantic Couple,Mid-range,indoor,2,Villupuram
+Tanto Pizzeria Auroville,Foodie / Family Planner,Mid-range,indoor,2,Villupuram
+Bread & Chocolate Auroville,Foodie / Relaxation Lover,Mid-range,indoor,2,Villupuram
+Well Cafe Auroville,Foodie / Budget Backpacker,Budget,outdoor,2,Villupuram
+Saravana Bhavan Villupuram,Foodie / Budget Backpacker,Budget,indoor,2,Villupuram
+Hotel Aryaas Villupuram,Foodie / Budget Backpacker,Budget,indoor,2,Villupuram
+Solar Kitchen Auroville,Foodie / Culture Seeker,Budget,indoor,2,Villupuram
+Auroville Visitors Centre,Culture Seeker / Family Planner,Budget,indoor,2,Villupuram
+Mangala Buddha Vihar,Spiritual Traveler / Relaxation Lover,Budget,both,2,Villupuram
+Adishakti Theatre Arts Auroville,Culture Seeker / Family Planner,Mid-range,indoor,4,Villupuram
+Kalvarayan Hills Trekking,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Villupuram
+Pichavaram Boat Ride,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Villupuram
+Villupuram Town Park,Nature Lover / Family Planner,Budget,outdoor,2,Villupuram
+Auroville Youth Center,Family Planner / Culture Seeker,Budget,indoor,2,Villupuram
+Gingee Prisoners Well,Culture Seeker / Adventure Seeker,Budget,outdoor,2,Villupuram
+Saad-at-allah Khan Mosque,Culture Seeker / Spiritual Traveler,Budget,both,2,Villupuram
+Marakkanam Salt Pans,Culture Seeker / Nature Lover,Budget,outdoor,2,Villupuram
+Matrimandir Viewing Point,Nature Lover / Romantic Couple,Budget,outdoor,5,Villupuram
+Krishnagiri Fort,Culture Seeker / Adventure Seeker,Budget,outdoor,5,Krishnagiri
+Rayakottah Fort,Adventure Seeker / Culture Seeker,Budget,outdoor,4,Krishnagiri
+Krishnagiri Government Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Krishnagiri
+Shree Parshwa Padmavathi Shaktipeet,Spiritual Traveler / Culture Seeker,Mid-range,both,4,Krishnagiri
+Sri Kattu Veera Anjaneya Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Krishnagiri
+Chandra Choodeswarar Temple Hosur,Spiritual Traveler / Adventure Seeker,Budget,both,3,Krishnagiri
+Dakshina Tirupati Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Krishnagiri
+Arulmigu Maragathamigai Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Krishnagiri
+Ganesh Temple Krishnagiri Fort,Spiritual Traveler / Culture Seeker,Budget,outdoor,5,Krishnagiri
+Narasimha Temple Krishnagiri,Spiritual Traveler / Culture Seeker,Budget,both,2,Krishnagiri
+Pettaraya Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Krishnagiri
+Jain Basadi Krishnagiri,Spiritual Traveler / Culture Seeker,Budget,both,2,Krishnagiri
+Krishnagiri Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Krishnagiri
+KRP Dam Park,Nature Lover / Family Planner,Budget,outdoor,2,Krishnagiri
+Kelavarapalli Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Krishnagiri
+Thally Reservoir,Nature Lover / Romantic Couple,Budget,outdoor,2,Krishnagiri
+Anchetty Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Krishnagiri
+Javadi Hills,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Krishnagiri
+Aiyur Eco Tourism Park,Nature Lover / Family Planner,Mid-range,outdoor,4,Krishnagiri
+Thally Garden,Nature Lover / Relaxation Lover,Budget,outdoor,2,Krishnagiri
+Berigai Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Krishnagiri
+Doddametrai River Temple,Spiritual Traveler / Nature Lover,Budget,outdoor,2,Krishnagiri
+Hogenakkal Falls,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Krishnagiri
+Palacode Waterfalls,Nature Lover / Adventure Seeker,Budget,outdoor,4,Krishnagiri
+Muthanallur Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Krishnagiri
+Avathanapatti Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Krishnagiri
+Krishnagiri Rose Garden,Nature Lover / Romantic Couple,Budget,outdoor,2,Krishnagiri
+Hosur Deer Park,Nature Lover / Family Planner,Budget,outdoor,2,Krishnagiri
+Brahma Hills Park,Nature Lover / Adventure Seeker,Budget,outdoor,2,Krishnagiri
+Kelavarapalli Rock Garden,Nature Lover / Family Planner,Budget,outdoor,2,Krishnagiri
+Krishnagiri Mango Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Krishnagiri
+Hosur Main Market,Shopper / Urban Explorer,Budget,indoor,2,Krishnagiri
+Krishnagiri Central Market,Shopper / Urban Explorer / Budget Backpacker,Budget,indoor,2,Krishnagiri
+Saravana Bhavan Krishnagiri,Foodie / Budget Backpacker,Budget,indoor,2,Krishnagiri
+Hotel Aryaas Krishnagiri,Foodie / Budget Backpacker,Budget,indoor,2,Krishnagiri
+Adiga's Restaurant Hosur,Foodie / Budget Backpacker,Budget,indoor,2,Krishnagiri
+Highway King Dhaba,Foodie / Culture Seeker,Mid-range,indoor,2,Krishnagiri
+Barbeque Nation Hosur,Foodie / Romantic Couple,Premium,indoor,2,Krishnagiri
+A2B Adyar Ananda Bhavan Hosur,Foodie / Budget Backpacker,Budget,indoor,2,Krishnagiri
+Sangeetha Restaurant Krishnagiri,Foodie / Budget Backpacker,Budget,indoor,2,Krishnagiri
+Hogenakkal Coracle Boat Ride,Adventure Seeker / Nature Lover,Mid-range,outdoor,2,Krishnagiri
+Javadi Hills Trekking,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Krishnagiri
+Hosur Industrial Tour,Culture Seeker / Budget Backpacker,Mid-range,indoor,3,Krishnagiri
+Dennakottai Valley,Nature Lover / Adventure Seeker,Budget,outdoor,4,Krishnagiri
+Hanuman Thirtham,Spiritual Traveler / Nature Lover,Budget,outdoor,2,Krishnagiri
+Krishnagiri Rose Garden Night View,Nature Lover / Romantic Couple,Budget,outdoor,2,Krishnagiri
+Hosur Clock Tower,Culture Seeker / Shopper / Urban Explorer,Budget,outdoor,2,Krishnagiri
+Anchetty Forest Reserve,Nature Lover / Adventure Seeker,Budget,outdoor,3,Krishnagiri
+Kaveri Pattinm Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Krishnagiri
+Thally Children's Park,Family Planner / Nature Lover,Budget,outdoor,2,Krishnagiri
+Thindal Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,both,5,Erode
+Chennimalai Murugan Temple,Spiritual Traveler / Adventure Seeker,Mid-range,both,5,Erode
+Bannari Amman Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Erode
+Bhavani Sangameswarar Temple,Spiritual Traveler / Culture Seeker,Budget,indoor,2,Erode
+Periya Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Erode
+Arudra Kabaliswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Erode
+Nattatreswaran Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Erode
+Kodumudi Temples (Magudeshwarar & Veeranarayana),Spiritual Traveler / Culture Seeker,Budget,both,4,Erode
+Pariyur Kondathu Kaliamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Erode
+Kasthuri Ranganathar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Erode
+Bhavanisagar Dam,Nature Lover / Family Planner,Mid-range,outdoor,4,Erode
+Kodiveri Dam,Nature Lover / Relaxation Lover,Budget,outdoor,3,Erode
+Kalingarayan Anicut,Nature Lover / Relaxation Lover,Budget,outdoor,2,Erode
+Lower Bhavani Project Dam,Nature Lover / Family Planner,Budget,outdoor,2,Erode
+Kunderipallam Dam,Nature Lover / Adventure Seeker,Budget,outdoor,3,Erode
+Kodiveri Waterfalls,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Erode
+Kunderipallam Waterfalls,Adventure Seeker / Nature Lover,Budget,outdoor,3,Erode
+Anthiyur Lake Waterfalls,Nature Lover / Romantic Couple,Budget,outdoor,2,Erode
+Bhavani Kuttralam Falls,Nature Lover / Adventure Seeker,Budget,outdoor,2,Erode
+Sathyamangalam Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Erode
+Vellode Bird Sanctuary,Nature Lover / Family Planner,Mid-range,outdoor,3,Erode
+Bhavani Sagar Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Erode
+Sidheshwara Hills,Adventure Seeker / Nature Lover,Budget,outdoor,4,Erode
+Bannari Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,3,Erode
+Bhalammalai Hills,Adventure Seeker / Nature Lover,Budget,outdoor,3,Erode
+Erode Fort,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Erode
+Erode Government Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Erode
+VOC Park Erode,Nature Lover / Family Planner,Budget,outdoor,2,Erode
+Periya Kalyana Mandapam Park,Nature Lover / Relaxation Lover,Budget,outdoor,2,Erode
+Erode Children's Park,Family Planner / Nature Lover,Budget,outdoor,2,Erode
+Cauvery Botanical Garden,Nature Lover / Relaxation Lover,Budget,outdoor,2,Erode
+Erode Turmeric Market,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,2,Erode
+Erode Handloom Market,Shopper / Urban Explorer / Culture Seeker,Budget,indoor,2,Erode
+Bhavani Pavadai Market,Shopper / Urban Explorer / Culture Seeker,Mid-range,indoor,2,Erode
+Erode Central Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Erode
+Saravana Bhavan Erode,Foodie / Budget Backpacker,Budget,indoor,2,Erode
+Hotel Aryaas Erode,Foodie / Budget Backpacker,Budget,indoor,2,Erode
+Ponram Restaurant,Foodie / Culture Seeker,Mid-range,indoor,2,Erode
+A2B Adyar Ananda Bhavan Erode,Foodie / Budget Backpacker,Budget,indoor,2,Erode
+Sri Krishna Sweets Erode,Foodie / Budget Backpacker,Budget,indoor,2,Erode
+Sangeetha Restaurant Erode,Foodie / Budget Backpacker,Budget,indoor,2,Erode
+Anjappar Chettinad Restaurant,Foodie / Culture Seeker,Mid-range,indoor,2,Erode
+Kodiveri Coracle Boat Ride,Adventure Seeker / Nature Lover,Mid-range,outdoor,2,Erode
+Sidheshwara Hills Trekking,Adventure Seeker / Nature Lover,Budget,outdoor,4,Erode
+Bhavani-Cauvery Sangamam,Spiritual Traveler / Nature Lover,Budget,outdoor,2,Erode
+Cauvery River View Point,Nature Lover / Romantic Couple,Budget,outdoor,2,Erode
+Chennimalai Handloom Weaving Center,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,2,Erode
+Erode Town Hall,Culture Seeker / Budget Backpacker,Budget,indoor,2,Erode
+Sathyamangalam Forest Reserve,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Erode
+Bhavani River Bathing Ghat,Spiritual Traveler / Relaxation Lover,Budget,outdoor,2,Erode
+Ooty Lake,Nature Lover / Family Planner,Mid-range,outdoor,5,Nilgiris
+Pykara Lake,Nature Lover / Relaxation Lover,Mid-range,outdoor,4,Nilgiris
+Emerald Lake,Nature Lover / Romantic Couple,Budget,outdoor,2,Nilgiris
+Avalanche Lake,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Nilgiris
+Upper Bhavani Lake,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Nilgiris
+Government Botanical Garden Ooty,Nature Lover / Family Planner,Mid-range,outdoor,4,Nilgiris
+Rose Garden Ooty,Nature Lover / Romantic Couple,Budget,outdoor,2,Nilgiris
+Sims Park Coonoor,Nature Lover / Family Planner,Budget,outdoor,2,Nilgiris
+Thread Garden Ooty,Culture Seeker / Family Planner,Budget,outdoor,2,Nilgiris
+Doddabetta Peak,Adventure Seeker / Nature Lover,Budget,outdoor,5,Nilgiris
+Dolphin's Nose Coonoor,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Nilgiris
+Lamb's Rock Coonoor,Nature Lover / Romantic Couple,Budget,outdoor,2,Nilgiris
+Kodanad Viewpoint Kotagiri,Nature Lover / Romantic Couple,Budget,outdoor,2,Nilgiris
+Rangaswamy Peak Kotagiri,Adventure Seeker / Spiritual Traveler,Budget,outdoor,3,Nilgiris
+Tiger Hill Ooty,Nature Lover / Adventure Seeker,Budget,outdoor,2,Nilgiris
+Catherine Falls,Nature Lover / Adventure Seeker,Budget,outdoor,4,Nilgiris
+Pykara Waterfalls,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Nilgiris
+Kalhatti Falls,Nature Lover / Spiritual Traveler,Budget,outdoor,2,Nilgiris
+Elk Falls Kotagiri,Adventure Seeker / Nature Lover,Budget,outdoor,4,Nilgiris
+Law's Falls Coonoor,Nature Lover / Romantic Couple,Budget,outdoor,2,Nilgiris
+Mudumalai Tiger Reserve,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Nilgiris
+Mukurthi National Park,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Nilgiris
+Longwood Shola Reserve,Nature Lover / Adventure Seeker,Budget,outdoor,3,Nilgiris
+Kotagiri Tea Estates,Nature Lover / Relaxation Lover,Mid-range,outdoor,3,Nilgiris
+Coonoor Tea Gardens,Nature Lover / Romantic Couple,Budget,outdoor,2,Nilgiris
+Glenmorgan Tea Estate,Culture Seeker / Nature Lover,Mid-range,outdoor,3,Nilgiris
+Stone House Ooty,Culture Seeker / Budget Backpacker,Budget,indoor,2,Nilgiris
+Droog Fort Coonoor,Adventure Seeker / Culture Seeker,Budget,outdoor,3,Nilgiris
+St. Stephen's Church Ooty,Culture Seeker / Spiritual Traveler,Budget,both,2,Nilgiris
+Tribal Research Center,Culture Seeker / Family Planner,Budget,indoor,2,Nilgiris
+Wax World Museum,Culture Seeker / Family Planner,Mid-range,indoor,2,Nilgiris
+Tea Museum Coonoor,Culture Seeker / Foodie,Budget,indoor,2,Nilgiris
+Nilgiri Mountain Railway,Culture Seeker / Family Planner,Mid-range,indoor,5,Nilgiris
+Avalanche Trekking Trail,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Nilgiris
+Ooty Lake Boating,Family Planner / Romantic Couple,Mid-range,outdoor,5,Nilgiris
+Pine Forest Ooty,Nature Lover / Romantic Couple,Budget,outdoor,2,Nilgiris
+Ooty Main Bazaar,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Nilgiris
+Coonoor Market,Shopper / Urban Explorer,Budget,indoor,2,Nilgiris
+Tibetan Market Ooty,Shopper / Urban Explorer / Culture Seeker,Budget,indoor,2,Nilgiris
+Earl's Secret Ooty,Foodie / Romantic Couple,Premium,both,2,Nilgiris
+Nahar's Sidewalk Cafe,Foodie / Relaxation Lover,Mid-range,indoor,2,Nilgiris
+Hyderabad Biryani House,Foodie / Budget Backpacker,Budget,indoor,2,Nilgiris
+Willy's Coffee Pub,Foodie / Budget Backpacker,Budget,indoor,2,Nilgiris
+Place To Bee Cafe,Foodie / Romantic Couple,Mid-range,indoor,2,Nilgiris
+Hotel Pankaj Bhojanalaya,Foodie / Budget Backpacker,Budget,indoor,2,Nilgiris
+Ketti Valley View,Nature Lover / Romantic Couple,Budget,outdoor,2,Nilgiris
+6th Mile Coonoor,Nature Lover / Family Planner,Budget,both,2,Nilgiris
+Wenlock Downs,Nature Lover / Adventure Seeker,Budget,outdoor,3,Nilgiris
+Deer Park Ooty,Family Planner / Nature Lover,Budget,outdoor,2,Nilgiris
+All Saints Church Coonoor,Culture Seeker / Spiritual Traveler,Budget,both,2,Nilgiris
+Hogenakkal Falls,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Dharmapuri
+Hogenakkal Coracle Boat Ride,Adventure Seeker / Nature Lover,Mid-range,outdoor,2,Dharmapuri
+Hogenakkal Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Dharmapuri
+Kaveri River Bathing Area,Nature Lover / Family Planner,Budget,outdoor,2,Dharmapuri
+Theerthamalai Temple,Spiritual Traveler / Adventure Seeker,Mid-range,both,4,Dharmapuri
+Chenraya Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+Kottai Kovil Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+Kalabairavar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+Hanumanthathirtham Temple,Spiritual Traveler / Nature Lover,Budget,both,2,Dharmapuri
+Morappur Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+Sri Raghavendra Swamy Mutt,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+Veera Anjaneyar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+Sacred Heart Cathedral,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+Mount Carmel Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+CSI Zion Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Dharmapuri
+Adhiyamankottai Fort,Culture Seeker / Adventure Seeker,Budget,outdoor,4,Dharmapuri
+Subramanya Siva Memorial,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Dharmapuri
+Dharmapuri Government Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Dharmapuri
+Krishnagiri Dam Park,Nature Lover / Family Planner,Budget,outdoor,3,Dharmapuri
+Mettur Dam,Nature Lover / Family Planner,Mid-range,outdoor,5,Dharmapuri
+Thoppaiyar Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Dharmapuri
+Pambar Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Dharmapuri
+Melagiri Hills,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Dharmapuri
+Karimangalam Hills,Nature Lover / Adventure Seeker,Budget,outdoor,3,Dharmapuri
+Pennagaram Forest Area,Nature Lover / Adventure Seeker,Budget,outdoor,4,Dharmapuri
+Sitteri Forest Reserve,Nature Lover / Adventure Seeker,Budget,outdoor,3,Dharmapuri
+Dharmapuri Town Park,Nature Lover / Family Planner,Budget,outdoor,2,Dharmapuri
+Children's Park Dharmapuri,Family Planner / Nature Lover,Budget,outdoor,2,Dharmapuri
+Harur Lake Park,Nature Lover / Relaxation Lover,Budget,outdoor,2,Dharmapuri
+Karimangalam Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Dharmapuri
+Harur Lake,Nature Lover / Romantic Couple,Budget,outdoor,2,Dharmapuri
+Pennagaram Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Dharmapuri
+Dharmapuri Main Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Dharmapuri
+Hogenakkal Fish Market,Culture Seeker / Foodie,Budget,indoor,2,Dharmapuri
+Harur Market,Shopper / Urban Explorer,Budget,indoor,2,Dharmapuri
+Hogenakkal Fish Fry Stalls,Foodie / Culture Seeker,Budget,indoor,2,Dharmapuri
+Saravana Bhavan Dharmapuri,Foodie / Budget Backpacker,Budget,indoor,2,Dharmapuri
+Hotel Aryaas Dharmapuri,Foodie / Budget Backpacker,Budget,indoor,2,Dharmapuri
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,indoor,2,Dharmapuri
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Dharmapuri
+Sangeetha Restaurant,Foodie / Budget Backpacker,Budget,indoor,2,Dharmapuri
+Hogenakkal Medicinal Bath,Relaxation Lover / Nature Lover,Mid-range,outdoor,2,Dharmapuri
+Melagiri Hills Trekking,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Dharmapuri
+Kaveri River Rafting,Adventure Seeker / Nature Lover,Premium,outdoor,3,Dharmapuri
+Kaveri River Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Dharmapuri
+Theerthamalai Viewpoint,Nature Lover / Spiritual Traveler,Budget,outdoor,2,Dharmapuri
+Dharmapuri Silk Weaving Center,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,2,Dharmapuri
+Pennagaram Eco Park,Nature Lover / Family Planner,Budget,outdoor,2,Dharmapuri
+Dharmapuri Rose Garden,Nature Lover / Romantic Couple,Budget,outdoor,2,Dharmapuri
+Morappur Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Dharmapuri
+Yercaud Lake (Emerald Lake),Nature Lover / Family Planner,Mid-range,outdoor,5,Salem
+Yercaud Botanical Garden,Nature Lover / Relaxation Lover,Budget,outdoor,3,Salem
+Yercaud Rose Garden,Nature Lover / Romantic Couple,Budget,outdoor,2,Salem
+Shevaroy Temple,Spiritual Traveler / Adventure Seeker,Mid-range,both,5,Salem
+Lady's Seat Yercaud,Nature Lover / Romantic Couple,Budget,outdoor,2,Salem
+Peeku Park Yercaud,Nature Lover / Family Planner,Budget,outdoor,2,Salem
+Pagoda Point,Nature Lover / Romantic Couple,Budget,outdoor,2,Salem
+Anna Park Yercaud,Nature Lover / Family Planner,Budget,outdoor,2,Salem
+Bears Cave,Adventure Seeker / Nature Lover,Budget,outdoor,2,Salem
+32 km Loop Road Yercaud,Nature Lover / Romantic Couple,Budget,outdoor,3,Salem
+Kiliyur Falls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Salem
+Kolli Hills Agaya Gangai Falls,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Salem
+Pachaimalai Falls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Salem
+1008 Shiva Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,4,Salem
+Siddhar Temple Kanjamalai,Spiritual Traveler / Adventure Seeker,Mid-range,both,4,Salem
+Kottai Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Salem
+Sugavaneshwarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Salem
+Sri Raja Rajeswari Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Salem
+ISKCON Temple Salem,Spiritual Traveler / Culture Seeker,Budget,both,2,Salem
+Arulmigu Arupathi Thiruvasagam Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Salem
+Mettur Dam,Nature Lover / Family Planner,Mid-range,outdoor,5,Salem
+Mettur Dam Park,Nature Lover / Family Planner,Budget,outdoor,5,Salem
+Thirumanimutharu River Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Salem
+Sankagiri Fort,Culture Seeker / Adventure Seeker,Budget,outdoor,4,Salem
+Salem Government Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Salem
+Kurumbapatti Zoological Park,Nature Lover / Family Planner,Mid-range,outdoor,4,Salem
+Anna Park Salem,Nature Lover / Family Planner,Budget,outdoor,2,Salem
+Deer Park Salem,Family Planner / Nature Lover,Budget,outdoor,2,Salem
+Children's Park Salem,Family Planner / Nature Lover,Budget,outdoor,2,Salem
+Mookaneri Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Salem
+Saradhambal Lake,Nature Lover / Romantic Couple,Budget,outdoor,2,Salem
+Salem Main Bazaar,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Salem
+Yercaud Market,Shopper / Urban Explorer,Budget,indoor,2,Salem
+Salem Textiles Hub,Shopper / Urban Explorer,Budget,indoor,2,Salem
+Great Trails Yercaud,Foodie / Romantic Couple,Premium,indoor,2,Salem
+Saravana Bhavan Salem,Foodie / Budget Backpacker,Budget,indoor,2,Salem
+Hotel Aryaas Salem,Foodie / Budget Backpacker,Budget,indoor,2,Salem
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Salem
+Sri Krishna Sweets Salem,Foodie / Budget Backpacker,Budget,indoor,2,Salem
+Sangeetha Restaurant Salem,Foodie / Budget Backpacker,Budget,indoor,2,Salem
+Yercaud Lake Boating,Adventure Seeker / Family Planner,Mid-range,outdoor,5,Salem
+Yercaud Trekking Trails,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Salem
+Kolli Hills Adventure Trek,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Salem
+Yercaud Coffee Plantations,Nature Lover / Relaxation Lover,Budget,outdoor,2,Salem
+Yercaud Orange Groves,Nature Lover / Culture Seeker,Budget,outdoor,2,Salem
+Gents Seat Yercaud,Nature Lover / Romantic Couple,Budget,outdoor,2,Salem
+Norton's Bungalow Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Salem
+Silk Farm Yercaud,Culture Seeker / Family Planner,Budget,outdoor,2,Salem
+Jamia Masjid Salem,Culture Seeker / Spiritual Traveler,Budget,both,2,Salem
+Sri Chakra Mahameru Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Salem
+Vivekananda Rock Memorial,Spiritual Traveler / Culture Seeker,Mid-range,outdoor,5,Kanyakumari
+Thiruvalluvar Statue,Culture Seeker / Family Planner,Mid-range,outdoor,5,Kanyakumari
+Gandhi Memorial Mandapam,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Kanyakumari
+Tsunami Memorial,Culture Seeker / Family Planner,Budget,outdoor,2,Kanyakumari
+Kanyakumari Beach (Triveni Sangam),Nature Lover / Spiritual Traveler,Budget,outdoor,5,Kanyakumari
+Sanguthurai Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Kanyakumari
+Sothavilai Beach,Nature Lover / Romantic Couple,Budget,outdoor,2,Kanyakumari
+Muttom Beach,Nature Lover / Relaxation Lover,Budget,outdoor,4,Kanyakumari
+Chothavilai Beach,Nature Lover / Romantic Couple,Budget,outdoor,2,Kanyakumari
+Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,5,Kanyakumari
+Sunrise Point,Nature Lover / Romantic Couple,Budget,outdoor,5,Kanyakumari
+View Tower Kanyakumari,Nature Lover / Family Planner,Budget,outdoor,2,Kanyakumari
+Kanyakumari Lighthouse,Culture Seeker / Adventure Seeker,Budget,outdoor,2,Kanyakumari
+Kumari Amman Temple (Bhagavathy Amman),Spiritual Traveler / Culture Seeker,Budget,both,4,Kanyakumari
+Suchindram Thanumalayan Temple,Spiritual Traveler / Culture Seeker,Mid-range,both,4,Kanyakumari
+Sthanumalayan Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanyakumari
+Nagaraja Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanyakumari
+Guganathaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanyakumari
+Thirparappu Shiva Temple,Spiritual Traveler / Nature Lover,Budget,both,2,Kanyakumari
+Our Lady of Ransom Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanyakumari
+St. Xavier's Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanyakumari
+Holy Cross Church Kottar,Spiritual Traveler / Culture Seeker,Budget,both,2,Kanyakumari
+Thirparappu Falls (Thirparappu Aruvi),Nature Lover / Adventure Seeker,Budget,outdoor,4,Kanyakumari
+Olakaruvi Falls,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Kanyakumari
+Courtallam Falls (Near Kanyakumari),Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Kanyakumari
+Padmanabhapuram Palace,Culture Seeker / Budget Backpacker,Mid-range,outdoor,4,Kanyakumari
+Vattakottai Fort,Culture Seeker / Adventure Seeker,Budget,outdoor,3,Kanyakumari
+Udayagiri Fort,Culture Seeker / Adventure Seeker,Budget,outdoor,2,Kanyakumari
+Mathur Hanging Bridge (Aqueduct),Adventure Seeker / Nature Lover,Budget,outdoor,3,Kanyakumari
+Chitharal Jain Temples (Rock-Cut),Culture Seeker / Spiritual Traveler,Budget,both,2,Kanyakumari
+Kanyakumari Wax Museum,Culture Seeker / Family Planner,Mid-range,indoor,2,Kanyakumari
+Kamarajar Mani Mandapam,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Kanyakumari
+Kanyakumari Main Bazaar,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Kanyakumari
+Seashell Market,Shopper / Urban Explorer,Budget,indoor,2,Kanyakumari
+Handloom Shopping Center,Shopper / Urban Explorer / Culture Seeker,Budget,indoor,2,Kanyakumari
+Sea View Restaurant,Foodie / Romantic Couple,Mid-range,indoor,2,Kanyakumari
+Saravana Bhavan Kanyakumari,Foodie / Budget Backpacker,Budget,indoor,2,Kanyakumari
+Hotel Aryaas Kanyakumari,Foodie / Budget Backpacker,Budget,indoor,2,Kanyakumari
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Kanyakumari
+Sangam Restaurant,Foodie / Culture Seeker,Budget,indoor,2,Kanyakumari
+Fresh Fish Market Restaurants,Foodie / Culture Seeker,Budget,indoor,2,Kanyakumari
+Vivekananda Rock Ferry Ride,Adventure Seeker / Family Planner,Mid-range,outdoor,2,Kanyakumari
+Swimming at Muttom Beach,Adventure Seeker / Nature Lover,Budget,outdoor,4,Kanyakumari
+Vivekananda Kendra,Spiritual Traveler / Relaxation Lover,Budget,both,2,Kanyakumari
+Children's Park Kanyakumari,Family Planner / Nature Lover,Budget,outdoor,2,Kanyakumari
+Thirparappu Dam Park,Nature Lover / Family Planner,Budget,outdoor,2,Kanyakumari
+Vivekananda Mandapam,Spiritual Traveler / Culture Seeker,Budget,outdoor,2,Kanyakumari
+Nagercoil Clock Tower,Culture Seeker / Urban Explorer,Budget,outdoor,2,Kanyakumari
+Baywatch Amusement Park,Family Planner / Adventure Seeker,Mid-range,outdoor,3,Kanyakumari
+Pechiparai Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Kanyakumari
+Suruli Falls,Nature Lover / Adventure Seeker,Budget,outdoor,5,Theni
+Chinna Suruli Falls,Nature Lover / Adventure Seeker,Budget,outdoor,5,Theni
+Kumbakkarai Falls,Nature Lover / Adventure Seeker,Budget,outdoor,4,Theni
+Kumbakarai Main Falls,Adventure Seeker / Nature Lover,Budget,outdoor,2,Theni
+Meghamalai (High Wavy Mountains),Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Theni
+Meghamalai Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,5,Theni
+Kurangani Hills,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Theni
+Maharaja Mettu,Nature Lover / Adventure Seeker,Budget,outdoor,3,Theni
+Vaigai Dam,Nature Lover / Family Planner,Budget,outdoor,5,Theni
+Vaigai Dam Park,Nature Lover / Family Planner,Budget,outdoor,5,Theni
+Shanmuganathi Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Theni
+Sothuparai Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Theni
+Manalar Dam,Nature Lover / Romantic Couple,Budget,outdoor,2,Theni
+Meghamalai Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Theni
+Meghamalai Tiger Reserve,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Theni
+Meghamalai Tea Estates,Nature Lover / Relaxation Lover,Mid-range,outdoor,5,Theni
+High Wavy Tea Estate Tour,Nature Lover / Culture Seeker,Mid-range,outdoor,5,Theni
+Kolukkumalai Tea Estate (Border),Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Theni
+Kuchanur Sri Saneeswara Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Theni
+Devadanapatti Kamakshi Amman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Theni
+Kailasanathar Temple Cave,Spiritual Traveler / Culture Seeker,Budget,both,2,Theni
+Veerapandi Gowmariamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Theni
+Mangaladevi Temple Thekkady Border,Spiritual Traveler / Adventure Seeker,Mid-range,both,4,Theni
+Vellappar Temple Mavuthu,Spiritual Traveler / Nature Lover,Budget,both,2,Theni
+Murugan Temple Meghamalai,Spiritual Traveler / Adventure Seeker,Budget,both,5,Theni
+Colonel Pennycuick Memorial,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Theni
+Bodi Hills,Adventure Seeker / Nature Lover,Budget,outdoor,4,Theni
+Theertha Thotti Sacred Pool,Spiritual Traveler / Nature Lover,Budget,outdoor,2,Theni
+Mavuthu Natural Springs,Nature Lover / Relaxation Lover,Budget,outdoor,2,Theni
+Theni Main Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Theni
+Cumbum Grape Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Theni
+Theni Textile Market,Shopper / Urban Explorer,Budget,indoor,2,Theni
+Saravana Bhavan Theni,Foodie / Budget Backpacker,Budget,indoor,2,Theni
+Hotel Aryaas Theni,Foodie / Budget Backpacker,Budget,indoor,2,Theni
+Thooppukadai Mess,Foodie / Culture Seeker,Budget,indoor,2,Theni
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Theni
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,indoor,2,Theni
+Meghamalai Trekking,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Theni
+Kurangani Hills Trek,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Theni
+Meghamalai Jeep Safari,Adventure Seeker / Family Planner,Mid-range,outdoor,5,Theni
+Theni Children's Park,Family Planner / Nature Lover,Budget,outdoor,2,Theni
+Periyakulam Town Park,Nature Lover / Family Planner,Budget,outdoor,2,Theni
+Vellimalai Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Theni
+Kambam Valley View,Nature Lover / Romantic Couple,Budget,outdoor,2,Theni
+Meghamalai Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,5,Theni
+Cumbum Valley Vineyards,Nature Lover / Culture Seeker,Mid-range,outdoor,2,Theni
+Theni Organic Farms Tour,Culture Seeker / Family Planner,Budget,outdoor,3,Theni
+Kodi Lingam Sacred Site,Spiritual Traveler / Adventure Seeker,Budget,outdoor,2,Theni
+Ellapatti River,Nature Lover / Relaxation Lover,Budget,outdoor,2,Theni
+Periyakulam Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Theni
+Adiyogi Shiva Statue & Isha Yoga Centre,Spiritual Traveler / Culture Seeker,Budget,outdoor,5,Coimbatore
+Dhyanalinga Temple,Spiritual Traveler / Relaxation Lover,Budget,both,4,Coimbatore
+Marudhamalai Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,both,5,Coimbatore
+Perur Pateeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Coimbatore
+Eachanari Vinayagar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Coimbatore
+Koniamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Coimbatore
+Vellingiri Hill Temple,Spiritual Traveler / Adventure Seeker,Mid-range,both,4,Coimbatore
+Masaniamman Temple Anaimalai,Spiritual Traveler / Culture Seeker,Budget,both,2,Coimbatore
+Siruvani Waterfalls (Kovai Kutralam),Nature Lover / Adventure Seeker,Budget,outdoor,4,Coimbatore
+Vaidehi Falls (Monkey Falls),Nature Lover / Adventure Seeker,Budget,outdoor,3,Coimbatore
+Monkey Falls,Nature Lover / Family Planner,Budget,outdoor,3,Coimbatore
+Kodiveri Falls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Coimbatore
+Valparai Hill Station,Nature Lover / Relaxation Lover,Mid-range,outdoor,5,Coimbatore
+Valparai Tea Estates,Nature Lover / Romantic Couple,Mid-range,outdoor,3,Coimbatore
+Anaikatti Hills,Nature Lover / Adventure Seeker,Budget,outdoor,4,Coimbatore
+Aliyar Dam,Nature Lover / Family Planner,Mid-range,outdoor,4,Coimbatore
+Aliyar Dam Park,Nature Lover / Family Planner,Budget,outdoor,4,Coimbatore
+Siruvani Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Coimbatore
+Parambikulam Dam,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Coimbatore
+Indira Gandhi Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Coimbatore
+Salim Ali Centre for Ornithology,Nature Lover / Culture Seeker,Budget,outdoor,3,Coimbatore
+Black Thunder Water Theme Park,Adventure Seeker / Family Planner,Premium,outdoor,5,Coimbatore
+Kovai Kondattam Amusement Park,Family Planner / Adventure Seeker,Mid-range,outdoor,4,Coimbatore
+Maharaja Theme Park,Family Planner / Adventure Seeker,Mid-range,outdoor,4,Coimbatore
+VOC Park and Zoo,Nature Lover / Family Planner,Budget,outdoor,3,Coimbatore
+Gandhi Park (Singanallur),Nature Lover / Family Planner,Budget,outdoor,2,Coimbatore
+Bharathi Park,Nature Lover / Relaxation Lover,Budget,outdoor,2,Coimbatore
+Botanical Garden TNAU,Nature Lover / Culture Seeker,Budget,outdoor,2,Coimbatore
+GEDEE Car Museum,Culture Seeker / Family Planner,Budget,indoor,2,Coimbatore
+Gass Forest Museum,Culture Seeker / Nature Lover,Budget,indoor,2,Coimbatore
+Tamil Nadu Police Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Coimbatore
+Regional Science Centre & Planetarium,Culture Seeker / Family Planner,Budget,indoor,3,Coimbatore
+Brookefields Mall,Shopper / Urban Explorer / Foodie,Mid-range,indoor,3,Coimbatore
+Prozone Mall,Shopper / Urban Explorer,Mid-range,indoor,3,Coimbatore
+RS Puram Shopping Area,Shopper / Urban Explorer,Budget,indoor,2,Coimbatore
+Town Hall Market,Shopper / Urban Explorer / Culture Seeker,Budget,indoor,2,Coimbatore
+Hari Bhavanam,Foodie / Culture Seeker,Budget,indoor,2,Coimbatore
+Annapoorna Restaurant,Foodie / Budget Backpacker,Budget,indoor,2,Coimbatore
+That's Y Food,Foodie / Romantic Couple,Mid-range,indoor,2,Coimbatore
+Shree Anandhaas,Foodie / Budget Backpacker,Budget,indoor,2,Coimbatore
+Sree Annapoorna Sree Gowrishankar,Foodie / Budget Backpacker,Budget,indoor,2,Coimbatore
+Junior Kuppanna,Foodie / Culture Seeker,Mid-range,indoor,2,Coimbatore
+Vellingiri Hills Trekking,Adventure Seeker / Spiritual Traveler,Mid-range,outdoor,3,Coimbatore
+Rock Climbing at Marudhamalai,Adventure Seeker / Nature Lover,Budget,outdoor,5,Coimbatore
+Kovai Courtallam River,Nature Lover / Relaxation Lover,Budget,outdoor,2,Coimbatore
+Mahatma Gandhi Memorial,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Coimbatore
+Singanallur Lake,Nature Lover / Relaxation Lover,Budget,outdoor,2,Coimbatore
+Race Course,Nature Lover / Family Planner,Budget,outdoor,2,Coimbatore
+Codissia Trade Fair Complex,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,3,Coimbatore
+Black Thunder Mountain,Adventure Seeker / Nature Lover,Budget,outdoor,3,Coimbatore
+Sri Ranganathaswamy Temple Srirangam,Spiritual Traveler / Culture Seeker,Budget,both,5,Tiruchirappalli
+Rock Fort Temple (Ucchi Pillayar),Spiritual Traveler / Adventure Seeker,Budget,outdoor,5,Tiruchirappalli
+Thayumanaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+Jambukeswarar Temple (Thiruvanaikaval),Spiritual Traveler / Culture Seeker,Budget,both,5,Tiruchirappalli
+Samayapuram Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Tiruchirappalli
+Erumbeeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+Brahmapureeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+Vekkali Amman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+Sri Subramanya Swamy Temple Vayalur,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+Thirunedungulam Nathar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+St. Lourdes Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+St. Joseph's Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+Natharsha Dargah,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruchirappalli
+Kallanai Dam (Grand Anicut),Culture Seeker / Nature Lover,Budget,outdoor,4,Tiruchirappalli
+Upper Anaicut (Mukkombu),Nature Lover / Family Planner,Budget,both,3,Tiruchirappalli
+Puliyancholai Falls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Tiruchirappalli
+Agaya Gangai Waterfalls,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Tiruchirappalli
+Pachamalai Hills,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Tiruchirappalli
+Kolli Hills,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Tiruchirappalli
+Government Museum Trichy,Culture Seeker / Budget Backpacker,Budget,indoor,2,Tiruchirappalli
+Railway Museum Trichy,Culture Seeker / Family Planner,Budget,indoor,2,Tiruchirappalli
+Anna Science Centre & Planetarium,Culture Seeker / Family Planner,Budget,indoor,3,Tiruchirappalli
+Butterfly Park Srirangam,Nature Lover / Family Planner,Budget,outdoor,5,Tiruchirappalli
+Trichy Birds Park,Nature Lover / Family Planner,Budget,outdoor,2,Tiruchirappalli
+Anna Memorial Park,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruchirappalli
+Children's Park Trichy,Family Planner / Nature Lover,Budget,outdoor,2,Tiruchirappalli
+Chokkanatha Nayak Palace,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Tiruchirappalli
+Chinna Kadai Street,Shopper / Urban Explorer,Budget,indoor,2,Tiruchirappalli
+Big Bazaar Street,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Tiruchirappalli
+Trichy Main Guard Gate Market,Shopper / Urban Explorer / Culture Seeker,Budget,indoor,2,Tiruchirappalli
+Puthur Market,Shopper / Urban Explorer,Budget,indoor,2,Tiruchirappalli
+Femina Shopping Mall,Shopper / Urban Explorer,Mid-range,indoor,3,Tiruchirappalli
+Vasantha Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Tiruchirappalli
+Sangeetha Restaurant Trichy,Foodie / Budget Backpacker,Budget,indoor,2,Tiruchirappalli
+Hotel Kannappa,Foodie / Culture Seeker,Mid-range,indoor,2,Tiruchirappalli
+Saravana Bhavan Trichy,Foodie / Budget Backpacker,Budget,indoor,2,Tiruchirappalli
+Diana Restaurant,Foodie / Romantic Couple,Mid-range,indoor,2,Tiruchirappalli
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Tiruchirappalli
+Rock Fort Climb (437 Steps),Adventure Seeker / Spiritual Traveler,Budget,outdoor,2,Tiruchirappalli
+Kaveri River Boating,Adventure Seeker / Family Planner,Budget,outdoor,2,Tiruchirappalli
+Teppakulam Temple Tank,Nature Lover / Spiritual Traveler,Budget,outdoor,2,Tiruchirappalli
+Kaveri River Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Tiruchirappalli
+Gandhi Market Complex,Shopper / Urban Explorer / Culture Seeker,Budget,indoor,2,Tiruchirappalli
+Trichy Airport Viewing Area,Culture Seeker / Family Planner,Budget,outdoor,2,Tiruchirappalli
+Ucchi Pillayar Rockfort Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,5,Tiruchirappalli
+Cauvery Delta Region Tour,Culture Seeker / Nature Lover,Mid-range,outdoor,4,Tiruchirappalli
+Woraiyur Ancient Chola Capital,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Tiruchirappalli
+Trichy Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Tiruchirappalli
+Srirangam Island,Spiritual Traveler / Nature Lover,Budget,outdoor,5,Tiruchirappalli
+Trichy Trade Centre,Shopper / Urban Explorer,Mid-range,indoor,2,Tiruchirappalli
+Pasupatheswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,5,Karur
+Kalyana Venkataramana Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,5,Karur
+Arulmigu Kalyana Pasupatheswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,5,Karur
+Sadasiva Brahmendra Samadhi Nerur,Spiritual Traveler / Culture Seeker,Budget,both,2,Karur
+Kashi Vishwanatha Temple Nerur,Spiritual Traveler / Culture Seeker,Budget,both,2,Karur
+Mariamman Temple Karur,Spiritual Traveler / Culture Seeker,Budget,both,2,Karur
+Vennamalai Murugan Temple,Spiritual Traveler / Adventure Seeker,Budget,both,4,Karur
+Thirumukkoodalur Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Karur
+Pugazhimalai Murugan Temple,Spiritual Traveler / Adventure Seeker,Budget,both,4,Karur
+Amrithagateswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Karur
+Mayanur Dam & Barrage,Nature Lover / Family Planner,Budget,outdoor,4,Karur
+Ponnaniyaru Dam,Nature Lover / Relaxation Lover,Budget,outdoor,4,Karur
+Aathupalayam Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Karur
+Kovilur Dam,Nature Lover / Family Planner,Budget,outdoor,2,Karur
+Amaravathi River Check Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Karur
+Pugalur Dam,Nature Lover / Romantic Couple,Budget,outdoor,2,Karur
+Amaravathi Children's Park,Family Planner / Nature Lover,Budget,outdoor,2,Karur
+Rajaji Park Karur,Nature Lover / Family Planner,Budget,outdoor,2,Karur
+Mayanur Check Dam Park,Nature Lover / Family Planner,Budget,outdoor,2,Karur
+Children's Park Karur,Family Planner / Nature Lover,Budget,outdoor,2,Karur
+Karur Government Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Karur
+Karur Fort Ruins,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Karur
+Amaravathi River Bank,Nature Lover / Relaxation Lover,Budget,outdoor,2,Karur
+Kaveri River View Point,Nature Lover / Romantic Couple,Budget,outdoor,2,Karur
+Nerur River Bank,Nature Lover / Relaxation Lover,Budget,outdoor,2,Karur
+Amaravathi River Bed Archaeological Site,Culture Seeker / Nature Lover,Budget,outdoor,2,Karur
+Karur Home Textile Market,Shopper / Urban Explorer / Culture Seeker,Budget,indoor,3,Karur
+Karur Main Bazaar,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Karur
+Textile Showrooms Karur,Shopper / Urban Explorer,Budget,indoor,2,Karur
+Handloom Weaving Centers,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,2,Karur
+Vasantha Bhavan Karur,Foodie / Budget Backpacker,Budget,indoor,2,Karur
+Hotel Radhika,Foodie / Budget Backpacker,Budget,indoor,2,Karur
+Saravana Bhavan Karur,Foodie / Budget Backpacker,Budget,indoor,2,Karur
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Karur
+Ponnusamy Restaurant,Foodie / Culture Seeker,Mid-range,indoor,2,Karur
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,indoor,2,Karur
+Karur Agricultural Farm Tour,Culture Seeker / Nature Lover,Budget,outdoor,3,Karur
+Coconut Grove Visit,Nature Lover / Relaxation Lover,Budget,outdoor,2,Karur
+Karur-Trichy Railway Bridge View,Culture Seeker / Nature Lover,Budget,outdoor,2,Karur
+Amaravathi Bridge,Culture Seeker / Urban Explorer,Budget,outdoor,2,Karur
+Kaveri Bridge Karur,Nature Lover / Urban Explorer,Budget,outdoor,2,Karur
+Karur Agraharam Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Karur
+Ancient Sangam Era Sites,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Karur
+Kodumudi Temples,Spiritual Traveler / Culture Seeker,Budget,both,4,Karur
+Velayuthampalayam Village Tour,Culture Seeker / Nature Lover,Budget,outdoor,3,Karur
+Evening Walk at Amaravathi Banks,Relaxation Lover / Nature Lover,Budget,outdoor,2,Karur
+Bird Watching at Mayanur,Nature Lover / Adventure Seeker,Budget,outdoor,2,Karur
+Textile Factory Tour,Culture Seeker / Urban Explorer,Budget,indoor,2,Karur
+Karur Bus Stand Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Karur
+Rural Crafts Center Karur,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,2,Karur
+Promenade Beach (Rock Beach),Nature Lover / Relaxation Lover,Budget,outdoor,5,Pondicherry
+Paradise Beach (Plage Paradiso),Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Pondicherry
+Auroville Beach,Nature Lover / Relaxation Lover,Budget,outdoor,5,Pondicherry
+Serenity Beach,Adventure Seeker / Nature Lover,Budget,outdoor,4,Pondicherry
+Quiet Beach (Repos Beach),Nature Lover / Romantic Couple,Budget,outdoor,3,Pondicherry
+Sri Aurobindo Ashram,Spiritual Traveler / Relaxation Lover,Budget,both,5,Pondicherry
+Auroville & Matrimandir,Spiritual Traveler / Culture Seeker,Budget,both,5,Pondicherry
+Manakula Vinayagar Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Pondicherry
+Sri Varadaraja Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Pondicherry
+Vedapureeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Pondicherry
+Basilica of the Sacred Heart of Jesus,Spiritual Traveler / Culture Seeker,Budget,both,4,Pondicherry
+Immaculate Conception Cathedral,Spiritual Traveler / Culture Seeker,Budget,both,2,Pondicherry
+Notre Dame des Anges Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Pondicherry
+Church of Our Lady of Angels,Spiritual Traveler / Culture Seeker,Budget,both,2,Pondicherry
+French Quarter (White Town),Culture Seeker / Romantic Couple,Budget,outdoor,5,Pondicherry
+French War Memorial,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Pondicherry
+Aayi Mandapam,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Pondicherry
+Old Lighthouse,Culture Seeker / Adventure Seeker,Budget,outdoor,2,Pondicherry
+Pondicherry Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Pondicherry
+Jawahar Toy Museum,Culture Seeker / Family Planner,Budget,indoor,2,Pondicherry
+Cluny Embroidery Centre,Culture Seeker / Shopper,Budget,indoor,2,Pondicherry
+Botanical Garden,Nature Lover / Family Planner,Budget,outdoor,2,Pondicherry
+Bharathi Park (Government Park),Nature Lover / Relaxation Lover,Budget,outdoor,2,Pondicherry
+Ousteri Lake & National Park,Nature Lover / Adventure Seeker,Budget,outdoor,3,Pondicherry
+Chunnambar Backwater,Nature Lover / Adventure Seeker,Mid-range,outdoor,3,Pondicherry
+Arikamedu Archaeological Site,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Pondicherry
+Dupleix Park,Nature Lover / Relaxation Lover,Budget,outdoor,2,Pondicherry
+Café des Arts,Foodie / Romantic Couple,Mid-range,indoor,2,Pondicherry
+Baker Street,Foodie / Budget Backpacker,Budget,both,2,Pondicherry
+Le Café,Foodie / Romantic Couple,Mid-range,indoor,2,Pondicherry
+Villa Shanti,Foodie / Romantic Couple,Premium,both,2,Pondicherry
+Surguru Restaurant,Foodie / Budget Backpacker,Budget,indoor,2,Pondicherry
+Bread & Baguette,Foodie / Budget Backpacker,Budget,both,2,Pondicherry
+Kasha Ki Aasha,Foodie / Romantic Couple,Mid-range,both,2,Pondicherry
+Goubert Market (Grand Bazaar),Shopper / Urban Explorer / Foodie,Budget,indoor,2,Pondicherry
+Mission Street Shopping,Shopper / Urban Explorer,Budget,indoor,2,Pondicherry
+Nehru Street Market,Shopper / Urban Explorer,Budget,indoor,2,Pondicherry
+Scuba Diving at Temple Reef,Adventure Seeker / Nature Lover,Premium,outdoor,4,Pondicherry
+Surfing at Serenity Beach,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Pondicherry
+Kayaking at Chunnambar,Adventure Seeker / Family Planner,Mid-range,outdoor,3,Pondicherry
+Cycling Tour of French Quarter,Adventure Seeker / Culture Seeker,Budget,outdoor,5,Pondicherry
+Auroville Bakery & Cafeteria,Foodie / Culture Seeker,Budget,indoor,5,Pondicherry
+French Institute (Alliance Française),Culture Seeker / Budget Backpacker,Budget,indoor,2,Pondicherry
+Bharati Museum & Gallery,Culture Seeker / Budget Backpacker,Budget,indoor,2,Pondicherry
+Gandhi Statue & Memorial,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Pondicherry
+Paradise Island (Chunnambar),Nature Lover / Adventure Seeker,Mid-range,outdoor,3,Pondicherry
+House of Hidesign,Shopper / Urban Explorer,Mid-range,indoor,2,Pondicherry
+Seagulls Restaurant & Bar,Foodie / Romantic Couple,Mid-range,indoor,2,Pondicherry
+Pondy Marina,Nature Lover / Relaxation Lover,Budget,outdoor,2,Pondicherry
+Pondicherry Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Pondicherry
+Meenakshi Amman Temple,Spiritual Traveler / Culture Seeker,Budget,both,5,Madurai
+Thiruparankundram Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Madurai
+Alagar Kovil (Kallazhagar Temple),Spiritual Traveler / Nature Lover,Budget,both,4,Madurai
+Koodal Azhagar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Madurai
+Pazhamudhir Solai (Murugan Temple),Spiritual Traveler / Nature Lover,Budget,both,4,Madurai
+Thirumohor Kalamega Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Madurai
+Sri Soundararajaperumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Madurai
+Vandiyur Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Madurai
+Thirumalai Nayakkar Mahal (Palace),Culture Seeker / Budget Backpacker,Budget,indoor,5,Madurai
+Thousand Pillar Hall (Aayiram Kaal Mandapam),Culture Seeker / Budget Backpacker,Budget,indoor,2,Madurai
+Pudhu Mandapam (Shopping Hall),Culture Seeker / Shopper / Urban Explorer,Budget,indoor,2,Madurai
+St. Mary's Cathedral Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Madurai
+Kazimar Big Mosque,Spiritual Traveler / Culture Seeker,Budget,both,2,Madurai
+Maqbara Mosque,Spiritual Traveler / Culture Seeker,Budget,both,2,Madurai
+Gandhi Memorial Museum,Culture Seeker / Budget Backpacker,Budget,indoor,4,Madurai
+Government Museum Madurai,Culture Seeker / Budget Backpacker,Budget,indoor,2,Madurai
+Vaigai Dam,Nature Lover / Family Planner,Budget,outdoor,3,Madurai
+Samanar Hills,Adventure Seeker / Culture Seeker,Budget,outdoor,3,Madurai
+Kutladampatti Falls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Madurai
+Meghamalai Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Madurai
+Vandiyur Mariamman Teppakulam,Nature Lover / Spiritual Traveler,Budget,outdoor,2,Madurai
+Vaigai River View,Nature Lover / Relaxation Lover,Budget,outdoor,2,Madurai
+Athisayam Amusement Park,Family Planner / Adventure Seeker,Mid-range,outdoor,5,Madurai
+Eco Park Madurai,Nature Lover / Family Planner,Budget,outdoor,2,Madurai
+Meenakshi Temple Market Area,Shopper / Urban Explorer / Foodie,Budget,indoor,3,Madurai
+Town Hall Market,Shopper / Urban Explorer,Budget,indoor,2,Madurai
+East Gate Street Shopping,Shopper / Urban Explorer,Budget,indoor,2,Madurai
+Vilakkuthoon Market,Shopper / Urban Explorer / Culture Seeker,Budget,indoor,2,Madurai
+Murugan Idli Shop,Foodie / Budget Backpacker,Budget,indoor,2,Madurai
+Kumar Mess,Foodie / Culture Seeker,Budget,indoor,2,Madurai
+Sree Sabarees,Foodie / Budget Backpacker,Budget,both,2,Madurai
+Amsavalli Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Madurai
+Konar Kadai (Mutton Stall),Foodie / Culture Seeker,Budget,indoor,2,Madurai
+Heritage Madurai Restaurant,Foodie / Romantic Couple,Mid-range,indoor,2,Madurai
+Meenakshi Temple Evening Ceremony,Spiritual Traveler / Culture Seeker,Budget,both,2,Madurai
+Thirumalai Nayak Palace Light & Sound Show,Culture Seeker / Family Planner,Budget,indoor,2,Madurai
+Alagar Hills Trekking,Adventure Seeker / Spiritual Traveler,Budget,outdoor,4,Madurai
+Keelakuyilkudi Jain Caves,Culture Seeker / Adventure Seeker,Budget,outdoor,2,Madurai
+Ancient Inscriptions at Samanar Hills,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Madurai
+Rajaji Park,Nature Lover / Family Planner,Budget,outdoor,2,Madurai
+Tamukkam Ground,Culture Seeker / Family Planner,Budget,outdoor,2,Madurai
+Gopuram View from Temple Terrace,Culture Seeker / Nature Lover,Budget,both,2,Madurai
+Vaigai Dam Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,3,Madurai
+Madurai Silk Saree Weaving Center,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,2,Madurai
+Handloom Co-operative Society,Shopper / Culture Seeker,Budget,indoor,2,Madurai
+Madurai Flower Market,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,2,Madurai
+Banana Market Madurai,Culture Seeker / Shopper,Budget,indoor,2,Madurai
+Madurai Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Madurai
+Village Tourism near Madurai,Culture Seeker / Nature Lover,Budget,outdoor,4,Madurai
+Main Falls (Peraruvi) Courtallam,Nature Lover / Adventure Seeker,Budget,outdoor,5,Thenkasi
+Five Falls (Aintharuvi) Courtallam,Nature Lover / Family Planner,Budget,outdoor,4,Thenkasi
+Old Courtallam Falls,Nature Lover / Relaxation Lover,Budget,outdoor,4,Thenkasi
+Shenbagadevi Falls,Nature Lover / Spiritual Traveler,Budget,outdoor,3,Thenkasi
+Small Falls (Chitraruvi),Nature Lover / Family Planner,Budget,outdoor,2,Thenkasi
+Tiger Falls (Puliyaruvi),Adventure Seeker / Nature Lover,Budget,outdoor,3,Thenkasi
+Honey Falls (Thenaruvi),Adventure Seeker / Nature Lover,Budget,outdoor,3,Thenkasi
+Agasthiyar Falls,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Thenkasi
+Manimuthar Waterfalls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Thenkasi
+Kasi Viswanathar Temple Tenkasi,Spiritual Traveler / Culture Seeker,Budget,both,5,Thenkasi
+Thirukutralanathar Temple Courtallam,Spiritual Traveler / Culture Seeker,Budget,both,2,Thenkasi
+Thirumalai Kovil (Panpoli),Spiritual Traveler / Nature Lover,Budget,both,3,Thenkasi
+Sankaranarayana Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Thenkasi
+Kulasekharanathar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Thenkasi
+Shenbagadevi Amman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Thenkasi
+Kannimaramman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Thenkasi
+Ayikudi Balasubramanya Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Thenkasi
+Sivasailam Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Thenkasi
+Chitra Sabai Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Thenkasi
+Papanasam Dam,Nature Lover / Family Planner,Budget,outdoor,4,Thenkasi
+Manimuthar Dam,Nature Lover / Relaxation Lover,Budget,outdoor,3,Thenkasi
+Gundaru Dam,Nature Lover / Romantic Couple,Budget,outdoor,2,Thenkasi
+Karuppanadhi Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Thenkasi
+Thirumalapuram Rock-Cut Cave Temples,Culture Seeker / Adventure Seeker,Budget,outdoor,3,Thenkasi
+Siva Gangai Waterfalls & Temple,Spiritual Traveler / Nature Lover,Budget,outdoor,3,Thenkasi
+Western Ghats Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Thenkasi
+Thoranamali Hills Trekking,Adventure Seeker / Nature Lover,Budget,outdoor,4,Thenkasi
+Mekkarai Amusement Park,Family Planner / Adventure Seeker,Mid-range,outdoor,4,Thenkasi
+Eco Park Courtallam,Nature Lover / Family Planner,Budget,outdoor,2,Thenkasi
+Sundarapandiyapuram Agraharam,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Thenkasi
+Anniyan Para (Film Location),Culture Seeker / Nature Lover,Budget,outdoor,2,Thenkasi
+Mekkarai Village Tour,Culture Seeker / Nature Lover,Budget,outdoor,3,Thenkasi
+Sambavar Vadakarai (Sunflower Fields),Nature Lover / Romantic Couple,Budget,outdoor,2,Thenkasi
+Tenkasi Main Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Thenkasi
+Courtallam Market Area,Shopper / Urban Explorer,Budget,indoor,2,Thenkasi
+Herbal Products Market,Shopper / Culture Seeker,Budget,indoor,2,Thenkasi
+Courtallam Local Food Stalls,Foodie / Culture Seeker,Budget,indoor,2,Thenkasi
+Saravana Bhavan Tenkasi,Foodie / Budget Backpacker,Budget,indoor,2,Thenkasi
+Hotel Aryaas Tenkasi,Foodie / Budget Backpacker,Budget,indoor,2,Thenkasi
+Tenkasi Biryani Center,Foodie / Budget Backpacker,Budget,indoor,2,Thenkasi
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,indoor,2,Thenkasi
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Thenkasi
+Agasthiyar Falls Trekking,Adventure Seeker / Nature Lover,Mid-range,outdoor,5,Thenkasi
+Forest Bathing at Courtallam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Thenkasi
+Courtallam Valley View,Nature Lover / Romantic Couple,Budget,outdoor,2,Thenkasi
+Papanasam Dam Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,4,Thenkasi
+Chittar River Banks,Nature Lover / Relaxation Lover,Budget,outdoor,2,Thenkasi
+Tenkasi Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Thenkasi
+Medicinal Plants Garden,Nature Lover / Culture Seeker,Budget,outdoor,2,Thenkasi
+Courtallam Temple Pond,Spiritual Traveler / Nature Lover,Budget,outdoor,2,Thenkasi
+Brihadeeswarar Temple (Big Temple),Spiritual Traveler / Culture Seeker,Budget,both,5,Thanjavur
+Gangaikonda Cholapuram Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Thanjavur
+Airavatesvara Temple Darasuram,Spiritual Traveler / Culture Seeker,Budget,both,4,Thanjavur
+Punnainallur Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Thanjavur
+Thanjai Mamani Koil,Spiritual Traveler / Culture Seeker,Budget,both,2,Thanjavur
+Swamimalai Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Thanjavur
+Thiruvaiyaru Panchanatheeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Thanjavur
+Kumbakonam Temples Circuit,Spiritual Traveler / Culture Seeker,Mid-range,both,3,Thanjavur
+Thirubuvanam Kampaheswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Thanjavur
+Nageswaraswamy Temple Kumbakonam,Spiritual Traveler / Culture Seeker,Budget,both,2,Thanjavur
+Thanjavur Maratha Palace,Culture Seeker / Budget Backpacker,Budget,both,4,Thanjavur
+Saraswathi Mahal Library,Culture Seeker / Budget Backpacker,Budget,indoor,2,Thanjavur
+Sangeetha Mahal,Culture Seeker / Budget Backpacker,Budget,indoor,2,Thanjavur
+Durbar Hall (Palace Complex),Culture Seeker / Budget Backpacker,Budget,indoor,2,Thanjavur
+Bell Tower (Palace),Culture Seeker / Adventure Seeker,Budget,indoor,2,Thanjavur
+Raja Rajan Chola Art Gallery,Culture Seeker / Budget Backpacker,Budget,indoor,2,Thanjavur
+Royal Palace Museum,Culture Seeker / Family Planner,Budget,indoor,2,Thanjavur
+District Museum Thanjavur,Culture Seeker / Budget Backpacker,Budget,indoor,2,Thanjavur
+Tanjore Painting Art Gallery,Culture Seeker / Shopper,Budget,indoor,2,Thanjavur
+Schwartz Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Thanjavur
+St. Peter & Paul Church,Spiritual Traveler / Culture Seeker,Budget,both,2,Thanjavur
+Sivaganga Park,Nature Lover / Family Planner,Budget,outdoor,2,Thanjavur
+Manora Fort & Garden,Culture Seeker / Nature Lover,Budget,outdoor,2,Thanjavur
+Raja Serfoji Memorial Hall Garden,Nature Lover / Relaxation Lover,Budget,outdoor,2,Thanjavur
+Vijayanagar Fort,Culture Seeker / Adventure Seeker,Budget,outdoor,2,Thanjavur
+Danish Fort Tranquebar,Culture Seeker / Budget Backpacker,Mid-range,outdoor,4,Thanjavur
+Zion Church Tranquebar,Spiritual Traveler / Culture Seeker,Budget,both,2,Thanjavur
+Grand Anicut Canal Street Market,Shopper / Urban Explorer / Foodie,Budget,outdoor,2,Thanjavur
+Tanjore Painting Workshops,Culture Seeker / Shopper / Urban Explorer,Budget,indoor,3,Thanjavur
+Bronze Casting Centers Swamimalai,Culture Seeker / Shopper,Mid-range,indoor,3,Thanjavur
+Thanjavur Silk Saree Shops,Shopper / Urban Explorer,Budget,indoor,2,Thanjavur
+Sathars Restaurant,Foodie / Budget Backpacker,Budget,indoor,2,Thanjavur
+Hotel Gnanam,Foodie / Culture Seeker,Budget,indoor,2,Thanjavur
+Saravana Bhavan Thanjavur,Foodie / Budget Backpacker,Budget,indoor,2,Thanjavur
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Thanjavur
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,indoor,2,Thanjavur
+Vasantha Bhavan Thanjavur,Foodie / Budget Backpacker,Budget,indoor,2,Thanjavur
+Thanjavur Classical Music Festival,Culture Seeker / Spiritual Traveler,Budget,indoor,3,Thanjavur
+Traditional Bharatanatyam Performance,Culture Seeker / Family Planner,Mid-range,indoor,2,Thanjavur
+Tanjore Painting Workshop,Culture Seeker / Family Planner,Mid-range,indoor,3,Thanjavur
+Grand Anicut (Kallanai Dam),Culture Seeker / Nature Lover,Budget,outdoor,2,Thanjavur
+Cauvery River Banks,Nature Lover / Relaxation Lover,Budget,outdoor,2,Thanjavur
+Pichavaram Mangrove Forest,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Thanjavur
+Point Calimere Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Thanjavur
+Tranquebar Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Thanjavur
+Rajali Birds Park,Nature Lover / Family Planner,Budget,outdoor,2,Thanjavur
+Thanjavur Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Thanjavur
+Rice Bowl of Tamil Nadu Tour,Culture Seeker / Nature Lover,Budget,outdoor,2,Thanjavur
+Nandi Statue at Big Temple,Spiritual Traveler / Culture Seeker,Budget,outdoor,5,Thanjavur
+Temple Corridor Paintings,Culture Seeker / Budget Backpacker,Budget,both,2,Thanjavur
+Nellaiappar Temple,Spiritual Traveler / Culture Seeker,Budget,both,5,Tirunelveli
+Krishnapuram Venkatachalapathy Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Tirunelveli
+Sankaranarayana Temple Sankara Nagar,Spiritual Traveler / Culture Seeker,Budget,both,4,Tirunelveli
+Arulmigu Krishnapuram Anchaneyar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tirunelveli
+Papavinasam Temple,Spiritual Traveler / Nature Lover,Budget,both,2,Tirunelveli
+Athankarai Pallivasal,Spiritual Traveler / Culture Seeker,Budget,both,2,Tirunelveli
+Suyambulingaswamy Temple Sivagiri,Spiritual Traveler / Culture Seeker,Budget,both,3,Tirunelveli
+Nanguneri Sree Vaishnava Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tirunelveli
+Thirukkurungudi Nambi Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tirunelveli
+Sri Kumaraswamy Temple Kutralam,Spiritual Traveler / Nature Lover,Budget,both,2,Tirunelveli
+Agasthiyar Falls (Papanasam Falls),Nature Lover / Adventure Seeker,Budget,outdoor,4,Tirunelveli
+Manimuthar Waterfalls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Tirunelveli
+Banatheertham Falls,Nature Lover / Spiritual Traveler,Budget,outdoor,3,Tirunelveli
+Karaiyar Falls,Nature Lover / Adventure Seeker,Budget,outdoor,3,Tirunelveli
+Papanasam Dam (Karaiyar Dam),Nature Lover / Family Planner,Budget,outdoor,3,Tirunelveli
+Manimuthar Dam,Nature Lover / Family Planner,Budget,outdoor,3,Tirunelveli
+Mekkara Dam,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tirunelveli
+Servalar Dam,Nature Lover / Romantic Couple,Budget,outdoor,2,Tirunelveli
+Kalakkad Mundanthurai Tiger Reserve,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Tirunelveli
+Kalakkad Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Tirunelveli
+Kattabomman Memorial Fort,Culture Seeker / Budget Backpacker,Budget,outdoor,4,Tirunelveli
+Panchalankurichi Fort,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Tirunelveli
+Kazhugumalai Jain Temple & Rock-Cut Cave,Culture Seeker / Adventure Seeker,Budget,outdoor,3,Tirunelveli
+Kappal Matha Church (Ship Church),Spiritual Traveler / Culture Seeker,Budget,both,2,Tirunelveli
+St. Joseph's Church Palayamkottai,Spiritual Traveler / Culture Seeker,Budget,both,2,Tirunelveli
+CSI Zion Church Palayamkottai,Spiritual Traveler / Culture Seeker,Budget,both,2,Tirunelveli
+District Science Centre,Culture Seeker / Family Planner,Budget,indoor,3,Tirunelveli
+Thamirabarani River Bank,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tirunelveli
+Eco Park Tirunelveli,Nature Lover / Family Planner,Budget,outdoor,2,Tirunelveli
+Tirunelveli Halwa Shopping,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Tirunelveli
+Tirunelveli Main Market,Shopper / Urban Explorer,Budget,indoor,2,Tirunelveli
+Palayamkottai Market,Shopper / Urban Explorer,Budget,indoor,2,Tirunelveli
+Iruttukadai Halwa Shop,Foodie / Culture Seeker,Budget,indoor,2,Tirunelveli
+Sri Murugan Mess,Foodie / Budget Backpacker,Budget,indoor,2,Tirunelveli
+Saravana Bhavan Tirunelveli,Foodie / Budget Backpacker,Budget,indoor,2,Tirunelveli
+Hotel Aryaas Tirunelveli,Foodie / Budget Backpacker,Budget,indoor,2,Tirunelveli
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Tirunelveli
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,indoor,2,Tirunelveli
+Agasthiyar Hills Trekking,Adventure Seeker / Nature Lover,Mid-range,outdoor,4,Tirunelveli
+Western Ghats Bird Watching,Nature Lover / Adventure Seeker,Budget,outdoor,4,Tirunelveli
+Papanasam Viewpoint,Nature Lover / Romantic Couple,Budget,outdoor,2,Tirunelveli
+Manimuthar Dam Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,3,Tirunelveli
+Singampatti Zamin Palace,Culture Seeker / Budget Backpacker,Budget,indoor,2,Tirunelveli
+Tirunelveli Katcheri Building,Culture Seeker / Budget Backpacker,Budget,indoor,2,Tirunelveli
+Kothaiyar Sanatorium,Nature Lover / Relaxation Lover,Mid-range,outdoor,4,Tirunelveli
+Sorimuthu Ayyanar Temple,Spiritual Traveler / Nature Lover,Budget,both,2,Tirunelveli
+Tirunelveli Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Tirunelveli
+Thamirabarani River Boat Ride,Nature Lover / Family Planner,Budget,outdoor,2,Tirunelveli
+Musical Pillars of Nellaiappar Temple,Culture Seeker / Spiritual Traveler,Budget,both,5,Tirunelveli
+Tirunelveli Sangam Literature Sites,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Tirunelveli
+Devanathaswamy Temple (Thiruvanthipuram),Spiritual Traveler / Culture Seeker,Budget,both,4,Cuddalore
+Padaleeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Cuddalore
+Nataraja Temple Chidambaram,Spiritual Traveler / Culture Seeker,Budget,both,5,Cuddalore
+Bhuvaraha Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Cuddalore
+Sri Singirikudi Narasimha Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Cuddalore
+Veeratteswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Cuddalore
+Thirupathiripuliyur Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Cuddalore
+Pinnai Vazhi Amman Temple Samiyarpettai,Spiritual Traveler / Culture Seeker,Budget,both,2,Cuddalore
+Annamalai Temple (Tiruvannamalai nearby),Spiritual Traveler / Culture Seeker,Budget,both,5,Cuddalore
+Vridhachalam Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Cuddalore
+Silver Beach,Nature Lover / Relaxation Lover,Budget,outdoor,4,Cuddalore
+Samiyarpettai Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Cuddalore
+Devanampattinam Beach,Nature Lover / Romantic Couple,Budget,outdoor,2,Cuddalore
+Parangipettai Beach (Porto Novo),Nature Lover / Relaxation Lover,Budget,outdoor,2,Cuddalore
+Pichavaram Mangrove Forest,Nature Lover / Adventure Seeker,Mid-range,outdoor,5,Cuddalore
+Pichavaram Boat Ride (Row Boat),Adventure Seeker / Nature Lover,Mid-range,outdoor,2,Cuddalore
+Pichavaram Kayaking,Adventure Seeker / Nature Lover,Mid-range,outdoor,2,Cuddalore
+MGR Thittu (Island near Pichavaram),Nature Lover / Adventure Seeker,Budget,outdoor,3,Cuddalore
+Fort St. David,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Cuddalore
+Bhuvanagiri Fort,Culture Seeker / Adventure Seeker,Budget,outdoor,4,Cuddalore
+Danish Settlement Tranquebar,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Cuddalore
+Veeranam Lake,Nature Lover / Family Planner,Budget,outdoor,4,Cuddalore
+Perumal Lake (Bird Watching),Nature Lover / Adventure Seeker,Budget,outdoor,2,Cuddalore
+Cuddalore Government Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Cuddalore
+Annamalai University Herbarium,Culture Seeker / Nature Lover,Budget,indoor,2,Cuddalore
+CAS Marine Biology Aquarium,Culture Seeker / Family Planner,Budget,indoor,2,Cuddalore
+Our Lady of Lourdes Church Cuddalore,Spiritual Traveler / Culture Seeker,Budget,both,2,Cuddalore
+St. Joseph's Church Porto Novo,Spiritual Traveler / Culture Seeker,Budget,both,2,Cuddalore
+Children's Park Cuddalore,Family Planner / Nature Lover,Budget,outdoor,2,Cuddalore
+Eco Park Silver Beach,Nature Lover / Family Planner,Budget,outdoor,4,Cuddalore
+Cuddalore Main Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Cuddalore
+Chidambaram Market,Shopper / Urban Explorer,Budget,indoor,2,Cuddalore
+Handicraft Shops Pichavaram,Shopper / Culture Seeker,Budget,indoor,2,Cuddalore
+Seafood Stalls Silver Beach,Foodie / Culture Seeker,Budget,outdoor,4,Cuddalore
+Saravana Bhavan Cuddalore,Foodie / Budget Backpacker,Budget,indoor,2,Cuddalore
+Hotel Aryaas Cuddalore,Foodie / Budget Backpacker,Budget,indoor,2,Cuddalore
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,2,Cuddalore
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,indoor,2,Cuddalore
+Local Fish Market Restaurants,Foodie / Culture Seeker,Budget,indoor,2,Cuddalore
+Water Sports at Silver Beach,Adventure Seeker / Family Planner,Mid-range,outdoor,4,Cuddalore
+Fishing Village Tour,Culture Seeker / Nature Lover,Budget,outdoor,3,Cuddalore
+Silver Beach Lighthouse View,Nature Lover / Romantic Couple,Budget,outdoor,4,Cuddalore
+Gadilam River Viewpoint,Nature Lover / Relaxation Lover,Budget,outdoor,2,Cuddalore
+Chidambaram Dance Festival Venue,Culture Seeker / Spiritual Traveler,Budget,indoor,3,Cuddalore
+Traditional Wood Carving Villages,Culture Seeker / Shopper / Urban Explorer,Budget,both,2,Cuddalore
+Neyveli Lignite Mines (Viewpoint),Culture Seeker / Urban Explorer,Budget,outdoor,2,Cuddalore
+Cuddalore Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Cuddalore
+Vellar Estuary Bird Watching,Nature Lover / Adventure Seeker,Budget,outdoor,3,Cuddalore
+Cuddalore Old Town Walking Tour,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Cuddalore
+Sunset Point at Parangipettai,Nature Lover / Romantic Couple,Budget,outdoor,2,Cuddalore
+Thyagaraja Temple Tiruvarur,Spiritual Traveler / Culture Seeker,Budget,both,4,Tiruvarur
+Koothanur Maha Saraswathi Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvarur
+Mannargudi Rajagopalaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,4,Tiruvarur
+Srivanchiyam Vanchinathaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvarur
+Thiruveezhimalai Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvarur
+Thirupampuram Seshapureeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruvarur
+Thirukkannamangai Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruvarur
+Tillaivilagam Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruvarur
+Tirumeichur Udhara Kaliyeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,both,3,Tiruvarur
+Enkan Subramanyaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,both,2,Tiruvarur
+Muthupet Mangrove Forest,Nature Lover / Adventure Seeker,Mid-range,outdoor,4,Tiruvarur
+Muthupet Lagoon Boat Ride,Adventure Seeker / Nature Lover,Mid-range,outdoor,3,Tiruvarur
+Vaduvur Bird Sanctuary,Nature Lover / Adventure Seeker,Budget,outdoor,4,Tiruvarur
+Muthupet Estuary Bird Watching,Nature Lover / Adventure Seeker,Budget,outdoor,3,Tiruvarur
+Muthupet Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvarur
+Thiruthuraipoondi Beach,Nature Lover / Relaxation Lover,Budget,outdoor,2,Tiruvarur
+Tyagaraja Temple Museum,Culture Seeker / Budget Backpacker,Budget,indoor,2,Tiruvarur
+Carnatic Music Trinity Memorial,Culture Seeker / Budget Backpacker,Budget,indoor,2,Tiruvarur
+Ancient Musical Instruments Gallery,Culture Seeker / Budget Backpacker,Budget,indoor,2,Tiruvarur
+Aazhi Ther (Temple Chariot) Viewing,Culture Seeker / Spiritual Traveler,Budget,both,2,Tiruvarur
+Thyagaraja Temple 1000 Pillar Hall,Culture Seeker / Spiritual Traveler,Budget,both,2,Tiruvarur
+Mannargudi Temple Gopurams,Culture Seeker / Spiritual Traveler,Budget,both,2,Tiruvarur
+Muthupet Fort Ruins,Culture Seeker / Budget Backpacker,Budget,outdoor,2,Tiruvarur
+Ancient Chola Capital Sites,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Tiruvarur
+Muthupet Mosque (700 years old),Spiritual Traveler / Culture Seeker,Budget,both,1,Tiruvarur
+St. Mary's Church Mannargudi,Spiritual Traveler / Culture Seeker,Budget,both,1,Tiruvarur
+Rajaji Park Tiruvarur,Nature Lover / Family Planner,Budget,outdoor,2,Tiruvarur
+Children's Park Mannargudi,Family Planner / Nature Lover,Budget,outdoor,2,Tiruvarur
+Tiruvarur Main Market,Shopper / Urban Explorer / Foodie,Budget,indoor,2,Tiruvarur
+Mannargudi Market,Shopper / Urban Explorer,Budget,indoor,2,Tiruvarur
+Handicraft Shops near Temples,Shopper / Culture Seeker,Budget,indoor,2,Tiruvarur
+Saravana Bhavan Tiruvarur,Foodie / Budget Backpacker,Budget,indoor,1,Tiruvarur
+Hotel Aryaas Tiruvarur,Foodie / Budget Backpacker,Budget,indoor,1,Tiruvarur
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,indoor,1,Tiruvarur
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,indoor,1,Tiruvarur
+Local Mess (Traditional Food),Foodie / Budget Backpacker,Budget,indoor,1,Tiruvarur
+Muthupet Seafood Stalls,Foodie / Culture Seeker,Budget,indoor,1,Tiruvarur
+Temple Chariot Festival (Seasonal),Culture Seeker / Spiritual Traveler,Budget,both,5,Tiruvarur
+Carnatic Music Concert (Seasonal),Culture Seeker / Spiritual Traveler,Budget,indoor,3,Tiruvarur
+Mannargudi Temple Tank,Nature Lover / Spiritual Traveler,Budget,both,2,Tiruvarur
+Thiruveezhimalai Lake,Nature Lover / Relaxation Lover,Budget,outdoor,3,Tiruvarur
+Muthupet Lagoon Sunset Point,Nature Lover / Romantic Couple,Budget,outdoor,1,Tiruvarur
+Mannargudi Temple Tower View,Culture Seeker / Nature Lover,Budget,both,2,Tiruvarur
+Paddy Fields Tour (Rice Bowl),Culture Seeker / Nature Lover,Budget,outdoor,3,Tiruvarur
+Traditional Farming Village Visit,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Tiruvarur
+Tiruvarur Heritage Walk,Culture Seeker / Budget Backpacker,Budget,outdoor,3,Tiruvarur
+Temple Architecture Tour,Culture Seeker / Spiritual Traveler,Budget,both,4,Tiruvarur
+Fishing Village Experience Muthupet,Culture Seeker / Nature Lover,Budget,outdoor,3,Tiruvarur
+Wooden Walkway Muthupet (162m),Nature Lover / Adventure Seeker,Budget,outdoor,1,Tiruvarur
+Tiruvarur to Mannargudi Temple Circuit,Spiritual Traveler / Culture Seeker,Mid-range,outdoor,3,Tiruvarur

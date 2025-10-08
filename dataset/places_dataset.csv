@@ -1,0 +1,1221 @@
+place_name,category,cost_category,suitable_for,duration_hours,timing,destination_city
+Marina Beach,Nature Lover / Relaxation Lover / Romantic Couple,Budget,Couple / Family,2,06:00-18:00,Chennai
+Elliot's Beach,Nature Lover / Relaxation Lover / Budget Backpacker,Budget,Just Me / Family,2,06:00-18:00,Chennai
+Besant Nagar Beach,Nature Lover / Relaxation Lover / Foodie,Budget,Just Me / Family,2,06:00-18:00,Chennai
+Thiruvanmiyur Beach,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Chennai
+Covelong Beach,Adventure Seeker / Nature Lover,Budget,Just Me / Family,2,06:00-18:00,Chennai
+Neelankarai Beach,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Chennai
+Breezy Beach,Nature Lover / Relaxation Lover / Romantic Couple,Budget,Family,2,06:00-18:00,Chennai
+Palavakkam Beach,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Chennai
+Injambakkam Beach,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Chennai
+Santhome Beach,Nature Lover / Relaxation Lover / Budget Backpacker,Budget,Just Me / Family,2,06:00-18:00,Chennai
+Olcott Memorial Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Chennai
+Broken Bridge Beach,Adventure Seeker / Nature Lover,Budget,Just Me / Family,2,06:00-18:00,Chennai
+Bharathi Nagar Beach,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Chennai
+Kapaleeshwarar Temple,Culture Seeker / Spiritual Traveler,Mid-range,Family,1,06:00-20:00,Chennai
+Parthasarathy Temple,Culture Seeker / Spiritual Traveler,Mid-range,Family,1,05:00-19:00,Chennai
+Vadapalani Murugan Temple,Spiritual Traveler / Culture Seeker,Mid-range,Family,1,05:00-20:00,Chennai
+Ashtalakshmi Temple,Spiritual Traveler / Culture Seeker,Mid-range,Couple / Family,2,06:00-20:00,Chennai
+Marundeeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Chennai
+Shirdi Sai Baba Temple,Spiritual Traveler / Relaxation Lover,Budget,Couple / Family,1,05:30-21:00,Chennai
+Kandaswamy Temple,Spiritual Traveler / Culture Seeker,Mid-range,Family,1,05:30-21:00,Chennai
+Adyar Shiva Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,05:30-21:00,Chennai
+Thiruvalluvar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Chennai
+Kalikambal Temple,Spiritual Traveler / Culture Seeker,Mid-range,Couple / Family,1,05:00-20:00,Chennai
+Mahabalipuram Shore Temple,Culture Seeker / Spiritual Traveler,Budget,Family,1,05:00-19:00,Chennai
+Santhome Cathedral Basilica,Culture Seeker / Spiritual Traveler,Budget,Family,1,06:00-19:00,Chennai
+San Thome Church,Culture Seeker / Spiritual Traveler,Budget,Family,1,06:00-19:00,Chennai
+Luz Church,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,06:00-19:00,Chennai
+St. Mary's Church,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,06:00-19:00,Chennai
+Fort St. George Museum,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,09:30-17:00,Chennai
+Government Museum,Culture Seeker / Budget Backpacker,Mid-range,Just Me / Couple,2,09:30-17:00,Chennai
+DakshinaChitra Museum,Culture Seeker / Family Planner,Mid-range,Just Me / Couple,3,10:00-18:00,Chennai
+Gandhi Mandapam,Culture Seeker / Budget Backpacker,Budget,Family,2,09:30-17:00,Chennai
+Vivekananda House,Culture Seeker / Spiritual Traveler,Budget,Just Me / Couple,2,10:00-18:00,Chennai
+Birla Planetarium,Family Planner / Culture Seeker,Budget,Couple / Family,3,09:30-17:00,Chennai
+Egmore Museum Complex,Culture Seeker / Budget Backpacker,Mid-range,Family,2,09:00-17:00,Chennai
+Ayurveda College Museum,Culture Seeker / Relaxation Lover,Budget,Couple / Family,2,09:30-17:00,Chennai
+Guindy National Park,Nature Lover / Family Planner,Mid-range,Family,2,08:30-17:00,Chennai
+Semmozhi Poonga,Nature Lover / Relaxation Lover,Budget,Family,2,10:00-20:00,Chennai
+Nageswara Rao Park,Nature Lover / Family Planner,Mid-range,Family,2,09:00-17:30,Chennai
+Theosophical Society,Nature Lover / Relaxation Lover / Spiritual Traveler,Mid-range,Family,2,10:00-20:00,Chennai
+Arignar Anna Zoological Park,Nature Lover / Family Planner,Mid-range,Family,4,09:00-17:00,Chennai
+Madras Crocodile Bank,Nature Lover / Adventure Seeker,Mid-range,Family,4,09:00-17:00,Chennai
+Express Avenue Mall,Shopper / Urban Explorer / Foodie,Premium,Family,3,10:00-22:00,Chennai
+Phoenix Marketcity,Shopper / Urban Explorer / Foodie,Premium,Family,4,10:00-22:00,Chennai
+Forum Vijaya Mall,Shopper / Urban Explorer / Foodie,Premium,Family,4,10:00-22:00,Chennai
+Spencer Plaza,Shopper / Urban Explorer / Budget Backpacker,Mid-range,Family,4,10:00-22:00,Chennai
+Ampa Skywalk Mall,Shopper / Urban Explorer / Foodie,Premium,Family,3,10:00-22:00,Chennai
+VR Chennai,Shopper / Urban Explorer / Foodie,Premium,Family,4,10:00-22:00,Chennai
+Chennai Citi Centre,Shopper / Urban Explorer / Foodie,Mid-range,Family,3,10:00-22:00,Chennai
+Grand Square Mall,Shopper / Urban Explorer / Foodie,Mid-range,Family,4,10:00-22:00,Chennai
+Alsa Mall,Shopper / Urban Explorer / Foodie,Premium,Family,3,10:00-22:00,Chennai
+Pondy Bazaar,Shopper / Urban Explorer / Budget Backpacker,Budget,Family,2,09:00-20:00,Chennai
+Parrys Corner Market,Shopper / Urban Explorer / Foodie,Budget,Couple / Family,2,09:00-20:00,Chennai
+Sowcarpet Market,Shopper / Urban Explorer / Culture Seeker,Budget,Couple / Family,2,09:00-20:00,Chennai
+Ranganathan Street,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-20:00,Chennai
+T Nagar Shopping District,Shopper / Urban Explorer / Foodie,Budget,Couple / Family,2,10:00-21:00,Chennai
+Fort St George,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Chennai
+Valluvar Kottam,Culture Seeker,Budget,Family,2,09:00-18:00,Chennai
+Ripon Building,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Chennai
+High Court Building,Culture Seeker,Budget,Family,2,08:00-18:00,Chennai
+Connemara Public Library,Culture Seeker / Relaxation Lover,Budget,Just Me / Couple,1,09:00-18:00,Chennai
+George Town Heritage Area,Culture Seeker / Shopper / Urban Explorer,Budget,Just Me / Couple,2,08:00-18:00,Chennai
+Mylapore Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Chennai
+Anna Memorial,Culture Seeker,Budget,Just Me / Couple,1,08:00-18:00,Chennai
+MGR Memorial,Culture Seeker,Budget,Family,1,09:00-18:00,Chennai
+Arjuna's Penance,Culture Seeker / Adventure Seeker,Budget,Just Me / Couple,1,09:00-17:00,Chennai
+Five Rathas,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,09:00-18:00,Chennai
+MGR Film City,Culture Seeker / Family Planner,Premium,Family,5,10:00-18:00,Chennai
+Snow Kingdom,Adventure Seeker / Family Planner,Mid-range,Family,5,10:00-19:00,Chennai
+Kishkinta Theme Park,Adventure Seeker / Family Planner,Mid-range,Family,4,10:00-19:00,Chennai
+VGP Marine Kingdom,Adventure Seeker / Family Planner,Mid-range,Family,4,11:00-20:00,Chennai
+VGP Universal Kingdom,Adventure Seeker / Family Planner,Premium,Family,5,10:00-19:00,Chennai
+Saravana Bhavan,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:30-22:00,Chennai
+Murugan Idli Shop,Foodie / Budget Backpacker,Budget,Just Me / Family,1,11:00-23:00,Chennai
+Buhari Hotel,Foodie / Culture Seeker,Budget,Just Me / Family,1,07:00-22:00,Chennai
+Annalakshmi Restaurant,Foodie / Spiritual Traveler,Budget,Just Me / Family,1,06:30-22:00,Chennai
+Madras Coffee House,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Chennai
+Cafe Madras,Foodie / Budget Backpacker,Budget,Family,1,11:00-23:00,Chennai
+Gokulam Restaurant,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:30-22:00,Chennai
+Sangeetha Restaurant,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Chennai
+Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,11:00-23:00,Chennai
+Ratna Cafe,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:30-22:00,Chennai
+Woodlands Drive-In,Foodie / Family Planner,Budget,Just Me / Family,1,07:00-22:00,Chennai
+Amethyst Cafe,Foodie / Romantic Couple,Mid-range,Couple / Family,2,09:00-22:00,Chennai
+The Flying Elephant,Foodie / Family Planner,Mid-range,Couple,2,09:00-22:00,Chennai
+Copper Chimney,Foodie / Romantic Couple,Premium,Couple,2,08:00-22:00,Chennai
+Dakshin Restaurant,Foodie / Culture Seeker,Mid-range,Couple,2,10:00-23:00,Chennai
+Pumpkin Tales,Foodie / Romantic Couple,Premium,Couple / Family,2,08:00-22:00,Chennai
+Naturally Auroville,Foodie / Relaxation Lover,Mid-range,Couple,2,09:00-22:00,Chennai
+Chamiers Cafe,Foodie / Romantic Couple,Mid-range,Couple,2,11:00-23:00,Chennai
+Tuscana Pizzeria,Foodie / Family Planner,Premium,Couple,2,11:00-23:00,Chennai
+Writers Cafe,Foodie / Relaxation Lover,Mid-range,Couple,2,09:00-22:00,Chennai
+The Brew Room,Foodie / Shopper / Urban Explorer,Premium,Couple / Family,2,09:00-22:00,Chennai
+Ciclo Cafe,Foodie / Romantic Couple,Mid-range,Couple / Family,2,10:00-23:00,Chennai
+Kasi Theatre Coffee,Foodie / Romantic Couple,Mid-range,Couple,2,10:00-23:00,Chennai
+Kalakshetra Foundation,Culture Seeker / Spiritual Traveler,Mid-range,Couple / Family,2,10:00-18:00,Chennai
+Cholamandal Artists Village,Culture Seeker / Relaxation Lover,Mid-range,Couple / Family,2,10:00-18:00,Chennai
+Kalakendra Art Gallery,Culture Seeker,Mid-range,Couple / Family,2,10:00-18:00,Chennai
+Muttukadu Boat House,Adventure Seeker / Nature Lover,Mid-range,Just Me / Couple,2,08:00-17:00,Chennai
+Bay of Life Water Sports,Adventure Seeker / Nature Lover,Budget,Couple,2,09:00-18:00,Chennai
+Thiruthani Murugan Temple,Spiritual Traveler / Culture Seeker,Mid-range,Family,3,05:00-20:00,Tiruvallur
+Veeraraghava Perumal Temple,Spiritual Traveler / Culture Seeker,Mid-range,Couple / Family,2,06:00-20:00,Tiruvallur
+Sri Vadaranyeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Tiruvallur
+Panchamukha Anjaneyar Temple,Spiritual Traveler / Adventure Seeker,Budget,Couple / Family,2,06:00-20:00,Tiruvallur
+Siruvapuri Balamurugan Temple,Spiritual Traveler / Nature Lover,Mid-range,Family,3,05:30-20:00,Tiruvallur
+Vaseeswarar Temple Thirupachur,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-19:00,Tiruvallur
+Bhaktavatsala Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-20:00,Tiruvallur
+Oondreeswarar Shiva Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-19:00,Tiruvallur
+Masilamaniswara Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Tiruvallur
+Kadambathur Murugan Temple,Spiritual Traveler / Culture Seeker,Mid-range,Family,2,06:00-20:00,Tiruvallur
+Thyagaraja Temple Thiruvottiyur,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Tiruvallur
+Sri Veera Anjaneya Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Tiruvallur
+Jagannatha Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-19:00,Tiruvallur
+Bhavani Amman Temple Periyapalayam,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Tiruvallur
+Devadhanam Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Tiruvallur
+Sri Beteraya Swamy Temple,Spiritual Traveler,Budget,Family,1,06:00-20:00,Tiruvallur
+Pulicat Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,3,06:00-18:00,Tiruvallur
+Pulicat Bird Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,06:00-17:00,Tiruvallur
+Poondi Reservoir,Nature Lover / Relaxation Lover,Budget,Family,3,06:00-18:00,Tiruvallur
+Chembarambakkam Lake,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Tiruvallur
+Ponneri Lake,Nature Lover / Relaxation Lover / Romantic Couple,Budget,Couple / Family,2,06:00-19:00,Tiruvallur
+Red Hills Lake,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Tiruvallur
+Pulicat Lagoon Boat Ride,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,07:00-17:00,Tiruvallur
+Ponneri Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Tiruvallur
+Kattupalli Beach,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Tiruvallur
+Ennore Beach,Nature Lover / Relaxation Lover,Budget,Just Me / Family,2,06:00-18:00,Tiruvallur
+Pulicat Beach,Nature Lover / Relaxation Lover / Budget Backpacker,Budget,Couple / Family,2,06:00-18:00,Tiruvallur
+Gudiyam Caves,Adventure Seeker / Culture Seeker,Budget,Couple / Family,2,08:00-17:00,Tiruvallur
+Dutch Cemetery Pulicat,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,1,09:00-17:00,Tiruvallur
+Dutch Church Pulicat,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,09:00-17:00,Tiruvallur
+Ponneri Fort,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Tiruvallur
+Pulicat Lighthouse,Culture Seeker / Nature Lover,Budget,Couple / Family,1,10:00-17:00,Tiruvallur
+Queensland Amusement Park,Adventure Seeker / Family Planner,Mid-range,Family,5,10:00-19:00,Tiruvallur
+Peria Puliyur Forest,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,07:00-17:00,Tiruvallur
+Community Park Tiruvallur,Nature Lover / Family Planner,Budget,Family,1,06:00-20:00,Tiruvallur
+Vetri Garden Free Park,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Tiruvallur
+Suncity Park,Nature Lover / Family Planner,Budget,Family,1,06:00-20:00,Tiruvallur
+Ngo Colony Park,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Tiruvallur
+Poondi Madha Basilica,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-19:00,Tiruvallur
+St. Anthony's Church Ponneri,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-19:00,Tiruvallur
+Sacred Heart Church Tiruvallur,Spiritual Traveler,Budget,Family,1,06:00-19:00,Tiruvallur
+Tiruvallur Main Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-20:00,Tiruvallur
+Ponneri Local Market,Shopper / Urban Explorer / Culture Seeker,Budget,Couple / Family,2,08:00-20:00,Tiruvallur
+Gummidipundi Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-20:00,Tiruvallur
+Thiruthani Market Street,Shopper / Urban Explorer / Budget Backpacker,Budget,Family,2,09:00-20:00,Tiruvallur
+Anjappar Chettinad Restaurant,Foodie / Culture Seeker,Mid-range,Family,1,11:00-23:00,Tiruvallur
+Saravana Bhavan Tiruvallur,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Tiruvallur
+Hotel Aryaas,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Tiruvallur
+Murugan Idli Shop Tiruvallur,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:30-22:00,Tiruvallur
+SS Hyderabad Biryani,Foodie / Culture Seeker,Budget,Family,1,11:00-23:00,Tiruvallur
+Thiruthani Darshini Restaurant,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Tiruvallur
+Ponneri Hotel Annapoorna,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Tiruvallur
+Gummidipundi Sangeetha Restaurant,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Tiruvallur
+A2B - Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Tiruvallur
+Cafe Coffee Day Tiruvallur,Foodie / Romantic Couple,Mid-range,Couple,1,09:00-22:00,Tiruvallur
+Pulicat Fishing Experience,Adventure Seeker / Culture Seeker,Mid-range,Just Me / Couple,3,05:00-10:00,Tiruvallur
+Ponneri Lake Boating,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,1,09:00-17:00,Tiruvallur
+Pulicat Flamingo Watching,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,3,06:00-10:00,Tiruvallur
+Ponneri Fish Market,Culture Seeker / Foodie,Budget,Just Me / Couple,2,05:00-11:00,Tiruvallur
+Pulicat Village Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,08:00-17:00,Tiruvallur
+Tiruvallur Cultural Center,Culture Seeker / Family Planner,Budget,Family,2,09:00-18:00,Tiruvallur
+Poondi Dam Viewpoint,Nature Lover / Romantic Couple,Budget,Couple / Family,1,06:00-18:00,Tiruvallur
+Red Hills Lake Viewpoint,Nature Lover / Relaxation Lover,Budget,Couple / Family,1,06:00-18:00,Tiruvallur
+Pulicat Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,1,16:00-19:00,Tiruvallur
+Chembarambakkam Lake Viewpoint,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-18:00,Tiruvallur
+Sri Lakshmi Narasimha Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Tiruvallur
+Kailasanathar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-19:00,Tiruvallur
+Arulmigu Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Tiruvallur
+Vinayagar Temple Ponneri,Spiritual Traveler,Budget,Family,1,06:00-20:00,Tiruvallur
+Tiruvallur Shopping Complex,Shopper / Urban Explorer,Mid-range,Family,2,10:00-21:00,Tiruvallur
+Ponneri Textile Market,Shopper / Urban Explorer / Budget Backpacker,Budget,Family,2,09:00-20:00,Tiruvallur
+Kamakshi Amman Temple,Spiritual Traveler / Culture Seeker,Mid-range,Family,2,06:00-20:00,Kanchipuram
+Ekambareswarar Temple,Spiritual Traveler / Culture Seeker,Mid-range,Family,2,"06:00-12:30, 16:00-20:30",Kanchipuram
+Varadharaja Perumal Temple,Spiritual Traveler / Culture Seeker,Mid-range,Couple / Family,2,"06:00-12:30, 15:30-20:30",Kanchipuram
+Kailasanathar Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-18:00,Kanchipuram
+Ulagalantha Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Kanchipuram
+Vaikunda Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Kanchipuram
+Kumarakottam Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Kanchipuram
+Shore Temple Mahabalipuram,Spiritual Traveler / Culture Seeker,Mid-range,Couple / Family,2,06:00-18:00,Kanchipuram
+Thirukacchi Ekambam Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Kanchipuram
+Kachapeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Kanchipuram
+Pancha Rathas,Culture Seeker / Budget Backpacker,Mid-range,Couple / Family,2,06:00-18:00,Kanchipuram
+Arjuna's Penance,Culture Seeker / Adventure Seeker,Mid-range,Couple / Family,2,06:00-18:00,Kanchipuram
+Krishna's Butterball,Culture Seeker / Family Planner,Budget,Family,1,06:00-18:00,Kanchipuram
+Mahabalipuram Open Air Museum,Culture Seeker / Budget Backpacker,Mid-range,Couple / Family,2,06:00-18:00,Kanchipuram
+Tiger Cave Mahabalipuram,Adventure Seeker / Culture Seeker,Budget,Couple / Family,1,06:00-18:00,Kanchipuram
+Mahishasuramardini Cave,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,06:00-18:00,Kanchipuram
+Varaha Cave Temple,Culture Seeker / Spiritual Traveler,Budget,Family,1,06:00-18:00,Kanchipuram
+Mahabalipuram Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Kanchipuram
+Covelong Beach,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,3,06:00-18:00,Kanchipuram
+Silver Beach Mahabalipuram,Nature Lover / Relaxation Lover / Romantic Couple,Budget,Couple,2,06:00-19:00,Kanchipuram
+Sadras Beach,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Kanchipuram
+Kanchipuram Silk Saree Market,Shopper / Urban Explorer / Culture Seeker,Mid-range,Family,3,09:00-20:00,Kanchipuram
+Kanchipuram Co-operative Silk Society,Shopper / Urban Explorer,Mid-range,Couple / Family,2,09:00-19:00,Kanchipuram
+Gandhi Road Shopping Street,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Kanchipuram
+Kanchipuram Silk Weaving Center,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,2,09:00-18:00,Kanchipuram
+Mahabalipuram Handicrafts Market,Shopper / Urban Explorer / Budget Backpacker,Budget,Couple / Family,2,09:00-20:00,Kanchipuram
+Kanchi Kudil Heritage House,Culture Seeker / Family Planner,Budget,Family,2,09:00-17:00,Kanchipuram
+DakshinaChitra Museum,Culture Seeker / Family Planner,Mid-range,Family,3,10:00-18:00,Kanchipuram
+India Seashell Museum Mahabalipuram,Family Planner / Nature Lover,Mid-range,Family,2,09:00-18:00,Kanchipuram
+Vedanthangal Bird Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,3,06:00-18:00,Kanchipuram
+Madras Crocodile Bank,Nature Lover / Family Planner,Mid-range,Family,2,08:30-17:30,Kanchipuram
+Muttukadu Backwaters,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,09:00-18:00,Kanchipuram
+Muttukadu Boat House,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,09:00-18:00,Kanchipuram
+Kanchi Kamakoti Peetham,Spiritual Traveler / Culture Seeker,Budget,Family,2,07:00-19:00,Kanchipuram
+Adhi Varaha Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Kanchipuram
+Pandava Dootha Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Kanchipuram
+Saravana Bhavan Kanchipuram,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Kanchipuram
+Hotel Saravana Bhavan Mahabalipuram,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Kanchipuram
+Moonrakers Mahabalipuram,Foodie / Romantic Couple,Mid-range,Couple,2,12:00-23:00,Kanchipuram
+Le Yogi Mahabalipuram,Foodie / Relaxation Lover,Mid-range,Couple / Family,2,08:00-22:00,Kanchipuram
+Mamalla Bhavan,Foodie / Culture Seeker,Budget,Family,1,07:00-22:00,Kanchipuram
+Sea Shore Garden Restaurant,Foodie / Nature Lover,Mid-range,Couple / Family,2,11:00-23:00,Kanchipuram
+Covelong Point Surf School,Adventure Seeker / Nature Lover,Premium,Couple,3,07:00-17:00,Kanchipuram
+Mahabalipuram Water Sports Center,Adventure Seeker / Family Planner,Mid-range,Family,2,09:00-18:00,Kanchipuram
+Parasailing at Mahabalipuram,Adventure Seeker / Romantic Couple,Premium,Couple,2,08:00-17:00,Kanchipuram
+Kanchipuram Town Park,Nature Lover / Family Planner,Budget,Family,1,06:00-20:00,Kanchipuram
+Mahabalipuram Beach Park,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Kanchipuram
+Lighthouse Mahabalipuram,Culture Seeker / Nature Lover,Budget,Couple / Family,1,"10:00-13:00, 15:00-17:30",Kanchipuram
+Mahabalipuram Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,1,16:00-19:00,Kanchipuram
+Covelong Beach Sunset View,Nature Lover / Romantic Couple,Budget,Couple,1,16:00-19:00,Kanchipuram
+Sri Lakshmi Narayani Golden Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,04:00-20:00,Vellore
+Jalakandeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Vellore
+Ratnagiri Murugan Temple,Spiritual Traveler / Adventure Seeker,Budget,Couple / Family,2,06:00-20:00,Vellore
+Virinjipuram Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Vellore
+Margabandeeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-19:00,Vellore
+Sathuvachari Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Vellore
+St. John's Church,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,09:00-17:00,Vellore
+Big Mosque Vellore Fort,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,09:00-17:00,Vellore
+Vellore Fort,Culture Seeker / Budget Backpacker,Mid-range,Couple / Family,3,09:00-17:00,Vellore
+Archaeological Survey Museum Vellore,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,09:00-17:00,Vellore
+Government Museum Vellore,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Vellore
+Tipu Sultan's Mosque,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,09:00-17:00,Vellore
+Yelagiri Hills,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:00-18:00,Vellore
+Swamimalai Hills Yelagiri,Adventure Seeker / Nature Lover,Budget,Couple / Family,3,06:00-18:00,Vellore
+Jalagamparai Waterfalls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,07:00-17:00,Vellore
+Punganur Lake Yelagiri,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Vellore
+Amirthi Zoological Park,Nature Lover / Family Planner,Mid-range,Family,4,09:00-17:30,Vellore
+Amirthi Forest,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,07:00-18:00,Vellore
+Palamathi Hills,Adventure Seeker / Nature Lover,Budget,Couple / Family,3,06:00-18:00,Vellore
+Kavalur Observatory,Culture Seeker / Family Planner,Mid-range,Family,2,10:00-16:00,Vellore
+Periyar Park,Nature Lover / Family Planner,Budget,Family,2,06:00-20:00,Vellore
+Science Park Vellore,Family Planner / Culture Seeker,Budget,Family,2,10:00-18:00,Vellore
+Botanical Garden Yelagiri,Nature Lover / Relaxation Lover,Budget,Family,2,09:00-17:00,Vellore
+Rose Garden Yelagiri,Nature Lover / Romantic Couple,Budget,Couple,1,09:00-18:00,Vellore
+Yelagiri Adventure Camp,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,4,08:00-17:00,Vellore
+Paragliding at Yelagiri,Adventure Seeker / Romantic Couple,Premium,Couple,2,09:00-16:00,Vellore
+Trekking at Yelagiri,Adventure Seeker / Nature Lover,Budget,Couple / Family,4,06:00-10:00,Vellore
+Zip Line Yelagiri,Adventure Seeker / Family Planner,Mid-range,Family,2,09:00-17:00,Vellore
+Boating at Punganur Lake,Nature Lover / Family Planner,Mid-range,Family,1,09:00-17:00,Vellore
+Main Bazaar Vellore,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Vellore
+VIT Market Complex,Shopper / Urban Explorer,Budget,Just Me / Couple,2,10:00-21:00,Vellore
+Gandhi Road Shopping,Shopper / Urban Explorer,Budget,Family,2,09:00-21:00,Vellore
+Yelagiri Handicrafts Market,Shopper / Urban Explorer / Budget Backpacker,Budget,Couple / Family,2,09:00-19:00,Vellore
+Darling Restaurant Vellore,Foodie / Budget Backpacker,Budget,Just Me / Family,1,11:00-23:00,Vellore
+Saravana Bhavan Vellore,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Vellore
+The Vellore Kitchen,Foodie / Culture Seeker,Mid-range,Family,1,12:00-23:00,Vellore
+Alankar Virundhu,Foodie / Culture Seeker,Mid-range,Family,1,"11:30-15:00, 18:30-22:30",Vellore
+Sai Sangeet Restaurant,Foodie / Budget Backpacker,Budget,Family,1,11:00-23:00,Vellore
+Yelagiri Lake View Cafe,Foodie / Romantic Couple,Mid-range,Couple,2,08:00-20:00,Vellore
+Hotel Aryaas Vellore,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Vellore
+Peter England Bakery,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-21:00,Vellore
+Yelagiri Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-19:00,Vellore
+Telescope Observatory Yelagiri,Family Planner / Nature Lover,Mid-range,Family,1,18:00-21:00,Vellore
+Sunset Point Yelagiri,Nature Lover / Romantic Couple,Budget,Couple,1,16:00-19:00,Vellore
+CMC Vellore Campus Tour,Culture Seeker / Family Planner,Budget,Family,2,09:00-17:00,Vellore
+VIT University Campus,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,09:00-18:00,Vellore
+Silk Farm Yelagiri,Culture Seeker / Family Planner,Budget,Family,2,09:00-17:00,Vellore
+Nilavoor Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Vellore
+Vellore Nature Park,Nature Lover / Family Planner,Budget,Family,2,06:00-19:00,Vellore
+Fundera Park Vellore,Family Planner / Nature Lover,Mid-range,Family,2,10:00-19:00,Vellore
+Shore Temple Mahabalipuram,Spiritual Traveler / Culture Seeker,Mid-range,Couple / Family,2,06:00-18:00,Chengalpattu
+Vedagiriswarar Temple Thirukalukundram,Spiritual Traveler / Adventure Seeker,Budget,Family,3,06:00-20:00,Chengalpattu
+Kandhaswamy Temple Tirupporur,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Chengalpattu
+Nithya Kalyana Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Chengalpattu
+Srinivasa Perumal Temple Semmanjeri,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Chengalpattu
+Tiruvidanthai Lakshmi Narasimha Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Chengalpattu
+Vallam Hill Cave Temple,Spiritual Traveler / Adventure Seeker,Budget,Couple / Family,2,06:00-19:00,Chengalpattu
+Sthalasayana Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Chengalpattu
+Pancha Rathas,Culture Seeker / Budget Backpacker,Mid-range,Couple / Family,2,06:00-18:00,Chengalpattu
+Arjuna's Penance,Culture Seeker / Adventure Seeker,Mid-range,Couple / Family,2,06:00-18:00,Chengalpattu
+Krishna's Butter Ball,Culture Seeker / Family Planner,Budget,Family,1,06:00-18:00,Chengalpattu
+Tiger Cave Mahabalipuram,Adventure Seeker / Culture Seeker,Budget,Couple / Family,1,06:00-18:00,Chengalpattu
+Varaha Cave Temple,Culture Seeker / Spiritual Traveler,Budget,Family,1,06:00-18:00,Chengalpattu
+Mahishasuramardini Cave,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,06:00-18:00,Chengalpattu
+Alamparai Fort,Culture Seeker / Adventure Seeker,Budget,Couple / Family,2,06:00-18:00,Chengalpattu
+Sadras Fort,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Chengalpattu
+Mahabalipuram Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Chengalpattu
+Kovalam Beach,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Chengalpattu
+Mudaliarkuppam Beach,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Chengalpattu
+Covelong Beach,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,3,06:00-18:00,Chengalpattu
+Arignar Anna Zoological Park Vandalur,Nature Lover / Family Planner,Mid-range,Family,5,09:00-17:00,Chengalpattu
+Madras Crocodile Bank,Nature Lover / Family Planner,Mid-range,Family,2,08:30-17:30,Chengalpattu
+Vedanthangal Bird Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,3,06:00-18:00,Chengalpattu
+Karikili Bird Sanctuary,Nature Lover / Adventure Seeker,Budget,Couple / Family,2,06:00-18:00,Chengalpattu
+Muttukadu Boat House,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,09:00-18:00,Chengalpattu
+Muttukadu Backwaters,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,09:00-18:00,Chengalpattu
+Mudaliarkuppam Boat House,Adventure Seeker / Family Planner,Mid-range,Family,2,09:00-18:00,Chengalpattu
+Kovalam Lake,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Chengalpattu
+DakshinaChitra Museum,Culture Seeker / Family Planner,Mid-range,Family,3,10:00-18:00,Chengalpattu
+India Seashell Museum,Family Planner / Nature Lover,Mid-range,Family,2,09:00-18:00,Chengalpattu
+Sculpture Museum Mahabalipuram,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Chengalpattu
+MGM Dizzee World,Adventure Seeker / Family Planner,Premium,Family,6,10:00-19:00,Chengalpattu
+Mayajaal Multiplex,Family Planner / Shopper / Urban Explorer,Mid-range,Family,4,10:00-22:00,Chengalpattu
+Mahabalipuram Handicrafts Market,Shopper / Urban Explorer / Budget Backpacker,Budget,Couple / Family,2,09:00-20:00,Chengalpattu
+Stone Sculpture Shops Mahabalipuram,Shopper / Urban Explorer / Culture Seeker,Mid-range,Couple / Family,2,09:00-19:00,Chengalpattu
+Chengalpattu Main Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Chengalpattu
+Moonrakers Mahabalipuram,Foodie / Romantic Couple,Mid-range,Couple,2,12:00-23:00,Chengalpattu
+Le Yogi Mahabalipuram,Foodie / Relaxation Lover,Mid-range,Couple / Family,2,08:00-22:00,Chengalpattu
+Mamalla Bhavan,Foodie / Culture Seeker,Budget,Family,1,07:00-22:00,Chengalpattu
+Sea Shore Garden Restaurant,Foodie / Nature Lover,Mid-range,Couple / Family,2,11:00-23:00,Chengalpattu
+Saravana Bhavan Chengalpattu,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Chengalpattu
+Hotel Aryaas Chengalpattu,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Chengalpattu
+Covelong Point Surf School,Adventure Seeker / Nature Lover,Premium,Couple,3,07:00-17:00,Chengalpattu
+Mahabalipuram Water Sports,Adventure Seeker / Family Planner,Mid-range,Family,2,09:00-18:00,Chengalpattu
+Mahabalipuram Lighthouse,Culture Seeker / Nature Lover,Budget,Couple / Family,1,"10:00-13:00, 15:00-17:30",Chengalpattu
+Mahabalipuram Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,1,16:00-19:00,Chengalpattu
+Kovalam Beach Sunset View,Nature Lover / Romantic Couple,Budget,Couple,1,16:00-19:00,Chengalpattu
+Chengalpattu Town Park,Nature Lover / Family Planner,Budget,Family,1,06:00-20:00,Chengalpattu
+Mahabalipuram Beach Park,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Chengalpattu
+Cholamandal Artists Village,Culture Seeker / Relaxation Lover,Mid-range,Couple / Family,2,10:00-18:00,Chengalpattu
+Gingee Fort,Culture Seeker / Adventure Seeker,Mid-range,Couple / Family,4,09:00-17:30,Villupuram
+Kalyana Mahal Gingee,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:30,Villupuram
+Rajagiri Fort,Adventure Seeker / Culture Seeker,Budget,Couple / Family,3,09:00-17:00,Villupuram
+Krishnagiri Fort Gingee,Adventure Seeker / Culture Seeker,Budget,Couple / Family,2,09:00-17:00,Villupuram
+Auroville Matrimandir,Spiritual Traveler / Relaxation Lover,Budget,Couple / Family,3,09:00-17:30,Villupuram
+Auroville Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Villupuram
+Savitri Bhavan Auroville,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,09:00-17:00,Villupuram
+Sadhana Forest Auroville,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Villupuram
+Quiet Healing Centre Auroville,Relaxation Lover / Spiritual Traveler,Mid-range,Couple,2,10:00-18:00,Villupuram
+Botanical Garden Auroville,Nature Lover / Relaxation Lover,Budget,Family,2,09:00-17:00,Villupuram
+Venugopala Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Villupuram
+Mailam Murugan Temple,Spiritual Traveler / Adventure Seeker,Budget,Family,2,06:00-20:00,Villupuram
+Thiruvamathur Chola Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Villupuram
+Melmalaiyanur Angalamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Villupuram
+Venkataramana Temple Gingee,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Villupuram
+Panchavati Panchamukha Anjaneyar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Villupuram
+Lakshmi Narasimha Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Villupuram
+Ranganatha Temple Gingee,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Villupuram
+National Fossil Wood Park Tiruvakkarai,Nature Lover / Family Planner,Mid-range,Family,3,09:00-17:00,Villupuram
+Kalvarayan Hills,Nature Lover / Adventure Seeker,Budget,Couple / Family,5,06:00-18:00,Villupuram
+Ousteri Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Villupuram
+Pichavaram Mangrove Forest,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,3,08:00-17:00,Villupuram
+Marakkanam Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Villupuram
+Serenity Beach Auroville,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Villupuram
+Auroville Beach Sunrise Point,Nature Lover / Romantic Couple,Budget,Couple,1,05:30-08:00,Villupuram
+Dalavanur Rock Cut Temple,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,09:00-17:00,Villupuram
+Mandagapattu Rock Temple,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,09:00-17:00,Villupuram
+Panamalai Cave Temple,Spiritual Traveler / Adventure Seeker,Budget,Couple / Family,2,06:00-18:00,Villupuram
+Jain Caves Sirukadambur,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,2,09:00-17:00,Villupuram
+Villupuram Main Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Villupuram
+Auroville Boutiques,Shopper / Urban Explorer / Culture Seeker,Mid-range,Couple / Family,2,09:00-18:00,Villupuram
+Gingee Market Street,Shopper / Urban Explorer / Budget Backpacker,Budget,Family,2,09:00-20:00,Villupuram
+Marc's Cafe Auroville,Foodie / Romantic Couple,Mid-range,Couple,2,08:00-22:00,Villupuram
+Tanto Pizzeria Auroville,Foodie / Family Planner,Mid-range,Family,2,11:00-22:00,Villupuram
+Bread & Chocolate Auroville,Foodie / Relaxation Lover,Mid-range,Couple / Family,1,08:00-20:00,Villupuram
+Well Cafe Auroville,Foodie / Budget Backpacker,Budget,Just Me / Couple,1,09:00-21:00,Villupuram
+Saravana Bhavan Villupuram,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Villupuram
+Hotel Aryaas Villupuram,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Villupuram
+Solar Kitchen Auroville,Foodie / Culture Seeker,Budget,Family,1,12:00-14:00,Villupuram
+Auroville Visitors Centre,Culture Seeker / Family Planner,Budget,Family,2,09:00-17:30,Villupuram
+Mangala Buddha Vihar,Spiritual Traveler / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Villupuram
+Adishakti Theatre Arts Auroville,Culture Seeker / Family Planner,Mid-range,Couple / Family,3,10:00-18:00,Villupuram
+Kalvarayan Hills Trekking,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-12:00,Villupuram
+Pichavaram Boat Ride,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,08:00-17:00,Villupuram
+Villupuram Town Park,Nature Lover / Family Planner,Budget,Family,1,06:00-20:00,Villupuram
+Auroville Youth Center,Family Planner / Culture Seeker,Budget,Family,2,09:00-18:00,Villupuram
+Gingee Prisoners Well,Culture Seeker / Adventure Seeker,Budget,Couple / Family,1,09:00-17:00,Villupuram
+Saad-at-allah Khan Mosque,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,09:00-17:00,Villupuram
+Marakkanam Salt Pans,Culture Seeker / Nature Lover,Budget,Couple / Family,2,08:00-17:00,Villupuram
+Matrimandir Viewing Point,Nature Lover / Romantic Couple,Budget,Couple,1,09:00-17:00,Villupuram
+Krishnagiri Fort,Culture Seeker / Adventure Seeker,Budget,Couple / Family,3,06:00-18:00,Krishnagiri
+Rayakottah Fort,Adventure Seeker / Culture Seeker,Budget,Couple / Family,3,09:00-17:00,Krishnagiri
+Krishnagiri Government Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Krishnagiri
+Shree Parshwa Padmavathi Shaktipeet,Spiritual Traveler / Culture Seeker,Mid-range,Family,3,06:00-20:00,Krishnagiri
+Sri Kattu Veera Anjaneya Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-13:00, 16:00-20:00",Krishnagiri
+Chandra Choodeswarar Temple Hosur,Spiritual Traveler / Adventure Seeker,Budget,Family,2,"06:00-12:30, 16:00-20:00",Krishnagiri
+Dakshina Tirupati Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Krishnagiri
+Arulmigu Maragathamigai Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Krishnagiri
+Ganesh Temple Krishnagiri Fort,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Krishnagiri
+Narasimha Temple Krishnagiri,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Krishnagiri
+Pettaraya Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Krishnagiri
+Jain Basadi Krishnagiri,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,09:00-17:00,Krishnagiri
+Krishnagiri Dam,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Krishnagiri
+KRP Dam Park,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Krishnagiri
+Kelavarapalli Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,09:00-18:00,Krishnagiri
+Thally Reservoir,Nature Lover / Romantic Couple,Budget,Couple / Family,2,06:00-18:00,Krishnagiri
+Anchetty Dam,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Krishnagiri
+Javadi Hills,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-18:00,Krishnagiri
+Aiyur Eco Tourism Park,Nature Lover / Family Planner,Mid-range,Family,4,08:00-17:00,Krishnagiri
+Thally Garden,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Krishnagiri
+Berigai Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-18:00,Krishnagiri
+Doddametrai River Temple,Spiritual Traveler / Nature Lover,Budget,Couple / Family,2,06:00-18:00,Krishnagiri
+Hogenakkal Falls,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,06:00-18:00,Krishnagiri
+Palacode Waterfalls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,07:00-17:00,Krishnagiri
+Muthanallur Lake,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Krishnagiri
+Avathanapatti Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Krishnagiri
+Krishnagiri Rose Garden,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-20:00,Krishnagiri
+Hosur Deer Park,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Krishnagiri
+Brahma Hills Park,Nature Lover / Adventure Seeker,Budget,Couple / Family,2,06:00-18:00,Krishnagiri
+Kelavarapalli Rock Garden,Nature Lover / Family Planner,Budget,Family,2,08:00-17:00,Krishnagiri
+Krishnagiri Mango Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-20:00,Krishnagiri
+Hosur Main Market,Shopper / Urban Explorer,Budget,Family,2,09:00-21:00,Krishnagiri
+Krishnagiri Central Market,Shopper / Urban Explorer / Budget Backpacker,Budget,Family,2,09:00-21:00,Krishnagiri
+Saravana Bhavan Krishnagiri,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Krishnagiri
+Hotel Aryaas Krishnagiri,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Krishnagiri
+Adiga's Restaurant Hosur,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Krishnagiri
+Highway King Dhaba,Foodie / Culture Seeker,Mid-range,Family,1,11:00-23:00,Krishnagiri
+Barbeque Nation Hosur,Foodie / Romantic Couple,Premium,Couple / Family,2,12:00-23:00,Krishnagiri
+A2B Adyar Ananda Bhavan Hosur,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Krishnagiri
+Sangeetha Restaurant Krishnagiri,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Krishnagiri
+Hogenakkal Coracle Boat Ride,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,07:00-17:00,Krishnagiri
+Javadi Hills Trekking,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-12:00,Krishnagiri
+Hosur Industrial Tour,Culture Seeker / Budget Backpacker,Mid-range,Just Me / Couple,3,09:00-17:00,Krishnagiri
+Dennakottai Valley,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,06:00-18:00,Krishnagiri
+Hanuman Thirtham,Spiritual Traveler / Nature Lover,Budget,Family,2,06:00-18:00,Krishnagiri
+Krishnagiri Rose Garden Night View,Nature Lover / Romantic Couple,Budget,Couple,1,18:00-22:00,Krishnagiri
+Hosur Clock Tower,Culture Seeker / Shopper / Urban Explorer,Budget,Family,1,Open 24 hours,Krishnagiri
+Anchetty Forest Reserve,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,07:00-17:00,Krishnagiri
+Kaveri Pattinm Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Krishnagiri
+Thally Children's Park,Family Planner / Nature Lover,Budget,Family,2,09:00-18:00,Krishnagiri
+Thindal Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Erode
+Chennimalai Murugan Temple,Spiritual Traveler / Adventure Seeker,Mid-range,Family,3,06:00-20:00,Erode
+Bannari Amman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,05:00-21:00,Erode
+Bhavani Sangameswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Erode
+Periya Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,07:00-20:00,Erode
+Arudra Kabaliswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Erode
+Nattatreswaran Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Erode
+Kodumudi Temples (Magudeshwarar & Veeranarayana),Spiritual Traveler / Culture Seeker,Budget,Family,3,06:00-20:00,Erode
+Pariyur Kondathu Kaliamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Erode
+Kasthuri Ranganathar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Erode
+Bhavanisagar Dam,Nature Lover / Family Planner,Mid-range,Family,3,09:00-18:30,Erode
+Kodiveri Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,3,09:00-17:00,Erode
+Kalingarayan Anicut,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Erode
+Lower Bhavani Project Dam,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Erode
+Kunderipallam Dam,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Erode
+Kodiveri Waterfalls,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,3,09:00-17:00,Erode
+Kunderipallam Waterfalls,Adventure Seeker / Nature Lover,Budget,Couple / Family,3,08:00-17:00,Erode
+Anthiyur Lake Waterfalls,Nature Lover / Romantic Couple,Budget,Couple,2,08:00-17:00,Erode
+Bhavani Kuttralam Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,2,07:00-17:00,Erode
+Sathyamangalam Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:00-17:00,Erode
+Vellode Bird Sanctuary,Nature Lover / Family Planner,Mid-range,Couple / Family,3,06:00-18:00,Erode
+Bhavani Sagar Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,07:00-17:00,Erode
+Sidheshwara Hills,Adventure Seeker / Nature Lover,Budget,Couple / Family,4,06:00-18:00,Erode
+Bannari Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-19:00,Erode
+Bhalammalai Hills,Adventure Seeker / Nature Lover,Budget,Couple / Family,3,06:00-18:00,Erode
+Erode Fort,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Erode
+Erode Government Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Erode
+VOC Park Erode,Nature Lover / Family Planner,Budget,Family,2,06:00-20:00,Erode
+Periya Kalyana Mandapam Park,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Erode
+Erode Children's Park,Family Planner / Nature Lover,Budget,Family,2,09:00-19:00,Erode
+Cauvery Botanical Garden,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,09:00-18:00,Erode
+Erode Turmeric Market,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,2,08:00-17:00,Erode
+Erode Handloom Market,Shopper / Urban Explorer / Culture Seeker,Budget,Family,2,09:00-20:00,Erode
+Bhavani Pavadai Market,Shopper / Urban Explorer / Culture Seeker,Mid-range,Family,2,09:00-20:00,Erode
+Erode Central Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-21:00,Erode
+Saravana Bhavan Erode,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Erode
+Hotel Aryaas Erode,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Erode
+Ponram Restaurant,Foodie / Culture Seeker,Mid-range,Family,1,11:00-23:00,Erode
+A2B Adyar Ananda Bhavan Erode,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Erode
+Sri Krishna Sweets Erode,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Erode
+Sangeetha Restaurant Erode,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Erode
+Anjappar Chettinad Restaurant,Foodie / Culture Seeker,Mid-range,Family,1,11:00-23:00,Erode
+Kodiveri Coracle Boat Ride,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,09:00-17:00,Erode
+Sidheshwara Hills Trekking,Adventure Seeker / Nature Lover,Budget,Couple / Family,4,06:00-12:00,Erode
+Bhavani-Cauvery Sangamam,Spiritual Traveler / Nature Lover,Budget,Couple / Family,2,06:00-18:00,Erode
+Cauvery River View Point,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-19:00,Erode
+Chennimalai Handloom Weaving Center,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,2,09:00-18:00,Erode
+Erode Town Hall,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,1,09:00-17:00,Erode
+Sathyamangalam Forest Reserve,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,07:00-17:00,Erode
+Bhavani River Bathing Ghat,Spiritual Traveler / Relaxation Lover,Budget,Family,1,06:00-18:00,Erode
+Ooty Lake,Nature Lover / Family Planner,Mid-range,Family,3,08:00-18:00,Nilgiris
+Pykara Lake,Nature Lover / Relaxation Lover,Mid-range,Couple / Family,3,09:00-17:00,Nilgiris
+Emerald Lake,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Nilgiris
+Avalanche Lake,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,08:00-17:00,Nilgiris
+Upper Bhavani Lake,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,07:00-16:00,Nilgiris
+Government Botanical Garden Ooty,Nature Lover / Family Planner,Mid-range,Family,3,08:30-18:30,Nilgiris
+Rose Garden Ooty,Nature Lover / Romantic Couple,Budget,Couple / Family,2,08:30-18:30,Nilgiris
+Sims Park Coonoor,Nature Lover / Family Planner,Budget,Family,2,08:30-18:30,Nilgiris
+Thread Garden Ooty,Culture Seeker / Family Planner,Budget,Family,1,09:00-18:00,Nilgiris
+Doddabetta Peak,Adventure Seeker / Nature Lover,Budget,Couple / Family,3,08:00-17:00,Nilgiris
+Dolphin's Nose Coonoor,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,09:00-18:00,Nilgiris
+Lamb's Rock Coonoor,Nature Lover / Romantic Couple,Budget,Couple,1,09:00-18:00,Nilgiris
+Kodanad Viewpoint Kotagiri,Nature Lover / Romantic Couple,Budget,Couple / Family,2,06:00-18:00,Nilgiris
+Rangaswamy Peak Kotagiri,Adventure Seeker / Spiritual Traveler,Budget,Couple / Family,3,06:00-17:00,Nilgiris
+Tiger Hill Ooty,Nature Lover / Adventure Seeker,Budget,Couple / Family,2,09:00-17:00,Nilgiris
+Catherine Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,2,08:00-17:00,Nilgiris
+Pykara Waterfalls,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,3,09:00-17:00,Nilgiris
+Kalhatti Falls,Nature Lover / Spiritual Traveler,Budget,Couple / Family,2,08:00-17:00,Nilgiris
+Elk Falls Kotagiri,Adventure Seeker / Nature Lover,Budget,Couple / Family,3,08:00-17:00,Nilgiris
+Law's Falls Coonoor,Nature Lover / Romantic Couple,Budget,Couple,2,08:00-17:00,Nilgiris
+Mudumalai Tiger Reserve,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:30-18:00,Nilgiris
+Mukurthi National Park,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,07:00-16:00,Nilgiris
+Longwood Shola Reserve,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Nilgiris
+Kotagiri Tea Estates,Nature Lover / Relaxation Lover,Mid-range,Couple / Family,3,09:00-17:00,Nilgiris
+Coonoor Tea Gardens,Nature Lover / Romantic Couple,Budget,Couple / Family,2,09:00-17:00,Nilgiris
+Glenmorgan Tea Estate,Culture Seeker / Nature Lover,Mid-range,Couple / Family,3,09:00-17:00,Nilgiris
+Stone House Ooty,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,09:00-17:00,Nilgiris
+Droog Fort Coonoor,Adventure Seeker / Culture Seeker,Budget,Couple / Family,3,10:00-17:00,Nilgiris
+St. Stephen's Church Ooty,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,09:00-17:00,Nilgiris
+Tribal Research Center,Culture Seeker / Family Planner,Budget,Family,2,10:00-17:00,Nilgiris
+Wax World Museum,Culture Seeker / Family Planner,Mid-range,Family,2,10:00-18:00,Nilgiris
+Tea Museum Coonoor,Culture Seeker / Foodie,Budget,Couple / Family,2,09:00-17:00,Nilgiris
+Nilgiri Mountain Railway,Culture Seeker / Family Planner,Mid-range,Family,5,07:10-12:00,Nilgiris
+Avalanche Trekking Trail,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-12:00,Nilgiris
+Ooty Lake Boating,Family Planner / Romantic Couple,Mid-range,Family,2,09:00-18:00,Nilgiris
+Pine Forest Ooty,Nature Lover / Romantic Couple,Budget,Couple / Family,2,08:00-18:00,Nilgiris
+Ooty Main Bazaar,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Nilgiris
+Coonoor Market,Shopper / Urban Explorer,Budget,Family,2,09:00-20:00,Nilgiris
+Tibetan Market Ooty,Shopper / Urban Explorer / Culture Seeker,Budget,Couple / Family,2,09:00-19:00,Nilgiris
+Earl's Secret Ooty,Foodie / Romantic Couple,Premium,Couple,2,12:00-22:00,Nilgiris
+Nahar's Sidewalk Cafe,Foodie / Relaxation Lover,Mid-range,Couple / Family,2,09:00-21:00,Nilgiris
+Hyderabad Biryani House,Foodie / Budget Backpacker,Budget,Family,1,11:00-23:00,Nilgiris
+Willy's Coffee Pub,Foodie / Budget Backpacker,Budget,Just Me / Couple,1,10:00-22:00,Nilgiris
+Place To Bee Cafe,Foodie / Romantic Couple,Mid-range,Couple,2,09:00-21:00,Nilgiris
+Hotel Pankaj Bhojanalaya,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Nilgiris
+Ketti Valley View,Nature Lover / Romantic Couple,Budget,Couple,1,Open 24 hours,Nilgiris
+6th Mile Coonoor,Nature Lover / Family Planner,Budget,Family,2,08:00-18:00,Nilgiris
+Wenlock Downs,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Nilgiris
+Deer Park Ooty,Family Planner / Nature Lover,Budget,Family,2,09:00-18:00,Nilgiris
+All Saints Church Coonoor,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,09:00-17:00,Nilgiris
+Hogenakkal Falls,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:00-18:00,Dharmapuri
+Hogenakkal Coracle Boat Ride,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,07:00-17:00,Dharmapuri
+Hogenakkal Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-18:00,Dharmapuri
+Kaveri River Bathing Area,Nature Lover / Family Planner,Budget,Family,2,06:00-18:00,Dharmapuri
+Theerthamalai Temple,Spiritual Traveler / Adventure Seeker,Mid-range,Family,4,06:00-20:00,Dharmapuri
+Chenraya Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Dharmapuri
+Kottai Kovil Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-18:00,Dharmapuri
+Kalabairavar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Dharmapuri
+Hanumanthathirtham Temple,Spiritual Traveler / Nature Lover,Budget,Couple / Family,2,06:00-19:00,Dharmapuri
+Morappur Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Dharmapuri
+Sri Raghavendra Swamy Mutt,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Dharmapuri
+Veera Anjaneyar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Dharmapuri
+Sacred Heart Cathedral,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Dharmapuri
+Mount Carmel Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Dharmapuri
+CSI Zion Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Dharmapuri
+Adhiyamankottai Fort,Culture Seeker / Adventure Seeker,Budget,Couple / Family,3,09:00-17:00,Dharmapuri
+Subramanya Siva Memorial,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,1,09:00-17:00,Dharmapuri
+Dharmapuri Government Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Dharmapuri
+Krishnagiri Dam Park,Nature Lover / Family Planner,Budget,Family,3,08:00-17:00,Dharmapuri
+Mettur Dam,Nature Lover / Family Planner,Mid-range,Family,3,09:00-18:00,Dharmapuri
+Thoppaiyar Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Dharmapuri
+Pambar Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Dharmapuri
+Melagiri Hills,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-18:00,Dharmapuri
+Karimangalam Hills,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,06:00-18:00,Dharmapuri
+Pennagaram Forest Area,Nature Lover / Adventure Seeker,Budget,Couple / Family,4,07:00-17:00,Dharmapuri
+Sitteri Forest Reserve,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,07:00-17:00,Dharmapuri
+Dharmapuri Town Park,Nature Lover / Family Planner,Budget,Family,2,06:00-20:00,Dharmapuri
+Children's Park Dharmapuri,Family Planner / Nature Lover,Budget,Family,1,09:00-19:00,Dharmapuri
+Harur Lake Park,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Dharmapuri
+Karimangalam Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Dharmapuri
+Harur Lake,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Dharmapuri
+Pennagaram Lake,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Dharmapuri
+Dharmapuri Main Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-21:00,Dharmapuri
+Hogenakkal Fish Market,Culture Seeker / Foodie,Budget,Couple / Family,2,07:00-18:00,Dharmapuri
+Harur Market,Shopper / Urban Explorer,Budget,Family,2,08:00-20:00,Dharmapuri
+Hogenakkal Fish Fry Stalls,Foodie / Culture Seeker,Budget,Family,1,10:00-19:00,Dharmapuri
+Saravana Bhavan Dharmapuri,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Dharmapuri
+Hotel Aryaas Dharmapuri,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Dharmapuri
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Dharmapuri
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Dharmapuri
+Sangeetha Restaurant,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Dharmapuri
+Hogenakkal Medicinal Bath,Relaxation Lover / Nature Lover,Mid-range,Couple / Family,2,08:00-17:00,Dharmapuri
+Melagiri Hills Trekking,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-12:00,Dharmapuri
+Kaveri River Rafting,Adventure Seeker / Nature Lover,Premium,Couple,3,08:00-16:00,Dharmapuri
+Kaveri River Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-19:00,Dharmapuri
+Theerthamalai Viewpoint,Nature Lover / Spiritual Traveler,Budget,Couple / Family,1,06:00-18:00,Dharmapuri
+Dharmapuri Silk Weaving Center,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,2,09:00-18:00,Dharmapuri
+Pennagaram Eco Park,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Dharmapuri
+Dharmapuri Rose Garden,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-20:00,Dharmapuri
+Morappur Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Dharmapuri
+Yercaud Lake (Emerald Lake),Nature Lover / Family Planner,Mid-range,Family,3,09:00-17:30,Salem
+Yercaud Botanical Garden,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,09:00-18:00,Salem
+Yercaud Rose Garden,Nature Lover / Romantic Couple,Budget,Couple,2,09:00-18:00,Salem
+Shevaroy Temple,Spiritual Traveler / Adventure Seeker,Mid-range,Family,3,06:00-20:00,Salem
+Lady's Seat Yercaud,Nature Lover / Romantic Couple,Budget,Couple,1,08:00-18:00,Salem
+Peeku Park Yercaud,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Salem
+Pagoda Point,Nature Lover / Romantic Couple,Budget,Couple / Family,2,08:00-18:00,Salem
+Anna Park Yercaud,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Salem
+Bears Cave,Adventure Seeker / Nature Lover,Budget,Couple / Family,2,09:00-17:00,Salem
+32 km Loop Road Yercaud,Nature Lover / Romantic Couple,Budget,Couple / Family,3,06:00-18:00,Salem
+Kiliyur Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Salem
+Kolli Hills Agaya Gangai Falls,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,4,08:00-17:00,Salem
+Pachaimalai Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Salem
+1008 Shiva Temple,Spiritual Traveler / Culture Seeker,Mid-range,Family,3,06:00-20:00,Salem
+Siddhar Temple Kanjamalai,Spiritual Traveler / Adventure Seeker,Mid-range,Family,4,06:00-20:00,Salem
+Kottai Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Salem
+Sugavaneshwarar Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Salem
+Sri Raja Rajeswari Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"07:00-12:00, 16:00-19:00",Salem
+ISKCON Temple Salem,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,"04:30-13:00, 16:00-20:30",Salem
+Arulmigu Arupathi Thiruvasagam Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Salem
+Mettur Dam,Nature Lover / Family Planner,Mid-range,Family,3,08:00-18:00,Salem
+Mettur Dam Park,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Salem
+Thirumanimutharu River Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Salem
+Sankagiri Fort,Culture Seeker / Adventure Seeker,Budget,Couple / Family,3,09:00-17:00,Salem
+Salem Government Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:30-17:30,Salem
+Kurumbapatti Zoological Park,Nature Lover / Family Planner,Mid-range,Family,4,09:00-17:30,Salem
+Anna Park Salem,Nature Lover / Family Planner,Budget,Family,2,06:00-20:00,Salem
+Deer Park Salem,Family Planner / Nature Lover,Budget,Family,2,09:00-18:00,Salem
+Children's Park Salem,Family Planner / Nature Lover,Budget,Family,1,09:00-19:00,Salem
+Mookaneri Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Salem
+Saradhambal Lake,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-18:00,Salem
+Salem Main Bazaar,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Salem
+Yercaud Market,Shopper / Urban Explorer,Budget,Couple / Family,2,09:00-19:00,Salem
+Salem Textiles Hub,Shopper / Urban Explorer,Budget,Family,2,10:00-20:00,Salem
+Great Trails Yercaud,Foodie / Romantic Couple,Premium,Couple,2,07:00-22:00,Salem
+Saravana Bhavan Salem,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Salem
+Hotel Aryaas Salem,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Salem
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Salem
+Sri Krishna Sweets Salem,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Salem
+Sangeetha Restaurant Salem,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Salem
+Yercaud Lake Boating,Adventure Seeker / Family Planner,Mid-range,Family,1,09:00-17:30,Salem
+Yercaud Trekking Trails,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,4,06:00-12:00,Salem
+Kolli Hills Adventure Trek,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-12:00,Salem
+Yercaud Coffee Plantations,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,09:00-17:00,Salem
+Yercaud Orange Groves,Nature Lover / Culture Seeker,Budget,Family,2,09:00-17:00,Salem
+Gents Seat Yercaud,Nature Lover / Romantic Couple,Budget,Couple,1,08:00-18:00,Salem
+Norton's Bungalow Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,09:00-17:00,Salem
+Silk Farm Yercaud,Culture Seeker / Family Planner,Budget,Family,2,09:00-17:00,Salem
+Jamia Masjid Salem,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,1,Open 24 hours,Salem
+Sri Chakra Mahameru Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Salem
+Vivekananda Rock Memorial,Spiritual Traveler / Culture Seeker,Mid-range,Couple / Family,3,08:00-16:00,Kanyakumari
+Thiruvalluvar Statue,Culture Seeker / Family Planner,Mid-range,Family,2,08:00-16:00,Kanyakumari
+Gandhi Memorial Mandapam,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,07:00-19:00,Kanyakumari
+Tsunami Memorial,Culture Seeker / Family Planner,Budget,Family,1,Open 24 hours,Kanyakumari
+Kanyakumari Beach (Triveni Sangam),Nature Lover / Spiritual Traveler,Budget,Couple / Family,3,Open 24 hours,Kanyakumari
+Sanguthurai Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Kanyakumari
+Sothavilai Beach,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Kanyakumari
+Muttom Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,3,06:00-18:00,Kanyakumari
+Chothavilai Beach,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Kanyakumari
+Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,2,17:00-19:00,Kanyakumari
+Sunrise Point,Nature Lover / Romantic Couple,Budget,Couple,2,05:00-07:00,Kanyakumari
+View Tower Kanyakumari,Nature Lover / Family Planner,Budget,Family,1,08:00-18:00,Kanyakumari
+Kanyakumari Lighthouse,Culture Seeker / Adventure Seeker,Budget,Couple / Family,1,15:00-17:00,Kanyakumari
+Kumari Amman Temple (Bhagavathy Amman),Spiritual Traveler / Culture Seeker,Budget,Family,2,"04:30-12:30, 16:00-20:30",Kanyakumari
+Suchindram Thanumalayan Temple,Spiritual Traveler / Culture Seeker,Mid-range,Family,3,"04:30-11:30, 17:00-20:30",Kanyakumari
+Sthanumalayan Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,"04:30-11:30, 17:00-20:30",Kanyakumari
+Nagaraja Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Kanyakumari
+Guganathaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,"06:00-11:00, 17:30-20:30",Kanyakumari
+Thirparappu Shiva Temple,Spiritual Traveler / Nature Lover,Budget,Family,1,06:00-20:00,Kanyakumari
+Our Lady of Ransom Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Kanyakumari
+St. Xavier's Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Kanyakumari
+Holy Cross Church Kottar,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-19:00,Kanyakumari
+Thirparappu Falls (Thirparappu Aruvi),Nature Lover / Adventure Seeker,Budget,Couple / Family,3,07:00-18:00,Kanyakumari
+Olakaruvi Falls,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,4,08:00-17:00,Kanyakumari
+Courtallam Falls (Near Kanyakumari),Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,07:00-18:00,Kanyakumari
+Padmanabhapuram Palace,Culture Seeker / Budget Backpacker,Mid-range,Couple / Family,3,09:00-17:00,Kanyakumari
+Vattakottai Fort,Culture Seeker / Adventure Seeker,Budget,Couple / Family,2,08:00-18:00,Kanyakumari
+Udayagiri Fort,Culture Seeker / Adventure Seeker,Budget,Couple / Family,2,09:00-17:00,Kanyakumari
+Mathur Hanging Bridge (Aqueduct),Adventure Seeker / Nature Lover,Budget,Couple / Family,2,06:00-19:00,Kanyakumari
+Chitharal Jain Temples (Rock-Cut),Culture Seeker / Spiritual Traveler,Budget,Couple / Family,2,09:00-17:00,Kanyakumari
+Kanyakumari Wax Museum,Culture Seeker / Family Planner,Mid-range,Family,2,10:00-18:00,Kanyakumari
+Kamarajar Mani Mandapam,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,08:00-18:00,Kanyakumari
+Kanyakumari Main Bazaar,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Kanyakumari
+Seashell Market,Shopper / Urban Explorer,Budget,Couple / Family,2,09:00-20:00,Kanyakumari
+Handloom Shopping Center,Shopper / Urban Explorer / Culture Seeker,Budget,Family,2,10:00-20:00,Kanyakumari
+Sea View Restaurant,Foodie / Romantic Couple,Mid-range,Couple,2,07:00-22:00,Kanyakumari
+Saravana Bhavan Kanyakumari,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Kanyakumari
+Hotel Aryaas Kanyakumari,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Kanyakumari
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Kanyakumari
+Sangam Restaurant,Foodie / Culture Seeker,Budget,Family,1,11:00-23:00,Kanyakumari
+Fresh Fish Market Restaurants,Foodie / Culture Seeker,Budget,Couple / Family,2,10:00-20:00,Kanyakumari
+Vivekananda Rock Ferry Ride,Adventure Seeker / Family Planner,Mid-range,Family,1,08:00-16:00,Kanyakumari
+Swimming at Muttom Beach,Adventure Seeker / Nature Lover,Budget,Couple / Family,2,07:00-17:00,Kanyakumari
+Vivekananda Kendra,Spiritual Traveler / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Kanyakumari
+Children's Park Kanyakumari,Family Planner / Nature Lover,Budget,Family,1,09:00-19:00,Kanyakumari
+Thirparappu Dam Park,Nature Lover / Family Planner,Budget,Family,2,08:00-18:00,Kanyakumari
+Vivekananda Mandapam,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,07:00-19:00,Kanyakumari
+Nagercoil Clock Tower,Culture Seeker / Urban Explorer,Budget,Just Me / Couple,1,Open 24 hours,Kanyakumari
+Baywatch Amusement Park,Family Planner / Adventure Seeker,Mid-range,Family,3,10:00-19:00,Kanyakumari
+Pechiparai Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Kanyakumari
+Suruli Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Theni
+Chinna Suruli Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,07:00-17:00,Theni
+Kumbakkarai Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-16:00,Theni
+Kumbakarai Main Falls,Adventure Seeker / Nature Lover,Budget,Couple / Family,2,09:00-17:00,Theni
+Meghamalai (High Wavy Mountains),Nature Lover / Adventure Seeker,Mid-range,Couple / Family,6,06:00-18:00,Theni
+Meghamalai Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Theni
+Kurangani Hills,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-18:00,Theni
+Maharaja Mettu,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,06:00-18:00,Theni
+Vaigai Dam,Nature Lover / Family Planner,Budget,Family,3,06:00-18:00,Theni
+Vaigai Dam Park,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Theni
+Shanmuganathi Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Theni
+Sothuparai Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,09:00-17:00,Theni
+Manalar Dam,Nature Lover / Romantic Couple,Budget,Couple / Family,2,08:00-17:00,Theni
+Meghamalai Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:00-17:00,Theni
+Meghamalai Tiger Reserve,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,07:00-17:00,Theni
+Meghamalai Tea Estates,Nature Lover / Relaxation Lover,Mid-range,Couple / Family,3,09:00-17:00,Theni
+High Wavy Tea Estate Tour,Nature Lover / Culture Seeker,Mid-range,Couple / Family,3,09:00-16:00,Theni
+Kolukkumalai Tea Estate (Border),Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,08:00-16:00,Theni
+Kuchanur Sri Saneeswara Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,06:00-20:00,Theni
+Devadanapatti Kamakshi Amman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Theni
+Kailasanathar Temple Cave,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-19:00,Theni
+Veerapandi Gowmariamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Theni
+Mangaladevi Temple Thekkady Border,Spiritual Traveler / Adventure Seeker,Mid-range,Family,3,06:00-18:00,Theni
+Vellappar Temple Mavuthu,Spiritual Traveler / Nature Lover,Budget,Family,2,06:00-18:00,Theni
+Murugan Temple Meghamalai,Spiritual Traveler / Adventure Seeker,Budget,Family,2,06:00-19:00,Theni
+Colonel Pennycuick Memorial,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,09:00-17:00,Theni
+Bodi Hills,Adventure Seeker / Nature Lover,Budget,Couple / Family,4,06:00-18:00,Theni
+Theertha Thotti Sacred Pool,Spiritual Traveler / Nature Lover,Budget,Couple / Family,2,07:00-18:00,Theni
+Mavuthu Natural Springs,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Theni
+Theni Main Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-21:00,Theni
+Cumbum Grape Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-20:00,Theni
+Theni Textile Market,Shopper / Urban Explorer,Budget,Family,2,09:00-20:00,Theni
+Saravana Bhavan Theni,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Theni
+Hotel Aryaas Theni,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Theni
+Thooppukadai Mess,Foodie / Culture Seeker,Budget,Family,1,"11:00-15:00, 19:00-22:00",Theni
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Theni
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Theni
+Meghamalai Trekking,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,6,06:00-12:00,Theni
+Kurangani Hills Trek,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-12:00,Theni
+Meghamalai Jeep Safari,Adventure Seeker / Family Planner,Mid-range,Family,4,08:00-17:00,Theni
+Theni Children's Park,Family Planner / Nature Lover,Budget,Family,1,09:00-19:00,Theni
+Periyakulam Town Park,Nature Lover / Family Planner,Budget,Family,1,06:00-20:00,Theni
+Vellimalai Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-18:00,Theni
+Kambam Valley View,Nature Lover / Romantic Couple,Budget,Couple / Family,2,06:00-18:00,Theni
+Meghamalai Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,2,16:00-19:00,Theni
+Cumbum Valley Vineyards,Nature Lover / Culture Seeker,Mid-range,Couple / Family,2,09:00-17:00,Theni
+Theni Organic Farms Tour,Culture Seeker / Family Planner,Budget,Family,3,09:00-16:00,Theni
+Kodi Lingam Sacred Site,Spiritual Traveler / Adventure Seeker,Budget,Couple / Family,2,06:00-18:00,Theni
+Ellapatti River,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Theni
+Periyakulam Lake,Nature Lover / Relaxation Lover,Budget,Family,2,06:00-18:00,Theni
+Adiyogi Shiva Statue & Isha Yoga Centre,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,3,06:00-20:00,Coimbatore
+Dhyanalinga Temple,Spiritual Traveler / Relaxation Lover,Budget,Couple / Family,2,06:00-20:00,Coimbatore
+Marudhamalai Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,06:00-20:00,Coimbatore
+Perur Pateeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:30, 16:00-20:30",Coimbatore
+Eachanari Vinayagar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Coimbatore
+Koniamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:00,Coimbatore
+Vellingiri Hill Temple,Spiritual Traveler / Adventure Seeker,Mid-range,Family,8,04:00-18:00,Coimbatore
+Masaniamman Temple Anaimalai,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Coimbatore
+Siruvani Waterfalls (Kovai Kutralam),Nature Lover / Adventure Seeker,Budget,Couple / Family,4,10:00-17:00,Coimbatore
+Vaidehi Falls (Monkey Falls),Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Coimbatore
+Monkey Falls,Nature Lover / Family Planner,Budget,Family,2,09:00-17:00,Coimbatore
+Kodiveri Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Coimbatore
+Valparai Hill Station,Nature Lover / Relaxation Lover,Mid-range,Couple / Family,8,06:00-18:00,Coimbatore
+Valparai Tea Estates,Nature Lover / Romantic Couple,Mid-range,Couple / Family,3,09:00-17:00,Coimbatore
+Anaikatti Hills,Nature Lover / Adventure Seeker,Budget,Couple / Family,4,06:00-18:00,Coimbatore
+Aliyar Dam,Nature Lover / Family Planner,Mid-range,Family,3,09:00-18:00,Coimbatore
+Aliyar Dam Park,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Coimbatore
+Siruvani Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,09:00-17:00,Coimbatore
+Parambikulam Dam,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,08:00-17:00,Coimbatore
+Indira Gandhi Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:00-18:00,Coimbatore
+Salim Ali Centre for Ornithology,Nature Lover / Culture Seeker,Budget,Couple / Family,3,09:00-17:00,Coimbatore
+Black Thunder Water Theme Park,Adventure Seeker / Family Planner,Premium,Family,6,10:00-18:00,Coimbatore
+Kovai Kondattam Amusement Park,Family Planner / Adventure Seeker,Mid-range,Family,5,10:00-18:00,Coimbatore
+Maharaja Theme Park,Family Planner / Adventure Seeker,Mid-range,Family,4,10:00-19:00,Coimbatore
+VOC Park and Zoo,Nature Lover / Family Planner,Budget,Family,3,09:00-18:00,Coimbatore
+Gandhi Park (Singanallur),Nature Lover / Family Planner,Budget,Family,2,06:00-20:00,Coimbatore
+Bharathi Park,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Coimbatore
+Botanical Garden TNAU,Nature Lover / Culture Seeker,Budget,Couple / Family,2,09:00-17:00,Coimbatore
+GEDEE Car Museum,Culture Seeker / Family Planner,Budget,Family,2,09:30-18:00,Coimbatore
+Gass Forest Museum,Culture Seeker / Nature Lover,Budget,Couple / Family,2,10:00-17:00,Coimbatore
+Tamil Nadu Police Museum,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,10:00-17:00,Coimbatore
+Regional Science Centre & Planetarium,Culture Seeker / Family Planner,Budget,Family,3,10:00-18:00,Coimbatore
+Brookefields Mall,Shopper / Urban Explorer / Foodie,Mid-range,Family,3,10:00-22:00,Coimbatore
+Prozone Mall,Shopper / Urban Explorer,Mid-range,Couple / Family,3,10:00-22:00,Coimbatore
+RS Puram Shopping Area,Shopper / Urban Explorer,Budget,Family,2,10:00-21:00,Coimbatore
+Town Hall Market,Shopper / Urban Explorer / Culture Seeker,Budget,Family,2,09:00-21:00,Coimbatore
+Hari Bhavanam,Foodie / Culture Seeker,Budget,Family,1,07:00-22:00,Coimbatore
+Annapoorna Restaurant,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:30-22:30,Coimbatore
+That's Y Food,Foodie / Romantic Couple,Mid-range,Couple,2,12:00-23:00,Coimbatore
+Shree Anandhaas,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:30,Coimbatore
+Sree Annapoorna Sree Gowrishankar,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:30-22:00,Coimbatore
+Junior Kuppanna,Foodie / Culture Seeker,Mid-range,Family,1,11:00-23:00,Coimbatore
+Vellingiri Hills Trekking,Adventure Seeker / Spiritual Traveler,Mid-range,Couple / Family,8,04:00-12:00,Coimbatore
+Rock Climbing at Marudhamalai,Adventure Seeker / Nature Lover,Budget,Couple,3,07:00-17:00,Coimbatore
+Kovai Courtallam River,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Coimbatore
+Mahatma Gandhi Memorial,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,1,09:00-17:00,Coimbatore
+Singanallur Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Coimbatore
+Race Course,Nature Lover / Family Planner,Budget,Family,2,06:00-20:00,Coimbatore
+Codissia Trade Fair Complex,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,3,10:00-20:00,Coimbatore
+Black Thunder Mountain,Adventure Seeker / Nature Lover,Budget,Couple / Family,3,08:00-17:00,Coimbatore
+Sri Ranganathaswamy Temple Srirangam,Spiritual Traveler / Culture Seeker,Budget,Family,4,06:00-21:00,Tiruchirappalli
+Rock Fort Temple (Ucchi Pillayar),Spiritual Traveler / Adventure Seeker,Budget,Couple / Family,3,06:00-20:00,Tiruchirappalli
+Thayumanaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Tiruchirappalli
+Jambukeswarar Temple (Thiruvanaikaval),Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:30, 16:00-20:30",Tiruchirappalli
+Samayapuram Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,06:00-21:00,Tiruchirappalli
+Erumbeeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Tiruchirappalli
+Brahmapureeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Tiruchirappalli
+Vekkali Amman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Tiruchirappalli
+Sri Subramanya Swamy Temple Vayalur,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Tiruchirappalli
+Thirunedungulam Nathar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Tiruchirappalli
+St. Lourdes Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Tiruchirappalli
+St. Joseph's Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Tiruchirappalli
+Natharsha Dargah,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-20:00,Tiruchirappalli
+Kallanai Dam (Grand Anicut),Culture Seeker / Nature Lover,Budget,Couple / Family,2,06:00-18:00,Tiruchirappalli
+Upper Anaicut (Mukkombu),Nature Lover / Family Planner,Budget,Family,3,08:00-18:00,Tiruchirappalli
+Puliyancholai Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Tiruchirappalli
+Agaya Gangai Waterfalls,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,4,08:00-17:00,Tiruchirappalli
+Pachamalai Hills,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,6,06:00-18:00,Tiruchirappalli
+Kolli Hills,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,8,06:00-18:00,Tiruchirappalli
+Government Museum Trichy,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Tiruchirappalli
+Railway Museum Trichy,Culture Seeker / Family Planner,Budget,Family,2,10:00-17:00,Tiruchirappalli
+Anna Science Centre & Planetarium,Culture Seeker / Family Planner,Budget,Family,3,10:00-18:00,Tiruchirappalli
+Butterfly Park Srirangam,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Tiruchirappalli
+Trichy Birds Park,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Tiruchirappalli
+Anna Memorial Park,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Tiruchirappalli
+Children's Park Trichy,Family Planner / Nature Lover,Budget,Family,1,09:00-19:00,Tiruchirappalli
+Chokkanatha Nayak Palace,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Tiruchirappalli
+Chinna Kadai Street,Shopper / Urban Explorer,Budget,Family,2,10:00-21:00,Tiruchirappalli
+Big Bazaar Street,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Tiruchirappalli
+Trichy Main Guard Gate Market,Shopper / Urban Explorer / Culture Seeker,Budget,Family,2,09:00-21:00,Tiruchirappalli
+Puthur Market,Shopper / Urban Explorer,Budget,Family,2,08:00-20:00,Tiruchirappalli
+Femina Shopping Mall,Shopper / Urban Explorer,Mid-range,Couple / Family,3,10:00-22:00,Tiruchirappalli
+Vasantha Bhavan,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:30-22:30,Tiruchirappalli
+Sangeetha Restaurant Trichy,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Tiruchirappalli
+Hotel Kannappa,Foodie / Culture Seeker,Mid-range,Family,1,11:00-23:00,Tiruchirappalli
+Saravana Bhavan Trichy,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Tiruchirappalli
+Diana Restaurant,Foodie / Romantic Couple,Mid-range,Couple,2,11:00-23:00,Tiruchirappalli
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Tiruchirappalli
+Rock Fort Climb (437 Steps),Adventure Seeker / Spiritual Traveler,Budget,Couple / Family,2,06:00-20:00,Tiruchirappalli
+Kaveri River Boating,Adventure Seeker / Family Planner,Budget,Family,1,09:00-18:00,Tiruchirappalli
+Teppakulam Temple Tank,Nature Lover / Spiritual Traveler,Budget,Couple / Family,1,06:00-19:00,Tiruchirappalli
+Kaveri River Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-19:00,Tiruchirappalli
+Gandhi Market Complex,Shopper / Urban Explorer / Culture Seeker,Budget,Family,2,08:00-20:00,Tiruchirappalli
+Trichy Airport Viewing Area,Culture Seeker / Family Planner,Budget,Family,1,Open 24 hours,Tiruchirappalli
+Ucchi Pillayar Rockfort Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-20:00,Tiruchirappalli
+Cauvery Delta Region Tour,Culture Seeker / Nature Lover,Mid-range,Couple / Family,5,08:00-17:00,Tiruchirappalli
+Woraiyur Ancient Chola Capital,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Tiruchirappalli
+Trichy Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,3,08:00-11:00,Tiruchirappalli
+Srirangam Island,Spiritual Traveler / Nature Lover,Budget,Couple / Family,4,06:00-20:00,Tiruchirappalli
+Trichy Trade Centre,Shopper / Urban Explorer,Mid-range,Family,2,10:00-21:00,Tiruchirappalli
+Pasupatheswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Karur
+Kalyana Venkataramana Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,06:00-20:00,Karur
+Arulmigu Kalyana Pasupatheswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Karur
+Sadasiva Brahmendra Samadhi Nerur,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Karur
+Kashi Vishwanatha Temple Nerur,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Karur
+Mariamman Temple Karur,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Karur
+Vennamalai Murugan Temple,Spiritual Traveler / Adventure Seeker,Budget,Family,3,06:00-20:00,Karur
+Thirumukkoodalur Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Karur
+Pugazhimalai Murugan Temple,Spiritual Traveler / Adventure Seeker,Budget,Family,3,06:00-20:00,Karur
+Amrithagateswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Karur
+Mayanur Dam & Barrage,Nature Lover / Family Planner,Budget,Family,3,06:00-18:00,Karur
+Ponnaniyaru Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,3,06:00-18:00,Karur
+Aathupalayam Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Karur
+Kovilur Dam,Nature Lover / Family Planner,Budget,Family,2,06:00-18:00,Karur
+Amaravathi River Check Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Karur
+Pugalur Dam,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Karur
+Amaravathi Children's Park,Family Planner / Nature Lover,Budget,Family,2,09:00-19:00,Karur
+Rajaji Park Karur,Nature Lover / Family Planner,Budget,Family,1,06:00-20:00,Karur
+Mayanur Check Dam Park,Nature Lover / Family Planner,Budget,Family,2,08:00-18:00,Karur
+Children's Park Karur,Family Planner / Nature Lover,Budget,Family,1,09:00-19:00,Karur
+Karur Government Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Karur
+Karur Fort Ruins,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-18:00,Karur
+Amaravathi River Bank,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Karur
+Kaveri River View Point,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-19:00,Karur
+Nerur River Bank,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Karur
+Amaravathi River Bed Archaeological Site,Culture Seeker / Nature Lover,Budget,Couple / Family,2,08:00-17:00,Karur
+Karur Home Textile Market,Shopper / Urban Explorer / Culture Seeker,Budget,Family,3,09:00-21:00,Karur
+Karur Main Bazaar,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Karur
+Textile Showrooms Karur,Shopper / Urban Explorer,Budget,Family,2,10:00-20:00,Karur
+Handloom Weaving Centers,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,2,09:00-18:00,Karur
+Vasantha Bhavan Karur,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Karur
+Hotel Radhika,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Karur
+Saravana Bhavan Karur,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Karur
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Karur
+Ponnusamy Restaurant,Foodie / Culture Seeker,Mid-range,Family,1,11:00-23:00,Karur
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Karur
+Karur Agricultural Farm Tour,Culture Seeker / Nature Lover,Budget,Family,3,09:00-16:00,Karur
+Coconut Grove Visit,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-17:00,Karur
+Karur-Trichy Railway Bridge View,Culture Seeker / Nature Lover,Budget,Couple / Family,1,06:00-19:00,Karur
+Amaravathi Bridge,Culture Seeker / Urban Explorer,Budget,Couple / Family,1,06:00-19:00,Karur
+Kaveri Bridge Karur,Nature Lover / Urban Explorer,Budget,Couple / Family,1,06:00-19:00,Karur
+Karur Agraharam Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,08:00-11:00,Karur
+Ancient Sangam Era Sites,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Karur
+Kodumudi Temples,Spiritual Traveler / Culture Seeker,Budget,Family,3,06:00-20:00,Karur
+Velayuthampalayam Village Tour,Culture Seeker / Nature Lover,Budget,Couple / Family,3,09:00-17:00,Karur
+Evening Walk at Amaravathi Banks,Relaxation Lover / Nature Lover,Budget,Couple / Family,1,17:00-19:00,Karur
+Bird Watching at Mayanur,Nature Lover / Adventure Seeker,Budget,Couple / Family,2,06:00-09:00,Karur
+Textile Factory Tour,Culture Seeker / Urban Explorer,Budget,Couple / Family,2,10:00-17:00,Karur
+Karur Bus Stand Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-21:00,Karur
+Rural Crafts Center Karur,Culture Seeker / Shopper / Urban Explorer,Budget,Family,2,10:00-18:00,Karur  
+Promenade Beach (Rock Beach),Nature Lover / Relaxation Lover,Budget,Couple / Family,2,Open 24 hours,Pondicherry
+Paradise Beach (Plage Paradiso),Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,09:00-17:00,Pondicherry
+Auroville Beach,Nature Lover / Relaxation Lover,Budget,Couple,2,06:00-19:00,Pondicherry
+Serenity Beach,Adventure Seeker / Nature Lover,Budget,Couple / Family,3,06:00-19:00,Pondicherry
+Quiet Beach (Repos Beach),Nature Lover / Romantic Couple,Budget,Couple,2,06:00-19:00,Pondicherry
+Sri Aurobindo Ashram,Spiritual Traveler / Relaxation Lover,Budget,Couple / Family,2,"08:00-12:00, 14:00-18:00",Pondicherry
+Auroville & Matrimandir,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,4,09:00-17:00,Pondicherry
+Manakula Vinayagar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"05:45-12:30, 16:00-21:00",Pondicherry
+Sri Varadaraja Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Pondicherry
+Vedapureeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Pondicherry
+Basilica of the Sacred Heart of Jesus,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,05:00-19:30,Pondicherry
+Immaculate Conception Cathedral,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,"07:00-12:00, 15:00-20:00",Pondicherry
+Notre Dame des Anges Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-18:00,Pondicherry
+Church of Our Lady of Angels,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-18:00,Pondicherry
+French Quarter (White Town),Culture Seeker / Romantic Couple,Budget,Couple,3,Open 24 hours,Pondicherry
+French War Memorial,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,Open 24 hours,Pondicherry
+Aayi Mandapam,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,Open 24 hours,Pondicherry
+Old Lighthouse,Culture Seeker / Adventure Seeker,Budget,Couple / Family,1,15:00-17:00,Pondicherry
+Pondicherry Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,10:00-17:00,Pondicherry
+Jawahar Toy Museum,Culture Seeker / Family Planner,Budget,Family,2,10:00-17:00,Pondicherry
+Cluny Embroidery Centre,Culture Seeker / Shopper,Budget,Couple / Family,2,"09:00-12:00, 15:00-18:00",Pondicherry
+Botanical Garden,Nature Lover / Family Planner,Budget,Family,2,10:00-17:00,Pondicherry
+Bharathi Park (Government Park),Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Pondicherry
+Ousteri Lake & National Park,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,06:00-18:00,Pondicherry
+Chunnambar Backwater,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,3,09:00-18:00,Pondicherry
+Arikamedu Archaeological Site,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,10:00-17:00,Pondicherry
+Dupleix Park,Nature Lover / Relaxation Lover,Budget,Family,1,06:00-20:00,Pondicherry
+Café des Arts,Foodie / Romantic Couple,Mid-range,Couple,2,08:00-22:00,Pondicherry
+Baker Street,Foodie / Budget Backpacker,Budget,Just Me / Couple,1,08:00-22:00,Pondicherry
+Le Café,Foodie / Romantic Couple,Mid-range,Couple,2,08:00-23:00,Pondicherry
+Villa Shanti,Foodie / Romantic Couple,Premium,Couple,2,"12:00-15:00, 19:00-23:00",Pondicherry
+Surguru Restaurant,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Pondicherry
+Bread & Baguette,Foodie / Budget Backpacker,Budget,Just Me / Couple,1,08:00-21:00,Pondicherry
+Kasha Ki Aasha,Foodie / Romantic Couple,Mid-range,Couple,2,10:00-22:00,Pondicherry
+Goubert Market (Grand Bazaar),Shopper / Urban Explorer / Foodie,Budget,Family,2,06:00-20:00,Pondicherry
+Mission Street Shopping,Shopper / Urban Explorer,Budget,Couple / Family,2,10:00-20:00,Pondicherry
+Nehru Street Market,Shopper / Urban Explorer,Budget,Family,2,09:00-21:00,Pondicherry
+Scuba Diving at Temple Reef,Adventure Seeker / Nature Lover,Premium,Couple,4,08:00-16:00,Pondicherry
+Surfing at Serenity Beach,Adventure Seeker / Nature Lover,Mid-range,Just Me / Couple,3,07:00-18:00,Pondicherry
+Kayaking at Chunnambar,Adventure Seeker / Family Planner,Mid-range,Couple / Family,2,09:00-17:00,Pondicherry
+Cycling Tour of French Quarter,Adventure Seeker / Culture Seeker,Budget,Just Me / Couple,3,07:00-11:00,Pondicherry
+Auroville Bakery & Cafeteria,Foodie / Culture Seeker,Budget,Couple / Family,2,08:00-20:00,Pondicherry
+French Institute (Alliance Française),Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,09:00-18:00,Pondicherry
+Bharati Museum & Gallery,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,10:00-17:00,Pondicherry
+Gandhi Statue & Memorial,Culture Seeker / Budget Backpacker,Budget,Family,1,Open 24 hours,Pondicherry
+Paradise Island (Chunnambar),Nature Lover / Adventure Seeker,Mid-range,Couple / Family,3,09:00-17:00,Pondicherry
+House of Hidesign,Shopper / Urban Explorer,Mid-range,Couple / Family,1,10:00-20:00,Pondicherry
+Seagulls Restaurant & Bar,Foodie / Romantic Couple,Mid-range,Couple,2,12:00-23:00,Pondicherry
+Pondy Marina,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Pondicherry
+Pondicherry Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,3,08:00-11:00,Pondicherry
+Meenakshi Amman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,4,"05:00-12:30, 16:00-21:30",Madurai
+Thiruparankundram Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,06:00-20:30,Madurai
+Alagar Kovil (Kallazhagar Temple),Spiritual Traveler / Nature Lover,Budget,Family,3,"06:00-12:00, 16:00-20:00",Madurai
+Koodal Azhagar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"05:30-12:00, 16:00-21:00",Madurai
+Pazhamudhir Solai (Murugan Temple),Spiritual Traveler / Nature Lover,Budget,Family,3,06:00-20:00,Madurai
+Thirumohor Kalamega Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Madurai
+Sri Soundararajaperumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Madurai
+Vandiyur Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Madurai
+Thirumalai Nayakkar Mahal (Palace),Culture Seeker / Budget Backpacker,Budget,Couple / Family,3,"09:00-13:00, 14:00-17:00",Madurai
+Thousand Pillar Hall (Aayiram Kaal Mandapam),Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Madurai
+Pudhu Mandapam (Shopping Hall),Culture Seeker / Shopper / Urban Explorer,Budget,Family,2,Open 24 hours,Madurai
+St. Mary's Cathedral Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-20:00,Madurai
+Kazimar Big Mosque,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,05:00-21:00,Madurai
+Maqbara Mosque,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,05:00-21:00,Madurai
+Gandhi Memorial Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,3,"10:00-13:00, 14:00-17:45",Madurai
+Government Museum Madurai,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:30-17:30,Madurai
+Vaigai Dam,Nature Lover / Family Planner,Budget,Family,3,08:00-18:00,Madurai
+Samanar Hills,Adventure Seeker / Culture Seeker,Budget,Couple / Family,3,06:00-18:00,Madurai
+Kutladampatti Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Madurai
+Meghamalai Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:00-17:00,Madurai
+Vandiyur Mariamman Teppakulam,Nature Lover / Spiritual Traveler,Budget,Couple / Family,2,06:00-19:00,Madurai
+Vaigai River View,Nature Lover / Relaxation Lover,Budget,Couple / Family,1,06:00-19:00,Madurai
+Athisayam Amusement Park,Family Planner / Adventure Seeker,Mid-range,Family,5,10:00-19:00,Madurai
+Eco Park Madurai,Nature Lover / Family Planner,Budget,Family,2,09:00-19:00,Madurai
+Meenakshi Temple Market Area,Shopper / Urban Explorer / Foodie,Budget,Family,3,08:00-21:00,Madurai
+Town Hall Market,Shopper / Urban Explorer,Budget,Family,2,09:00-21:00,Madurai
+East Gate Street Shopping,Shopper / Urban Explorer,Budget,Couple / Family,2,10:00-21:00,Madurai
+Vilakkuthoon Market,Shopper / Urban Explorer / Culture Seeker,Budget,Family,2,08:00-20:00,Madurai
+Murugan Idli Shop,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:00-22:00,Madurai
+Kumar Mess,Foodie / Culture Seeker,Budget,Family,1,"11:00-15:00, 19:00-22:00",Madurai
+Sree Sabarees,Foodie / Budget Backpacker,Budget,Just Me / Family,1,06:30-22:30,Madurai
+Amsavalli Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Madurai
+Konar Kadai (Mutton Stall),Foodie / Culture Seeker,Budget,Just Me / Couple,1,10:00-23:00,Madurai
+Heritage Madurai Restaurant,Foodie / Romantic Couple,Mid-range,Couple,2,12:00-23:00,Madurai
+Meenakshi Temple Evening Ceremony,Spiritual Traveler / Culture Seeker,Budget,Family,1,21:00-22:00,Madurai
+Thirumalai Nayak Palace Light & Sound Show,Culture Seeker / Family Planner,Budget,Family,1,"18:45-19:30 (English), 20:15-21:00 (Tamil)",Madurai
+Alagar Hills Trekking,Adventure Seeker / Spiritual Traveler,Budget,Couple / Family,4,06:00-12:00,Madurai
+Keelakuyilkudi Jain Caves,Culture Seeker / Adventure Seeker,Budget,Couple / Family,2,08:00-17:00,Madurai
+Ancient Inscriptions at Samanar Hills,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,06:00-18:00,Madurai
+Rajaji Park,Nature Lover / Family Planner,Budget,Family,1,06:00-20:00,Madurai
+Tamukkam Ground,Culture Seeker / Family Planner,Budget,Family,1,Open 24 hours,Madurai
+Gopuram View from Temple Terrace,Culture Seeker / Nature Lover,Budget,Couple / Family,1,09:00-17:00,Madurai
+Vaigai Dam Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,1,17:00-19:00,Madurai
+Madurai Silk Saree Weaving Center,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,2,10:00-18:00,Madurai
+Handloom Co-operative Society,Shopper / Culture Seeker,Budget,Family,2,10:00-19:00,Madurai
+Madurai Flower Market,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,2,04:00-10:00,Madurai
+Banana Market Madurai,Culture Seeker / Shopper,Budget,Family,1,06:00-19:00,Madurai
+Madurai Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,3,07:00-10:00,Madurai
+Village Tourism near Madurai,Culture Seeker / Nature Lover,Budget,Couple / Family,4,09:00-17:00,Madurai
+Main Falls (Peraruvi) Courtallam,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,06:00-18:00,Thenkasi
+Five Falls (Aintharuvi) Courtallam,Nature Lover / Family Planner,Budget,Family,3,06:00-18:00,Thenkasi
+Old Courtallam Falls,Nature Lover / Relaxation Lover,Budget,Couple / Family,3,07:00-18:00,Thenkasi
+Shenbagadevi Falls,Nature Lover / Spiritual Traveler,Budget,Couple / Family,3,07:00-17:00,Thenkasi
+Small Falls (Chitraruvi),Nature Lover / Family Planner,Budget,Family,2,07:00-18:00,Thenkasi
+Tiger Falls (Puliyaruvi),Adventure Seeker / Nature Lover,Budget,Couple / Family,3,08:00-17:00,Thenkasi
+Honey Falls (Thenaruvi),Adventure Seeker / Nature Lover,Budget,Couple,3,08:00-16:00,Thenkasi
+Agasthiyar Falls,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,4,08:00-16:00,Thenkasi
+Manimuthar Waterfalls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Thenkasi
+Kasi Viswanathar Temple Tenkasi,Spiritual Traveler / Culture Seeker,Budget,Family,3,"05:30-12:30, 16:00-21:00",Thenkasi
+Thirukutralanathar Temple Courtallam,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Thenkasi
+Thirumalai Kovil (Panpoli),Spiritual Traveler / Nature Lover,Budget,Family,3,06:00-20:00,Thenkasi
+Sankaranarayana Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Thenkasi
+Kulasekharanathar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Thenkasi
+Shenbagadevi Amman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Thenkasi
+Kannimaramman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Thenkasi
+Ayikudi Balasubramanya Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Thenkasi
+Sivasailam Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Thenkasi
+Chitra Sabai Temple,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-20:00,Thenkasi
+Papanasam Dam,Nature Lover / Family Planner,Budget,Family,3,08:00-18:00,Thenkasi
+Manimuthar Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,3,08:00-18:00,Thenkasi
+Gundaru Dam,Nature Lover / Romantic Couple,Budget,Couple / Family,2,08:00-18:00,Thenkasi
+Karuppanadhi Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Thenkasi
+Thirumalapuram Rock-Cut Cave Temples,Culture Seeker / Adventure Seeker,Budget,Couple / Family,3,09:00-17:00,Thenkasi
+Siva Gangai Waterfalls & Temple,Spiritual Traveler / Nature Lover,Budget,Couple / Family,3,07:00-17:00,Thenkasi
+Western Ghats Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-18:00,Thenkasi
+Thoranamali Hills Trekking,Adventure Seeker / Nature Lover,Budget,Couple / Family,4,06:00-12:00,Thenkasi
+Mekkarai Amusement Park,Family Planner / Adventure Seeker,Mid-range,Family,4,10:00-19:00,Thenkasi
+Eco Park Courtallam,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Thenkasi
+Sundarapandiyapuram Agraharam,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,08:00-18:00,Thenkasi
+Anniyan Para (Film Location),Culture Seeker / Nature Lover,Budget,Couple / Family,2,08:00-18:00,Thenkasi
+Mekkarai Village Tour,Culture Seeker / Nature Lover,Budget,Couple / Family,3,09:00-17:00,Thenkasi
+Sambavar Vadakarai (Sunflower Fields),Nature Lover / Romantic Couple,Budget,Couple,2,07:00-18:00,Thenkasi
+Tenkasi Main Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-21:00,Thenkasi
+Courtallam Market Area,Shopper / Urban Explorer,Budget,Family,2,08:00-20:00,Thenkasi
+Herbal Products Market,Shopper / Culture Seeker,Budget,Couple / Family,2,09:00-20:00,Thenkasi
+Courtallam Local Food Stalls,Foodie / Culture Seeker,Budget,Family,1,08:00-20:00,Thenkasi
+Saravana Bhavan Tenkasi,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Thenkasi
+Hotel Aryaas Tenkasi,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Thenkasi
+Tenkasi Biryani Center,Foodie / Budget Backpacker,Budget,Just Me / Family,1,11:00-22:00,Thenkasi
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Thenkasi
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Thenkasi
+Agasthiyar Falls Trekking,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,5,06:00-12:00,Thenkasi
+Forest Bathing at Courtallam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-18:00,Thenkasi
+Courtallam Valley View,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-19:00,Thenkasi
+Papanasam Dam Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,1,17:00-19:00,Thenkasi
+Chittar River Banks,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Thenkasi
+Tenkasi Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,3,07:00-10:00,Thenkasi
+Medicinal Plants Garden,Nature Lover / Culture Seeker,Budget,Couple / Family,2,09:00-17:00,Thenkasi
+Courtallam Temple Pond,Spiritual Traveler / Nature Lover,Budget,Family,1,06:00-19:00,Thenkasi
+Brihadeeswarar Temple (Big Temple),Spiritual Traveler / Culture Seeker,Budget,Family,4,06:00-20:30,Thanjavur
+Gangaikonda Cholapuram Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Thanjavur
+Airavatesvara Temple Darasuram,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Thanjavur
+Punnainallur Mariamman Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Thanjavur
+Thanjai Mamani Koil,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Thanjavur
+Swamimalai Murugan Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"05:30-12:30, 16:00-21:00",Thanjavur
+Thiruvaiyaru Panchanatheeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Thanjavur
+Kumbakonam Temples Circuit,Spiritual Traveler / Culture Seeker,Mid-range,Family,6,06:00-20:00,Thanjavur
+Thirubuvanam Kampaheswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Thanjavur
+Nageswaraswamy Temple Kumbakonam,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Thanjavur
+Thanjavur Maratha Palace,Culture Seeker / Budget Backpacker,Budget,Couple / Family,3,09:00-18:00,Thanjavur
+Saraswathi Mahal Library,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,"10:00-13:00, 14:00-17:45",Thanjavur
+Sangeetha Mahal,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,09:00-18:00,Thanjavur
+Durbar Hall (Palace Complex),Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,09:00-18:00,Thanjavur
+Bell Tower (Palace),Culture Seeker / Adventure Seeker,Budget,Couple / Family,1,09:00-18:00,Thanjavur
+Raja Rajan Chola Art Gallery,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-18:00,Thanjavur
+Royal Palace Museum,Culture Seeker / Family Planner,Budget,Family,2,09:00-18:00,Thanjavur
+District Museum Thanjavur,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:30-17:30,Thanjavur
+Tanjore Painting Art Gallery,Culture Seeker / Shopper,Budget,Couple / Family,2,10:00-19:00,Thanjavur
+Schwartz Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,09:00-17:00,Thanjavur
+St. Peter & Paul Church,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Thanjavur
+Sivaganga Park,Nature Lover / Family Planner,Budget,Family,2,06:00-20:00,Thanjavur
+Manora Fort & Garden,Culture Seeker / Nature Lover,Budget,Couple / Family,2,09:00-18:00,Thanjavur
+Raja Serfoji Memorial Hall Garden,Nature Lover / Relaxation Lover,Budget,Couple / Family,1,09:00-18:00,Thanjavur
+Vijayanagar Fort,Culture Seeker / Adventure Seeker,Budget,Couple / Family,2,08:00-18:00,Thanjavur
+Danish Fort Tranquebar,Culture Seeker / Budget Backpacker,Mid-range,Couple / Family,4,09:00-17:00,Thanjavur
+Zion Church Tranquebar,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,09:00-17:00,Thanjavur
+Grand Anicut Canal Street Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-21:00,Thanjavur
+Tanjore Painting Workshops,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,3,10:00-19:00,Thanjavur
+Bronze Casting Centers Swamimalai,Culture Seeker / Shopper,Mid-range,Couple / Family,2,09:00-18:00,Thanjavur
+Thanjavur Silk Saree Shops,Shopper / Urban Explorer,Budget,Family,2,10:00-20:00,Thanjavur
+Sathars Restaurant,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Thanjavur
+Hotel Gnanam,Foodie / Culture Seeker,Budget,Family,1,"11:00-15:00, 19:00-22:00",Thanjavur
+Saravana Bhavan Thanjavur,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Thanjavur
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Thanjavur
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Thanjavur
+Vasantha Bhavan Thanjavur,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Thanjavur
+Thanjavur Classical Music Festival,Culture Seeker / Spiritual Traveler,Budget,Family,3,Seasonal (Jan),Thanjavur
+Traditional Bharatanatyam Performance,Culture Seeker / Family Planner,Mid-range,Couple / Family,2,19:00-21:00,Thanjavur
+Tanjore Painting Workshop,Culture Seeker / Family Planner,Mid-range,Couple / Family,3,10:00-17:00,Thanjavur
+Grand Anicut (Kallanai Dam),Culture Seeker / Nature Lover,Budget,Couple / Family,2,06:00-18:00,Thanjavur
+Cauvery River Banks,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Thanjavur
+Pichavaram Mangrove Forest,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,08:00-17:00,Thanjavur
+Point Calimere Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:00-18:00,Thanjavur
+Tranquebar Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Thanjavur
+Rajali Birds Park,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Thanjavur
+Thanjavur Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,3,07:00-10:00,Thanjavur
+Rice Bowl of Tamil Nadu Tour,Culture Seeker / Nature Lover,Budget,Couple / Family,4,09:00-17:00,Thanjavur
+Nandi Statue at Big Temple,Spiritual Traveler / Culture Seeker,Budget,Family,1,06:00-20:30,Thanjavur
+Temple Corridor Paintings,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,06:00-20:30,Thanjavur
+Nellaiappar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,4,"06:00-12:00, 16:00-21:00",Tirunelveli
+Krishnapuram Venkatachalapathy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tirunelveli
+Sankaranarayana Temple Sankara Nagar,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tirunelveli
+Arulmigu Krishnapuram Anchaneyar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Tirunelveli
+Papavinasam Temple,Spiritual Traveler / Nature Lover,Budget,Family,2,06:00-20:00,Tirunelveli
+Athankarai Pallivasal,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,Open 24 hours,Tirunelveli
+Suyambulingaswamy Temple Sivagiri,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tirunelveli
+Nanguneri Sree Vaishnava Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tirunelveli
+Thirukkurungudi Nambi Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tirunelveli
+Sri Kumaraswamy Temple Kutralam,Spiritual Traveler / Nature Lover,Budget,Family,2,06:00-20:00,Tirunelveli
+Agasthiyar Falls (Papanasam Falls),Nature Lover / Adventure Seeker,Budget,Couple / Family,4,07:00-17:00,Tirunelveli
+Manimuthar Waterfalls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Tirunelveli
+Banatheertham Falls,Nature Lover / Spiritual Traveler,Budget,Couple / Family,3,08:00-17:00,Tirunelveli
+Karaiyar Falls,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Tirunelveli
+Papanasam Dam (Karaiyar Dam),Nature Lover / Family Planner,Budget,Family,3,08:00-18:00,Tirunelveli
+Manimuthar Dam,Nature Lover / Family Planner,Budget,Family,3,08:00-18:00,Tirunelveli
+Mekkara Dam,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,08:00-18:00,Tirunelveli
+Servalar Dam,Nature Lover / Romantic Couple,Budget,Couple,2,08:00-18:00,Tirunelveli
+Kalakkad Mundanthurai Tiger Reserve,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,6,06:00-18:00,Tirunelveli
+Kalakkad Wildlife Sanctuary,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,5,06:00-17:00,Tirunelveli
+Kattabomman Memorial Fort,Culture Seeker / Budget Backpacker,Budget,Couple / Family,3,09:00-17:00,Tirunelveli
+Panchalankurichi Fort,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-18:00,Tirunelveli
+Kazhugumalai Jain Temple & Rock-Cut Cave,Culture Seeker / Adventure Seeker,Budget,Couple / Family,3,09:00-17:00,Tirunelveli
+Kappal Matha Church (Ship Church),Spiritual Traveler / Culture Seeker,Budget,Couple / Family,2,06:00-18:00,Tirunelveli
+St. Joseph's Church Palayamkottai,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Tirunelveli
+CSI Zion Church Palayamkottai,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Tirunelveli
+District Science Centre,Culture Seeker / Family Planner,Budget,Family,3,10:00-18:00,Tirunelveli
+Thamirabarani River Bank,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Tirunelveli
+Eco Park Tirunelveli,Nature Lover / Family Planner,Budget,Family,2,09:00-19:00,Tirunelveli
+Tirunelveli Halwa Shopping,Shopper / Urban Explorer / Foodie,Budget,Family,2,09:00-21:00,Tirunelveli
+Tirunelveli Main Market,Shopper / Urban Explorer,Budget,Family,2,08:00-21:00,Tirunelveli
+Palayamkottai Market,Shopper / Urban Explorer,Budget,Family,2,08:00-20:00,Tirunelveli
+Iruttukadai Halwa Shop,Foodie / Culture Seeker,Budget,Just Me / Family,1,16:00-20:30,Tirunelveli
+Sri Murugan Mess,Foodie / Budget Backpacker,Budget,Just Me / Family,1,"11:00-15:00, 19:00-22:00",Tirunelveli
+Saravana Bhavan Tirunelveli,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Tirunelveli
+Hotel Aryaas Tirunelveli,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Tirunelveli
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Tirunelveli
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Tirunelveli
+Agasthiyar Hills Trekking,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,6,06:00-12:00,Tirunelveli
+Western Ghats Bird Watching,Nature Lover / Adventure Seeker,Budget,Couple / Family,4,06:00-10:00,Tirunelveli
+Papanasam Viewpoint,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-18:00,Tirunelveli
+Manimuthar Dam Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,1,17:00-19:00,Tirunelveli
+Singampatti Zamin Palace,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Tirunelveli
+Tirunelveli Katcheri Building,Culture Seeker / Budget Backpacker,Budget,Couple / Family,1,09:00-17:00,Tirunelveli
+Kothaiyar Sanatorium,Nature Lover / Relaxation Lover,Mid-range,Couple / Family,4,08:00-18:00,Tirunelveli
+Sorimuthu Ayyanar Temple,Spiritual Traveler / Nature Lover,Budget,Family,2,06:00-19:00,Tirunelveli
+Tirunelveli Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,3,07:00-10:00,Tirunelveli
+Thamirabarani River Boat Ride,Nature Lover / Family Planner,Budget,Family,1,08:00-18:00,Tirunelveli
+Musical Pillars of Nellaiappar Temple,Culture Seeker / Spiritual Traveler,Budget,Family,1,"06:00-12:00, 16:00-21:00",Tirunelveli
+Tirunelveli Sangam Literature Sites,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,09:00-17:00,Tirunelveli
+Devanathaswamy Temple (Thiruvanthipuram),Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Cuddalore
+Padaleeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Cuddalore
+Nataraja Temple Chidambaram,Spiritual Traveler / Culture Seeker,Budget,Family,4,"06:00-12:00, 17:00-21:00",Cuddalore
+Bhuvaraha Swamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Cuddalore
+Sri Singirikudi Narasimha Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Cuddalore
+Veeratteswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Cuddalore
+Thirupathiripuliyur Perumal Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Cuddalore
+Pinnai Vazhi Amman Temple Samiyarpettai,Spiritual Traveler / Culture Seeker,Budget,Family,2,06:00-20:00,Cuddalore
+Annamalai Temple (Tiruvannamalai nearby),Spiritual Traveler / Culture Seeker,Budget,Family,4,"05:00-12:30, 16:00-21:30",Cuddalore
+Vridhachalam Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Cuddalore
+Silver Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,3,06:00-18:00,Cuddalore
+Samiyarpettai Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Cuddalore
+Devanampattinam Beach,Nature Lover / Romantic Couple,Budget,Couple,2,06:00-19:00,Cuddalore
+Parangipettai Beach (Porto Novo),Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Cuddalore
+Pichavaram Mangrove Forest,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,08:00-17:00,Cuddalore
+Pichavaram Boat Ride (Row Boat),Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,08:00-17:00,Cuddalore
+Pichavaram Kayaking,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,2,08:00-16:00,Cuddalore
+MGR Thittu (Island near Pichavaram),Nature Lover / Adventure Seeker,Budget,Couple / Family,3,08:00-17:00,Cuddalore
+Fort St. David,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-18:00,Cuddalore
+Bhuvanagiri Fort,Culture Seeker / Adventure Seeker,Budget,Couple / Family,3,09:00-18:00,Cuddalore
+Danish Settlement Tranquebar,Culture Seeker / Budget Backpacker,Budget,Couple / Family,3,09:00-17:00,Cuddalore
+Veeranam Lake,Nature Lover / Family Planner,Budget,Family,3,06:00-18:00,Cuddalore
+Perumal Lake (Bird Watching),Nature Lover / Adventure Seeker,Budget,Couple / Family,2,06:00-10:00,Cuddalore
+Cuddalore Government Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:30-17:30,Cuddalore
+Annamalai University Herbarium,Culture Seeker / Nature Lover,Budget,Couple / Family,2,10:00-17:00,Cuddalore
+CAS Marine Biology Aquarium,Culture Seeker / Family Planner,Budget,Family,2,10:00-17:00,Cuddalore
+Our Lady of Lourdes Church Cuddalore,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Cuddalore
+St. Joseph's Church Porto Novo,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Cuddalore
+Children's Park Cuddalore,Family Planner / Nature Lover,Budget,Family,2,09:00-19:00,Cuddalore
+Eco Park Silver Beach,Nature Lover / Family Planner,Budget,Family,2,09:00-18:00,Cuddalore
+Cuddalore Main Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-21:00,Cuddalore
+Chidambaram Market,Shopper / Urban Explorer,Budget,Family,2,08:00-20:00,Cuddalore
+Handicraft Shops Pichavaram,Shopper / Culture Seeker,Budget,Couple / Family,1,09:00-18:00,Cuddalore
+Seafood Stalls Silver Beach,Foodie / Culture Seeker,Budget,Family,1,08:00-20:00,Cuddalore
+Saravana Bhavan Cuddalore,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Cuddalore
+Hotel Aryaas Cuddalore,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Cuddalore
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Cuddalore
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Cuddalore
+Local Fish Market Restaurants,Foodie / Culture Seeker,Budget,Family,1,10:00-20:00,Cuddalore
+Water Sports at Silver Beach,Adventure Seeker / Family Planner,Mid-range,Couple / Family,2,09:00-17:00,Cuddalore
+Fishing Village Tour,Culture Seeker / Nature Lover,Budget,Couple / Family,3,08:00-17:00,Cuddalore
+Silver Beach Lighthouse View,Nature Lover / Romantic Couple,Budget,Couple,1,06:00-18:00,Cuddalore
+Gadilam River Viewpoint,Nature Lover / Relaxation Lover,Budget,Couple / Family,1,06:00-19:00,Cuddalore
+Chidambaram Dance Festival Venue,Culture Seeker / Spiritual Traveler,Budget,Family,3,Seasonal,Cuddalore
+Traditional Wood Carving Villages,Culture Seeker / Shopper / Urban Explorer,Budget,Couple / Family,2,09:00-18:00,Cuddalore
+Neyveli Lignite Mines (Viewpoint),Culture Seeker / Urban Explorer,Budget,Family,2,09:00-17:00,Cuddalore
+Cuddalore Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,3,07:00-10:00,Cuddalore
+Vellar Estuary Bird Watching,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,06:00-10:00,Cuddalore
+Cuddalore Old Town Walking Tour,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,2,08:00-11:00,Cuddalore
+Sunset Point at Parangipettai,Nature Lover / Romantic Couple,Budget,Couple,1,17:00-19:00,Cuddalore
+Thyagaraja Temple Tiruvarur,Spiritual Traveler / Culture Seeker,Budget,Family,4,"05:00-12:00, 16:00-21:00",Tiruvarur
+Koothanur Maha Saraswathi Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tiruvarur
+Mannargudi Rajagopalaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,4,"06:00-12:00, 16:00-21:00",Tiruvarur
+Srivanchiyam Vanchinathaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tiruvarur
+Thiruveezhimalai Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tiruvarur
+Thirupampuram Seshapureeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Tiruvarur
+Thirukkannamangai Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Tiruvarur
+Tillaivilagam Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Tiruvarur
+Tirumeichur Udhara Kaliyeswarar Temple,Spiritual Traveler / Culture Seeker,Budget,Family,3,"06:00-12:00, 16:00-20:00",Tiruvarur
+Enkan Subramanyaswamy Temple,Spiritual Traveler / Culture Seeker,Budget,Family,2,"06:00-12:00, 16:00-20:00",Tiruvarur
+Muthupet Mangrove Forest,Nature Lover / Adventure Seeker,Mid-range,Couple / Family,4,06:00-17:00,Tiruvarur
+Muthupet Lagoon Boat Ride,Adventure Seeker / Nature Lover,Mid-range,Couple / Family,3,07:00-17:00,Tiruvarur
+Vaduvur Bird Sanctuary,Nature Lover / Adventure Seeker,Budget,Couple / Family,4,06:00-10:00,Tiruvarur
+Muthupet Estuary Bird Watching,Nature Lover / Adventure Seeker,Budget,Couple / Family,3,06:00-10:00,Tiruvarur
+Muthupet Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Tiruvarur
+Thiruthuraipoondi Beach,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Tiruvarur
+Tyagaraja Temple Museum,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Tiruvarur
+Carnatic Music Trinity Memorial,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-17:00,Tiruvarur
+Ancient Musical Instruments Gallery,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,10:00-17:00,Tiruvarur
+Aazhi Ther (Temple Chariot) Viewing,Culture Seeker / Spiritual Traveler,Budget,Family,2,09:00-17:00,Tiruvarur
+Thyagaraja Temple 1000 Pillar Hall,Culture Seeker / Spiritual Traveler,Budget,Family,1,"05:00-12:00, 16:00-21:00",Tiruvarur
+Mannargudi Temple Gopurams,Culture Seeker / Spiritual Traveler,Budget,Family,1,"06:00-12:00, 16:00-21:00",Tiruvarur
+Muthupet Fort Ruins,Culture Seeker / Budget Backpacker,Budget,Couple / Family,2,09:00-18:00,Tiruvarur
+Ancient Chola Capital Sites,Culture Seeker / Budget Backpacker,Budget,Couple / Family,3,09:00-17:00,Tiruvarur
+Muthupet Mosque (700 years old),Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,05:00-20:00,Tiruvarur
+St. Mary's Church Mannargudi,Spiritual Traveler / Culture Seeker,Budget,Couple / Family,1,06:00-19:00,Tiruvarur
+Rajaji Park Tiruvarur,Nature Lover / Family Planner,Budget,Family,2,06:00-20:00,Tiruvarur
+Children's Park Mannargudi,Family Planner / Nature Lover,Budget,Family,1,09:00-19:00,Tiruvarur
+Tiruvarur Main Market,Shopper / Urban Explorer / Foodie,Budget,Family,2,08:00-21:00,Tiruvarur
+Mannargudi Market,Shopper / Urban Explorer,Budget,Family,2,08:00-20:00,Tiruvarur
+Handicraft Shops near Temples,Shopper / Culture Seeker,Budget,Couple / Family,2,09:00-19:00,Tiruvarur
+Saravana Bhavan Tiruvarur,Foodie / Budget Backpacker,Budget,Just Me / Family,1,07:00-22:00,Tiruvarur
+Hotel Aryaas Tiruvarur,Foodie / Budget Backpacker,Budget,Family,1,07:00-22:00,Tiruvarur
+A2B Adyar Ananda Bhavan,Foodie / Budget Backpacker,Budget,Family,1,07:00-23:00,Tiruvarur
+Sri Krishna Sweets,Foodie / Budget Backpacker,Budget,Just Me / Family,1,08:00-22:00,Tiruvarur
+Local Mess (Traditional Food),Foodie / Culture Seeker,Budget,Family,1,"11:00-15:00, 19:00-22:00",Tiruvarur
+Muthupet Seafood Stalls,Foodie / Culture Seeker,Budget,Family,1,10:00-20:00,Tiruvarur
+Temple Chariot Festival (Seasonal),Culture Seeker / Spiritual Traveler,Budget,Family,5,Seasonal (March-April),Tiruvarur
+Carnatic Music Concert (Seasonal),Culture Seeker / Spiritual Traveler,Budget,Couple / Family,3,Seasonal (Dec-Jan),Tiruvarur
+Mannargudi Temple Tank,Nature Lover / Spiritual Traveler,Budget,Couple / Family,1,06:00-19:00,Tiruvarur
+Thiruveezhimalai Lake,Nature Lover / Relaxation Lover,Budget,Couple / Family,2,06:00-19:00,Tiruvarur
+Muthupet Lagoon Sunset Point,Nature Lover / Romantic Couple,Budget,Couple,1,17:00-19:00,Tiruvarur
+Mannargudi Temple Tower View,Culture Seeker / Nature Lover,Budget,Couple / Family,1,09:00-17:00,Tiruvarur
+Paddy Fields Tour (Rice Bowl),Culture Seeker / Nature Lover,Budget,Couple / Family,3,08:00-17:00,Tiruvarur
+Traditional Farming Village Visit,Culture Seeker / Budget Backpacker,Budget,Couple / Family,3,09:00-17:00,Tiruvarur
+Tiruvarur Heritage Walk,Culture Seeker / Budget Backpacker,Budget,Just Me / Couple,3,07:00-10:00,Tiruvarur
+Temple Architecture Tour,Culture Seeker / Spiritual Traveler,Budget,Couple / Family,4,09:00-17:00,Tiruvarur
+Fishing Village Experience Muthupet,Culture Seeker / Nature Lover,Budget,Couple / Family,3,08:00-17:00,Tiruvarur
+Wooden Walkway Muthupet (162m),Nature Lover / Adventure Seeker,Budget,Couple / Family,1,08:00-17:00,Tiruvarur
+Tiruvarur to Mannargudi Temple Circuit,Spiritual Traveler / Culture Seeker,Mid-range,Family,8,06:00-18:00,Tiruvarur

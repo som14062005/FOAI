@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import {
   MapPin, Calendar, DollarSign, Users, Sparkles, LogOut,
-  User, Brain, RefreshCw, MessageCircle, X, Navigation, Clock, Thermometer
+  User, Brain, RefreshCw, MessageCircle, X, Navigation, Clock, Thermometer,
+  ChevronDown
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -22,30 +23,47 @@ let DefaultIcon = L.icon({
 });
 L.Marker.prototype.options.icon = DefaultIcon;
 
-// ✅ FREE Location Search Hook
-const useLocationSearch = () => {
-  const searchLocation = async (query) => {
-    if (query.length < 3) return [];
-    
-    try {
-      const response = await fetch(
-        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=5&addressdetails=1`
-      );
-      const data = await response.json();
-      
-      return data.map(item => ({
-        display_name: item.display_name,
-        lat: parseFloat(item.lat),
-        lon: parseFloat(item.lon)
-      }));
-    } catch (error) {
-      console.error('Location search error:', error);
-      return [];
-    }
-  };
-  
-  return { searchLocation };
-};
+// ✅ Tamil Nadu Districts Data
+const TAMIL_NADU_DISTRICTS = [
+  { name: "Ariyalur", lat: 11.1401, lng: 79.0677 },
+  { name: "Chengalpattu", lat: 12.6919, lng: 79.9758 },
+  { name: "Chennai", lat: 13.0827, lng: 80.2707 },
+  { name: "Coimbatore", lat: 11.0168, lng: 76.9558 },
+  { name: "Cuddalore", lat: 11.7480, lng: 79.7714 },
+  { name: "Dharmapuri", lat: 12.1275, lng: 78.1589 },
+  { name: "Dindigul", lat: 10.3673, lng: 77.9803 },
+  { name: "Erode", lat: 11.3410, lng: 77.7172 },
+  { name: "Kallakurichi", lat: 11.7401, lng: 78.9597 },
+  { name: "Kancheepuram", lat: 12.8342, lng: 79.7036 },
+  { name: "Karur", lat: 10.9571, lng: 78.0766 },
+  { name: "Krishnagiri", lat: 12.5186, lng: 78.2137 },
+  { name: "Madurai", lat: 9.9252, lng: 78.1198 },
+  { name: "Mayiladuthurai", lat: 11.1085, lng: 79.6505 },
+  { name: "Nagapattinam", lat: 10.7672, lng: 79.8449 },
+  { name: "Kanyakumari", lat: 8.0883, lng: 77.5385 },
+  { name: "Namakkal", lat: 11.2189, lng: 78.1677 },
+  { name: "Perambalur", lat: 11.2342, lng: 78.8808 },
+  { name: "Pudukottai", lat: 10.3833, lng: 78.8201 },
+  { name: "Ramanathapuram", lat: 9.3639, lng: 78.8363 },
+  { name: "Ranipet", lat: 12.9244, lng: 79.3377 },
+  { name: "Salem", lat: 11.6643, lng: 78.1460 },
+  { name: "Sivaganga", lat: 9.8438, lng: 78.4804 },
+  { name: "Tenkasi", lat: 8.9606, lng: 77.3152 },
+  { name: "Thanjavur", lat: 10.7870, lng: 79.1378 },
+  { name: "Theni", lat: 10.0104, lng: 77.4977 },
+  { name: "Thiruvallur", lat: 13.1167, lng: 79.9167 },
+  { name: "Thiruvarur", lat: 10.7735, lng: 79.6370 },
+  { name: "Thoothukudi", lat: 8.7642, lng: 78.1348 },
+  { name: "Tiruchirappalli", lat: 10.7905, lng: 78.7047 },
+  { name: "Tirunelveli", lat: 8.7139, lng: 77.7567 },
+  { name: "Tirupathur", lat: 12.4980, lng: 78.5675 },
+  { name: "Tiruppur", lat: 11.1085, lng: 77.3411 },
+  { name: "Tiruvannamalai", lat: 12.2306, lng: 79.0747 },
+  { name: "The Nilgiris", lat: 11.4102, lng: 76.6950 },
+  { name: "Vellore", lat: 12.9165, lng: 79.1325 },
+  { name: "Viluppuram", lat: 11.9401, lng: 79.4861 },
+  { name: "Virudhunagar", lat: 9.5681, lng: 77.9624 }
+];
 
 // ✅ Enhanced Travel Info Component with Tailwind CSS (NO COST OR SMART TIPS)
 const TravelInfoDisplay = ({ userLocation, destination, formData }) => {
@@ -57,14 +75,14 @@ const TravelInfoDisplay = ({ userLocation, destination, formData }) => {
     if (userLocation && destination) {
       setLoading(true);
       calculateTravelInfo();
-      fetchWeather(); // ⭐ WEATHER API USED HERE
+      fetchWeather();
     }
   }, [userLocation, destination]);
 
   const calculateTravelInfo = () => {
     const distance = getDistance(
       { latitude: userLocation.lat, longitude: userLocation.lng },
-      { latitude: destination.lat, longitude: destination.lon }
+      { latitude: destination.lat, longitude: destination.lng }
     );
     
     const distanceKm = (distance / 1000).toFixed(1);
@@ -80,18 +98,17 @@ const TravelInfoDisplay = ({ userLocation, destination, formData }) => {
     setLoading(false);
   };
 
-  // ⭐ WEATHER API FUNCTION - Uses your .env variable
+  // ⭐ WEATHER API FUNCTION
   const fetchWeather = async () => {
-    const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;// ⭐ Your API key from .env
+    const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
     if (!API_KEY) {
       console.log('Weather API key not found in .env file');
       return;
     }
     
     try {
-      // ⭐ OpenWeatherMap API call
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${destination.lat}&lon=${destination.lon}&appid=${API_KEY}&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?lat=${destination.lat}&lon=${destination.lng}&appid=${API_KEY}&units=metric`
       );
       const data = await response.json();
       setWeather({
@@ -209,11 +226,9 @@ const UserDashboardUI = () => {
     travelWith: ''
   });
 
-  // ✅ NEW MAP STATES
+  // ✅ NEW MAP STATES - Simplified for dropdown
   const [userLocation, setUserLocation] = useState(null);
   const [destinationLocation, setDestinationLocation] = useState(null);
-  const [locationSuggestions, setLocationSuggestions] = useState([]);
-  const [showSuggestions, setShowSuggestions] = useState(false);
 
   // All existing states
   const [errors, setErrors] = useState({});
@@ -224,8 +239,6 @@ const UserDashboardUI = () => {
   const [chatInput, setChatInput] = useState('');
   const [isChatLoading, setIsChatLoading] = useState(false);
   const [aiOptimizing, setAiOptimizing] = useState(false);
-
-  const { searchLocation } = useLocationSearch();
 
   // ✅ Get user's current location
   useEffect(() => {
@@ -239,28 +252,12 @@ const UserDashboardUI = () => {
         },
         (error) => {
           console.error('Location error:', error);
-          // Fallback to Mumbai
-          setUserLocation({ lat: 19.0760, lng: 72.8777 });
+          // Fallback to Chennai
+          setUserLocation({ lat: 13.0827, lng: 80.2707 });
         }
       );
     }
   }, []);
-
-  // ✅ Search locations when typing destination
-  useEffect(() => {
-    const searchTimeout = setTimeout(async () => {
-      if (formData.destination.length >= 3) {
-        const results = await searchLocation(formData.destination);
-        setLocationSuggestions(results);
-        setShowSuggestions(true);
-      } else {
-        setLocationSuggestions([]);
-        setShowSuggestions(false);
-      }
-    }, 500);
-    
-    return () => clearTimeout(searchTimeout);
-  }, [formData.destination, searchLocation]);
 
   useEffect(() => {
     const user = JSON.parse(sessionStorage.getItem('user'));
@@ -275,7 +272,7 @@ const UserDashboardUI = () => {
       setUserProfile(parsedProfile);
       setChatMessages([{
         type: 'ai',
-        message: `Hello! I'm your AI travel assistant. As a ${parsedProfile.userType} traveler, I can help you plan the perfect trip. What would you like to know?`
+        message: `Hello! I'm your AI travel assistant. As a ${parsedProfile.userType} traveler, I can help you plan the perfect trip in Tamil Nadu. What would you like to know?`
       }]);
     }
   }, []);
@@ -303,14 +300,15 @@ const UserDashboardUI = () => {
     { id: 'family', label: 'Family', description: 'A group of fun loving souls', icon: '👨‍👩‍👧‍👦' }
   ];
 
+  // ✅ Get AI Suggestions for selected district
   const getAISuggestions = async (destination) => {
-    if (destination.length > 3 && userProfile) {
+    if (destination && userProfile) {
       try {
         const response = await fetch('http://localhost:3000/ai/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            message: `Give me 3 quick travel tips for ${destination}`,
+            message: `Give me 3 quick travel tips for ${destination}, Tamil Nadu`,
             userProfile: userProfile,
             tripContext: formData
           })
@@ -333,7 +331,7 @@ const UserDashboardUI = () => {
 
   const optimizeWithAI = async () => {
     if (!userProfile || !formData.destination) {
-      alert('Please complete your profile and enter a destination first');
+      alert('Please complete your profile and select a destination first');
       return;
     }
 
@@ -344,7 +342,7 @@ const UserDashboardUI = () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          message: `Optimize my trip plan: ${formData.days} days in ${formData.destination} with ${formData.budget} budget, traveling ${formData.travelWith}. Give me specific suggestions for budget allocation and must-visit places.`,
+          message: `Optimize my trip plan: ${formData.days} days in ${formData.destination}, Tamil Nadu with ${formData.budget} budget, traveling ${formData.travelWith}. Give me specific suggestions for budget allocation and must-visit places.`,
           userProfile: userProfile,
           tripContext: formData
         })
@@ -407,9 +405,7 @@ const UserDashboardUI = () => {
   const validateForm = () => {
     const newErrors = {};
     if (!formData.destination.trim()) {
-      newErrors.destination = 'Destination is required';
-    } else if (formData.destination.length < 2) {
-      newErrors.destination = 'Destination must be at least 2 characters';
+      newErrors.destination = 'Please select a destination district';
     }
     if (!formData.days) {
       newErrors.days = 'Number of days is required';
@@ -428,20 +424,22 @@ const UserDashboardUI = () => {
 
   const handleInputChange = (field, value) => {
     setFormData(prev => ({ ...prev, [field]: value }));
+    
+    // ✅ Handle district selection
     if (field === 'destination') {
-      getAISuggestions(value);
+      const selectedDistrict = TAMIL_NADU_DISTRICTS.find(district => district.name === value);
+      if (selectedDistrict) {
+        setDestinationLocation({ 
+          lat: selectedDistrict.lat, 
+          lng: selectedDistrict.lng 
+        });
+        getAISuggestions(value);
+      }
     }
+    
     if (errors[field]) {
       setErrors(prev => ({ ...prev, [field]: '' }));
     }
-  };
-
-  // ✅ Handle location selection from suggestions
-  const handleLocationSelect = (location) => {
-    setFormData(prev => ({ ...prev, destination: location.display_name }));
-    setDestinationLocation({ lat: location.lat, lon: location.lon });
-    setShowSuggestions(false);
-    getAISuggestions(location.display_name);
   };
 
   const handleSubmit = async (e) => {
@@ -583,7 +581,7 @@ const UserDashboardUI = () => {
               value={chatInput}
               onChange={(e) => setChatInput(e.target.value)}
               onKeyPress={(e) => e.key === 'Enter' && sendChatMessage()}
-              placeholder="Ask about travel recommendations..."
+              placeholder="Ask about Tamil Nadu travel recommendations..."
               className="chat-input"
             />
             <button onClick={sendChatMessage} className="send-btn">Send</button>
@@ -591,7 +589,7 @@ const UserDashboardUI = () => {
         </div>
       )}
 
-      {/* Conditional Content */}
+      {/* Conditional Content - Same as before */}
       {!userProfile || !userProfile.userType ? (
         <div className="quiz-call-to-action">
           <div className="cta-content">
@@ -665,56 +663,53 @@ const UserDashboardUI = () => {
 
       <div className="trip-planner-header">
         <div className="header-content">
-          <h1>Plan Your Perfect Adventure</h1>
-          <p>Tell us your preferences and we'll create an amazing itinerary for you</p>
+          <h1>Plan Your Perfect Tamil Nadu Adventure</h1>
+          <p>Select your destination district and we'll create an amazing itinerary for you</p>
         </div>
       </div>
 
       <form className="trip-planner-form" onSubmit={handleSubmit}>
-        {/* ✅ Enhanced Destination Section with Map */}
+        {/* ✅ MODIFIED Destination Section with Dropdown */}
         <div className="form-section">
           <div className="section-header">
             <MapPin className="section-icon" />
-            <h2>What is destination of choice?</h2>
+            <h2>Which Tamil Nadu district would you like to explore?</h2>
           </div>
           <div className="input-group">
+            {/* ✅ Custom Dropdown with Tailwind Styling */}
             <div className="relative">
-              <input
-                type="text"
-                placeholder="Enter destination (e.g., Las Vegas, NV, USA)"
+              <select
                 value={formData.destination}
                 onChange={(e) => handleInputChange('destination', e.target.value)}
-                className={`destination-input ${errors.destination ? 'error' : ''}`}
-              />
+                className={`w-full px-4 py-4 text-lg bg-white border-2 rounded-xl focus:ring-4 focus:ring-blue-100 focus:border-blue-500 transition-all duration-200 appearance-none cursor-pointer ${
+                  errors.destination ? 'border-red-400 focus:ring-red-100 focus:border-red-500' : 'border-gray-200 hover:border-gray-300'
+                }`}
+              >
+                <option value="">🏛️ Select a Tamil Nadu District</option>
+                {TAMIL_NADU_DISTRICTS.map((district, index) => (
+                  <option key={index} value={district.name}>
+                    {district.name}
+                  </option>
+                ))}
+              </select>
               
-              {/* ✅ Location Suggestions with Tailwind */}
-              {showSuggestions && locationSuggestions.length > 0 && (
-                <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-xl max-h-48 overflow-y-auto z-50">
-                  {locationSuggestions.map((location, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 cursor-pointer border-b border-gray-100 last:border-b-0 transition-colors duration-150"
-                      onClick={() => handleLocationSelect(location)}
-                    >
-                      <MapPin size={16} className="text-gray-400 flex-shrink-0" />
-                      <span className="text-sm text-gray-700 truncate">{location.display_name}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
+              {/* Custom Dropdown Arrow */}
+              <div className="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none">
+                <ChevronDown size={20} className="text-gray-400" />
+              </div>
             </div>
             
             {errors.destination && (
               <span className="error-message">{errors.destination}</span>
             )}
             
-            {/* ✅ Map Section with Tailwind */}
+            {/* ✅ Map Section */}
             {destinationLocation && (
               <div className="mt-5">
                 <div className="rounded-2xl overflow-hidden shadow-lg">
                   <MapContainer
-                    center={destinationLocation ? [destinationLocation.lat, destinationLocation.lon] : [20.5937, 78.9629]}
-                    zoom={destinationLocation ? 10 : 5}
+                    center={destinationLocation ? [destinationLocation.lat, destinationLocation.lng] : [11.1271, 78.6569]}
+                    zoom={destinationLocation ? 10 : 7}
                     style={{ height: '300px', width: '100%' }}
                   >
                     <TileLayer
@@ -729,14 +724,14 @@ const UserDashboardUI = () => {
                     )}
                     
                     {destinationLocation && (
-                      <Marker position={[destinationLocation.lat, destinationLocation.lon]}>
-                        <Popup>🎯 {formData.destination}</Popup>
+                      <Marker position={[destinationLocation.lat, destinationLocation.lng]}>
+                        <Popup>🎯 {formData.destination}, Tamil Nadu</Popup>
                       </Marker>
                     )}
                   </MapContainer>
                 </div>
                 
-                {/* ✅ Travel Information with Tailwind */}
+                {/* ✅ Travel Information */}
                 {userLocation && (
                   <TravelInfoDisplay
                     userLocation={userLocation}
@@ -750,7 +745,7 @@ const UserDashboardUI = () => {
             {/* AI Suggestions */}
             {aiSuggestions.length > 0 && (
               <div className="ai-suggestions">
-                <h4>🤖 AI Quick Tips:</h4>
+                <h4>🤖 AI Quick Tips for {formData.destination}:</h4>
                 {aiSuggestions.map((suggestion, index) => (
                   <div key={index} className="suggestion-item">
                     <span className="suggestion-icon">💡</span>
@@ -762,6 +757,7 @@ const UserDashboardUI = () => {
           </div>
         </div>
 
+        {/* Rest of the form remains the same */}
         {/* Days Section */}
         <div className="form-section">
           <div className="section-header">
@@ -854,7 +850,7 @@ const UserDashboardUI = () => {
                 </>
               )}
             </button>
-            <p className="optimize-hint">Get AI-powered recommendations for your trip</p>
+            <p className="optimize-hint">Get AI-powered recommendations for your Tamil Nadu trip</p>
           </div>
         )}
 
@@ -873,7 +869,7 @@ const UserDashboardUI = () => {
             ) : (
               <>
                 <Sparkles className="btn-icon" />
-                {userProfile ? 'Plan My AI Trip' : 'Plan My Trip'}
+                {userProfile ? 'Plan My Tamil Nadu Trip' : 'Plan My Trip'}
               </>
             )}
           </button>

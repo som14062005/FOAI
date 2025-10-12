@@ -1,0 +1,532 @@
+POST http://localhost:3000/auth/login
+
+{
+  "email": "230701246@rajalakshmi.edu.in",
+  "password": "123"
+}
+
+response: 
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODc3ZjkyMDVmNzdjMGEwNTY1YzRhM2MiLCJuYW1lIjoicHJhdmVlbiBzb20iLCJyb2xlIjoidXNlciIsImVtYWlsIjoiMjMwNzAxMjQ2QHJhamFsYWtzaG1pLmVkdS5pbiIsImlhdCI6MTc1OTk1MTY3MywiZXhwIjoxNzU5OTU1MjczfQ.Npexmfc6uBbE4UfOs0xrREN9LIpWn9HmfLBSL72Ukpg",
+    "user": {
+        "id": "6877f9205f77c0a0565c4a3c",
+        "name": "praveen som",
+        "role": "user",
+        "email": "230701246@rajalakshmi.edu.in"
+    }
+}
+http://localhost:3000/classifier/profile/6877f9205f77c0a0565c4a3c
+
+POSt http://localhost:3000/classifier/predict
+
+{
+  "q1_activity": "Relaxing on a beach",
+  "q2_destination": "Beaches",
+  "q3_pace": "Relaxed and slow",
+  "q4_accommodation": "Beachside cottages",
+  "q5_souvenir": "Photos of nature & adventure",
+  "q6_evening": "Romantic dinner by the sea",
+  "q7_motivation": "Romantic time"
+}
+
+response: 
+{
+    "travelerType": "Romantic Couple",
+    "confidence": 1,
+    "recommendations": [
+        "Paris, France - City of love",
+        "Santorini, Greece - Stunning sunsets",
+        "Venice, Italy - Romantic gondola rides",
+        "Bora Bora - Luxury overwater bungalows"
+    ],
+    "description": "You seek intimate, romantic experiences with your partner. Scenic sunsets and cozy dinners are your favorites."
+}
+
+POSt http://localhost:3000/trips
+
+{
+  "district": "Chennai",
+  "days": 5,
+  "budget": "MODERATE",
+  "travelWith": "FAMILY"
+}
+
+response:
+{
+    "district": "Chennai",
+    "days": 5,
+    "budget": "MODERATE",
+    "travelWith": "FAMILY",
+    "_id": "68e6db85dd879cac513daccf",
+    "createdAt": "2025-10-08T21:45:41.854Z",
+    "updatedAt": "2025-10-08T21:45:41.854Z",
+    "__v": 0
+}
+
+POST http://localhost:3000/trips
+
+{
+  "userId": "6877f9205f77c0a0565c4a3c",
+  "district": "Chennai",
+  "days": 20,
+  "budget": "MODERATE",
+  "travelWith": "FAMILY"
+}
+
+
+{
+    "userId": "6877f9205f77c0a0565c4a3c",
+    "tripNumber": 2,
+    "district": "Chennai",
+    "days": 20,
+    "budget": "MODERATE",
+    "travelWith": "FAMILY",
+    "_id": "68e6e2ca615f9a2e44f82f89",
+    "createdAt": "2025-10-08T22:16:42.356Z",
+    "updatedAt": "2025-10-08T22:16:42.356Z",
+    "__v": 0
+}
+
+GET http://localhost:3000/trips
+
+[
+    {
+        "_id": "68e6e2ca615f9a2e44f82f89",
+        "userId": "6877f9205f77c0a0565c4a3c",
+        "tripNumber": 2,
+        "district": "Chennai",
+        "days": 20,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T22:16:42.356Z",
+        "updatedAt": "2025-10-08T22:16:42.356Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6e228615f9a2e44f82f82",
+        "userId": "6877f9205f77c0a0565c4a3c",
+        "tripNumber": 1,
+        "district": "Chennai",
+        "days": 5,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T22:14:00.201Z",
+        "updatedAt": "2025-10-08T22:14:00.201Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6e20f615f9a2e44f82f7f",
+        "userId": "user123",
+        "tripNumber": 2,
+        "district": "Chennai",
+        "days": 5,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T22:13:35.272Z",
+        "updatedAt": "2025-10-08T22:13:35.272Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6e20a615f9a2e44f82f7c",
+        "userId": "user123",
+        "tripNumber": 1,
+        "district": "Chennai",
+        "days": 5,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T22:13:30.733Z",
+        "updatedAt": "2025-10-08T22:13:30.733Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6e04fdd879cac513dacd9",
+        "district": "Madurai",
+        "days": 7,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T22:06:07.844Z",
+        "updatedAt": "2025-10-08T22:06:07.844Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6df96dd879cac513dacd7",
+        "district": "Chennai",
+        "days": 7,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T22:03:02.845Z",
+        "updatedAt": "2025-10-08T22:03:02.845Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6df8cdd879cac513dacd5",
+        "district": "Chennai",
+        "days": 5,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T22:02:52.909Z",
+        "updatedAt": "2025-10-08T22:02:52.909Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6df8add879cac513dacd3",
+        "district": "Chennai",
+        "days": 5,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T22:02:50.641Z",
+        "updatedAt": "2025-10-08T22:02:50.641Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6dd9edd879cac513dacd1",
+        "district": "Chennai",
+        "days": 5,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T21:54:38.400Z",
+        "updatedAt": "2025-10-08T21:54:38.400Z",
+        "__v": 0
+    },
+    {
+        "_id": "68e6db85dd879cac513daccf",
+        "district": "Chennai",
+        "days": 5,
+        "budget": "MODERATE",
+        "travelWith": "FAMILY",
+        "createdAt": "2025-10-08T21:45:41.854Z",
+        "updatedAt": "2025-10-08T21:45:41.854Z",
+        "__v": 0
+    }
+]
+
+GET http://localhost:3000/trips/6877f9205f77c0a0565c4a3c
+[latest trip by the user]
+
+{
+    "_id": "68e6e46d615f9a2e44f82f93",
+    "userId": "6877f9205f77c0a0565c4a3c",
+    "tripNumber": 4,
+    "district": "Chennai",
+    "days": 3,
+    "budget": "MODERATE",
+    "travelWith": "COUPLE",
+    "createdAt": "2025-10-08T22:23:41.456Z",
+    "updatedAt": "2025-10-08T22:23:41.456Z",
+    "__v": 0
+}
+
+GET http://localhost:3000/classifier/profile/6877f9205f77c0a0565c4a3c
+
+{
+    "userId": "6877f9205f77c0a0565c4a3c",
+    "travelerType": "Foodie",
+    "confidence": 0.8389,
+    "description": "Your journey is a culinary adventure. You travel to taste authentic local cuisines and discover food cultures.",
+    "createdAt": "2025-10-08T20:25:21.689Z",
+    "updatedAt": "2025-10-08T21:21:23.644Z"
+}
+
+GET http://localhost:3000/trips/input/6877f9205f77c0a0565c4a3c
+
+{
+    "userId": "6877f9205f77c0a0565c4a3c",
+    "latestTrip": {
+        "_id": "68e72172ecda0553d04429e1",
+        "userId": "6877f9205f77c0a0565c4a3c",
+        "tripNumber": 5,
+        "district": "Karur",
+        "days": 8,
+        "budget": "LIMITED",
+        "travelWith": "SOLO",
+        "createdAt": "2025-10-09T02:44:02.770Z",
+        "updatedAt": "2025-10-09T02:44:02.770Z",
+        "__v": 0
+    },
+    "travelerProfile": {
+        "userId": "6877f9205f77c0a0565c4a3c",
+        "travelerType": "Foodie",
+        "confidence": 0.8389,
+        "description": "Your journey is a culinary adventure. You travel to taste authentic local cuisines and discover food cultures.",
+        "createdAt": "2025-10-08T20:25:21.689Z",
+        "updatedAt": "2025-10-08T21:21:23.644Z"
+    }
+}
+
+
+POSt http://localhost:3000/api/saved-trips
+
+{
+  "userId": "6877f9205f77c0a0565c4a3c",
+  "tripData": {
+    "district": "Chennai",
+    "days": 5,
+    "budget": "MODERATE",
+    "travelWith": "FAMILY",
+    "travelerType": "Foodie",
+    "algorithm": "Hybrid TSP + ML Recommendation",
+    "stats": {
+      "totalPlaces": 15,
+      "totalDuration": 45
+    },
+    "itinerary": {
+      "Day 1": [
+        {
+          "name": "Marina Beach",
+          "type": "Beach / Nature",
+          "duration": 3,
+          "rating": 4.5,
+          "timing": "06:00-18:00",
+          "latitude": "13.0569",
+          "longitude": "80.2824",
+          "weather": {
+            "temp": 32,
+            "condition": "Clear",
+            "description": "sunny",
+            "humidity": 65
+          },
+          "explanation": {
+            "reasons": [
+              "Perfect for family outings",
+              "Great morning activity",
+              "Matches your beach preference"
+            ]
+          }
+        },
+        {
+          "name": "Kapaleeshwarar Temple",
+          "type": "Temple / Spiritual",
+          "duration": 2,
+          "rating": 4.7,
+          "timing": "06:00-20:00",
+          "latitude": "13.0339",
+          "longitude": "80.2619",
+          "weather": {
+            "temp": 33,
+            "condition": "Clear",
+            "description": "hot",
+            "humidity": 60
+          },
+          "explanation": {
+            "reasons": [
+              "Cultural experience",
+              "Historical significance",
+              "Great architecture"
+            ]
+          }
+        }
+      ],
+      "Day 2": [
+        {
+          "name": "Fort St. George",
+          "type": "Historical / Museum",
+          "duration": 2,
+          "rating": 4.3,
+          "timing": "09:00-17:00",
+          "latitude": "13.0836",
+          "longitude": "80.2885",
+          "explanation": {
+            "reasons": [
+              "Learn about colonial history",
+              "Educational for family",
+              "Iconic landmark"
+            ]
+          }
+        }
+      ]
+    },
+    "weatherForecast": [
+      {
+        "day": 1,
+        "temp": 32,
+        "condition": "Clear",
+        "description": "sunny",
+        "humidity": 65
+      },
+      {
+        "day": 2,
+        "temp": 33,
+        "condition": "Clouds",
+        "description": "partly cloudy",
+        "humidity": 68
+      }
+    ],
+    "aiFeatures": {
+      "ml_model": "Random Forest",
+      "route_optimization": "TSP Algorithm",
+      "weather_integration": "OpenWeather API",
+      "personalization": "User Profile Based",
+      "clustering": "K-Means"
+    }
+  },
+  "tags": ["family vacation", "summer 2025"],
+  "notes": "First trip to Chennai"
+}
+
+
+response :
+{
+    "success": true,
+    "message": "Trip saved successfully",
+    "data": {
+        "userId": "6877f9205f77c0a0565c4a3c",
+        "tripData": {
+            "district": "Chennai",
+            "days": 5,
+            "budget": "MODERATE",
+            "travelWith": "FAMILY",
+            "travelerType": "Foodie",
+            "algorithm": "Hybrid TSP + ML Recommendation",
+            "stats": {
+                "totalPlaces": 15,
+                "totalDuration": 45
+            },
+            "itinerary": {
+                "Day 1": [
+                    {
+                        "name": "Marina Beach",
+                        "type": "Beach / Nature",
+                        "duration": 3,
+                        "rating": 4.5,
+                        "timing": "06:00-18:00",
+                        "latitude": "13.0569",
+                        "longitude": "80.2824",
+                        "weather": {
+                            "temp": 32,
+                            "condition": "Clear",
+                            "description": "sunny",
+                            "humidity": 65
+                        },
+                        "explanation": {
+                            "reasons": [
+                                "Perfect for family outings",
+                                "Great morning activity",
+                                "Matches your beach preference"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Kapaleeshwarar Temple",
+                        "type": "Temple / Spiritual",
+                        "duration": 2,
+                        "rating": 4.7,
+                        "timing": "06:00-20:00",
+                        "latitude": "13.0339",
+                        "longitude": "80.2619",
+                        "weather": {
+                            "temp": 33,
+                            "condition": "Clear",
+                            "description": "hot",
+                            "humidity": 60
+                        },
+                        "explanation": {
+                            "reasons": [
+                                "Cultural experience",
+                                "Historical significance",
+                                "Great architecture"
+                            ]
+                        }
+                    }
+                ],
+                "Day 2": [
+                    {
+                        "name": "Fort St. George",
+                        "type": "Historical / Museum",
+                        "duration": 2,
+                        "rating": 4.3,
+                        "timing": "09:00-17:00",
+                        "latitude": "13.0836",
+                        "longitude": "80.2885",
+                        "explanation": {
+                            "reasons": [
+                                "Learn about colonial history",
+                                "Educational for family",
+                                "Iconic landmark"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "weatherForecast": [
+                {
+                    "day": 1,
+                    "temp": 32,
+                    "condition": "Clear",
+                    "description": "sunny",
+                    "humidity": 65
+                },
+                {
+                    "day": 2,
+                    "temp": 33,
+                    "condition": "Clouds",
+                    "description": "partly cloudy",
+                    "humidity": 68
+                }
+            ],
+            "aiFeatures": {
+                "ml_model": "Random Forest",
+                "route_optimization": "TSP Algorithm",
+                "weather_integration": "OpenWeather API",
+                "personalization": "User Profile Based",
+                "clustering": "K-Means"
+            }
+        },
+        "savedAt": "2025-10-10T20:41:23.185Z",
+        "favorite": false,
+        "tags": [
+            "family vacation",
+            "summer 2025"
+        ],
+        "notes": "First trip to Chennai",
+        "_id": "68e96f735d1097416429ce27",
+        "createdAt": "2025-10-10T20:41:23.214Z",
+        "updatedAt": "2025-10-10T20:41:23.214Z",
+        "__v": 0
+    }
+}
+
+GET http://localhost:3000/api/saved-trips/user/6877f9205f77c0a0565c4a3c
+
+response:
+{
+    "success": true,
+    "data": {
+        "trips": [
+            {
+                "_id": "68e96f735d1097416429ce27",
+                "userId": "6877f9205f77c0a0565c4a3c",
+                "tripData": {
+                    "district": "Chennai",
+                    "days": 5,
+                    "budget": "MODERATE",
+                    "travelWith": "FAMILY",
+                    "travelerType": "Foodie",
+                    "stats": {
+                        "totalPlaces": 15,
+                        "totalDuration": 45
+                    }
+                },
+                "savedAt": "2025-10-10T20:41:23.185Z",
+                "favorite": false,
+                "tags": [
+                    "family vacation",
+                    "summer 2025"
+                ],
+                "thumbnail": {
+                    "firstPlace": "Marina Beach",
+                    "totalDays": 5,
+                    "totalPlaces": 15
+                },
+                "createdAt": "2025-10-10T20:41:23.214Z",
+                "updatedAt": "2025-10-10T20:41:23.214Z"
+            }
+        ],
+        "pagination": {
+            "total": 1,
+            "page": 1,
+            "limit": 10,
+            "totalPages": 1
+        }
+    }
+}
+

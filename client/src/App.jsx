@@ -5,6 +5,9 @@ import AdminDashboardUI from "./pages/AdminDashboardUI";
 import UserDashboardUI from "./pages/UserDashboardUI";
 import ProtectedRoute from "./components/ProtectedRoute";
 import UserQuizUI from './pages/UserQuiz';
+import TripResultPage from './pages/TripResultPage';
+import SavedTripsPage from './pages/recent';
+import LiveMapPage from './pages/LiveMapPage';
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
           }
         />
         <Route path="/userquiz" element={<UserQuizUI />} />
+        <Route path="/result" element={<TripResultPage />} />
+        <Route path="/recent" element={<SavedTripsPage />} />
+        <Route path="/live-map/:tripId" element={<LiveMapPage />} />
         {/* Catch all route - redirect to home */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

@@ -9,18 +9,22 @@ from math import radians, sin, cos, sqrt, atan2
 import requests
 from datetime import datetime, timedelta
 
+
 app = Flask(__name__)
-CORS(app)  # Enable CORS for NestJS backend
+CORS(app)
+
 
 # Load Naive Bayes model at startup
 classifier = TravelClassifier()
 model_path = 'models'
 
+
 if os.path.exists(f'{model_path}/naive_bayes_model.pkl'):
     classifier.load_model(model_path)
     print("✅ Naive Bayes model loaded on startup")
 else:
-    print("⚠️ No trained model found. Please run train_model.py first!")
+    print("⚠ No trained model found. Please run train_model.py first!")
+
 
 # Load places datasets
 try:
@@ -28,17 +32,30 @@ try:
     place_metadata = pd.read_csv('data/place_metadata.csv')
     place_coordinates = pd.read_csv('data/place_coordinates.csv')
     
-    # Merge all data
-    places = places_dataset.merge(place_metadata, on='place_name', how='left')
-    places = places.merge(place_coordinates, on='place_name', how='left')
+    # Keep category from places_dataset, add indoor_outdoor and popularity_rating from metadata
+    metadata_cols = place_metadata[['place_name', 'indoor_outdoor', 'popularity_rating']].copy()
+    
+    # Merge datasets
+    places = places_dataset.merge(metadata_cols, on='place_name', how='left')
+    places = places.merge(place_coordinates[['place_name', 'latitude', 'longitude']], on='place_name', how='left')
     
     print(f"✅ Loaded {len(places)} places from datasets")
+    print(f"✅ Columns: {places.columns.tolist()}")
+    print(f"\n📊 Category sample:")
+    print(places[['place_name', 'category']].head(10))
+    print(f"\n📊 Category distribution:")
+    print(places['category'].value_counts().head(20))
+    
 except Exception as e:
-    print(f"⚠️ Places data not found: {e}")
+    print(f"⚠ Places data not found: {e}")
+    import traceback
+    traceback.print_exc()
     places = pd.DataFrame()
 
+
 # Weather API Configuration
-WEATHER_API_KEY = os.environ.get('WEATHER_API_KEY', '419fb4dbb88789fe0e07850906085a82')  # Get from environment or set here
+WEATHER_API_KEY = os.environ.get('WEATHER_API_KEY', '419fb4dbb88789fe0e07850906085a82')
+
 
 # Traveler type information
 TRAVELER_INFO = {
@@ -134,16 +151,18 @@ TRAVELER_INFO = {
     }
 }
 
-# Helper functions for trip planning
+
+# Helper functions
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calculate distance between two coordinates in km"""
-    R = 6371  # Earth radius in km
+    R = 6371
     lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
     dlat = lat2 - lat1
     dlon = lon2 - lon1
     a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
     c = 2 * atan2(sqrt(a), sqrt(1-a))
     return R * c
+
 
 def get_weather_forecast(city, days):
     """Fetch weather forecast from OpenWeatherMap API"""
@@ -152,14 +171,13 @@ def get_weather_forecast(city, days):
         response = requests.get(url, timeout=5)
         
         if response.status_code != 200:
-            print(f"⚠️ Weather API error: {response.status_code}")
+            print(f"⚠ Weather API error: {response.status_code}")
             return []
         
         data = response.json()
         forecast = []
         
-        # OpenWeatherMap gives 3-hour intervals, we take one per day
-        for i in range(min(days, 5)):  # Free API gives 5 days
+        for i in range(min(days, 5)):
             if i * 8 < len(data['list']):
                 day_data = data['list'][i * 8]
                 forecast.append({
@@ -170,12 +188,13 @@ def get_weather_forecast(city, days):
                     'humidity': day_data['main']['humidity']
                 })
         
-        print(f"🌤️ Weather forecast fetched: {len(forecast)} days")
+        print(f"🌤 Weather forecast fetched: {len(forecast)} days")
         return forecast
         
     except Exception as e:
-        print(f"⚠️ Weather API failed: {e}")
+        print(f"⚠ Weather API failed: {e}")
         return []
+
 
 def generate_explanation(place, user_data, constraints_met, day_number):
     """Generate explainable AI reasons for recommendation"""
@@ -183,9 +202,9 @@ def generate_explanation(place, user_data, constraints_met, day_number):
     confidence_score = 0
     max_score = 5
     
-    # 1. Traveler type match (20%)
     traveler_type = user_data['travelerProfile']['travelerType']
     place_category = str(place.get('category', ''))
+    
     if traveler_type in place_category:
         reasons.append(f"✓ Perfect match for '{traveler_type}' traveler type")
         confidence_score += 1
@@ -193,13 +212,11 @@ def generate_explanation(place, user_data, constraints_met, day_number):
         reasons.append(f"≈ Partial match for '{traveler_type}' interests")
         confidence_score += 0.5
     
-    # 2. Budget constraint (20%)
     budget = user_data['latestTrip']['budget']
     place_cost = str(place.get('cost_category', 'Budget'))
     reasons.append(f"✓ Fits {budget} budget (place cost: {place_cost})")
     confidence_score += 1
     
-    # 3. Popularity rating (20%)
     rating = place.get('popularity_rating', 0)
     if rating >= 4:
         reasons.append(f"⭐ Highly rated: {rating}/5 stars")
@@ -208,12 +225,10 @@ def generate_explanation(place, user_data, constraints_met, day_number):
         reasons.append(f"⭐ Rated: {rating}/5 stars")
         confidence_score += 0.5
     
-    # 4. Duration fit (20%)
     duration = place.get('duration_hours', 2)
-    reasons.append(f"⏱️ Duration: {duration}hrs fits Day {day_number} schedule")
+    reasons.append(f"⏱ Duration: {duration}hrs fits Day {day_number} schedule")
     confidence_score += 1
     
-    # 5. Weather appropriateness (20%)
     if 'weather_condition' in constraints_met:
         weather = constraints_met['weather_condition']
         place_type = place.get('indoor_outdoor', 'outdoor')
@@ -221,10 +236,10 @@ def generate_explanation(place, user_data, constraints_met, day_number):
             reasons.append(f"☔ Weather-smart: Indoor venue for rainy conditions")
             confidence_score += 1
         elif weather in ['Clear', 'Clouds'] and place_type == 'outdoor':
-            reasons.append(f"☀️ Weather-perfect: Outdoor activity for good weather")
+            reasons.append(f"☀ Weather-perfect: Outdoor activity for good weather")
             confidence_score += 1
         else:
-            reasons.append(f"🌦️ Weather-aware: {place_type} venue")
+            reasons.append(f"🌦 Weather-aware: {place_type} venue")
             confidence_score += 0.5
     
     return {
@@ -233,135 +248,165 @@ def generate_explanation(place, user_data, constraints_met, day_number):
         'algorithm': 'CSP + A* + Weather-Aware Planning'
     }
 
+
 def plan_trip_csp(user_data):
-    """CSP-based trip planner with weather-aware planning and explainable AI"""
+    """CSP-based trip planner with TRAVELER TYPE FILTERING"""
     
     district = user_data['latestTrip']['district']
     days = user_data['latestTrip']['days']
     budget = user_data['latestTrip']['budget']
-    travel_with = user_data['latestTrip']['travelWith']
     traveler_type = user_data['travelerProfile']['travelerType']
     
-    # Fetch weather forecast (AI Feature #4)
     weather_forecast = get_weather_forecast(district, days)
     
-    # Start with all places
-    filtered = places.copy()
+    # Filter by district
+    filtered = places[places['destination_city'] == district].copy()
+    print(f"\n{'='*80}")
+    print(f"📍 STEP 1: Filter by District")
+    print(f"{'='*80}")
+    print(f"Total places in {district}: {len(filtered)}")
     
-    # REQUIRED: Filter by destination (never relax this)
-    if 'destination_city' in filtered.columns:
-        filtered = filtered[filtered['destination_city'] == district]
+    # TRAVELER TYPE FILTERING
+    print(f"\n{'='*80}")
+    print(f"📍 STEP 2: Filter by Traveler Type")
+    print(f"{'='*80}")
+    print(f"Traveler Type: '{traveler_type}'")
     
-    print(f"📍 Total places in {district}: {len(filtered)}")
+    if 'category' in filtered.columns:
+        category_mask = filtered['category'].apply(
+            lambda x: traveler_type in str(x) if pd.notna(x) else False
+        )
+        
+        type_matched = filtered[category_mask]
+        
+        print(f"Found {len(type_matched)} places with '{traveler_type}' in category")
+        
+        if len(type_matched) > 0:
+            print(f"\nMatching places (showing first 10):")
+            for idx, row in type_matched.head(10).iterrows():
+                print(f"  ✓ {row['place_name']:<40} | {row['category']}")
+        
+        if len(type_matched) >= days * 2:
+            filtered = type_matched
+            print(f"\n✅ Using {len(filtered)} matching places")
+        else:
+            print(f"\n⚠ Only {len(type_matched)} places (need {days * 2} minimum)")
+            if len(type_matched) > 0:
+                filtered = type_matched
+                print(f"⚠ Proceeding with all {len(filtered)} available places")
     
-    # Calculate minimum places needed
-    min_places_needed = days * 2  # At least 2 places per day
+    # BUDGET FILTERING
+    print(f"\n{'='*80}")
+    print(f"📍 STEP 3: Budget Filtering (Optional)")
+    print(f"{'='*80}")
+    print(f"Budget: {budget}")
     
-    # Smart budget filter - flexible mapping
     budget_map = {
         'LIMITED': ['Budget'],
         'MODERATE': ['Budget', 'Mid-range'],
-        'LUXURY': ['Budget', 'Mid-range', 'Luxury']
+        'LUXURY': ['Budget', 'Mid-range', 'Premium']
     }
     
     if budget in budget_map and 'cost_category' in filtered.columns:
         allowed_costs = budget_map[budget]
-        filtered = filtered[filtered['cost_category'].isin(allowed_costs)]
-        print(f"💰 Budget filter ({budget}): allows {allowed_costs}, found {len(filtered)} places")
+        budget_filtered = filtered[filtered['cost_category'].isin(allowed_costs)]
+        
+        print(f"Allowed costs: {allowed_costs}")
+        print(f"Places matching budget: {len(budget_filtered)}")
+        
+        if len(budget_filtered) >= days * 2:
+            filtered = budget_filtered
+            print(f"✅ Applied budget filter: {len(filtered)} places")
+        else:
+            print(f"⚠ Budget filter too strict, keeping all {len(filtered)} places")
     
-    # Check if we have enough places after budget filter
-    if len(filtered) >= min_places_needed:
-        print(f"✅ Sufficient places found. Using all {len(filtered)} places.")
-    else:
-        filtered = places[places['destination_city'] == district].copy()
-        print(f"⚠️ Relaxed budget constraint. Using all {len(filtered)} places.")
-    
-    # Sort by popularity
+    # Sort by rating
     if 'popularity_rating' in filtered.columns:
         filtered = filtered.sort_values('popularity_rating', ascending=False)
     
     # Remove duplicates
-    filtered = filtered.drop_duplicates(subset=['place_name'])
+    filtered = filtered.drop_duplicates(subset=['place_name']).reset_index(drop=True)
     
-    print(f"🎯 Final places to distribute: {len(filtered)}")
+    print(f"\n{'='*80}")
+    print(f"📍 FINAL POOL: {len(filtered)} places ready for itinerary")
+    print(f"{'='*80}")
     
-    # Build itinerary with weather awareness
+    if len(filtered) < days * 2:
+        print(f"⚠ WARNING: Only {len(filtered)} places for {days} days ({days * 2} needed)")
+    
+    if len(filtered) > 0:
+        print(f"\nFinal places (top 15):")
+        for idx, row in filtered.head(15).iterrows():
+            print(f"  ✓ {row['place_name']:<40} | Rating: {row.get('popularity_rating', 'N/A')} | {row.get('indoor_outdoor', 'N/A')}")
+    
+    # BUILD DAILY ITINERARY
+    print(f"\n{'='*80}")
+    print(f"📍 BUILDING {days}-DAY ITINERARY")
+    print(f"{'='*80}\n")
+    
     itinerary = {}
     used_places = set()
     daily_hours = 8
-    
-    filtered = filtered.reset_index(drop=True)
-    places_per_day = max(2, len(filtered) // days)
+    places_per_day = max(2, len(filtered) // days) if len(filtered) >= days else 1
     
     for day in range(1, days + 1):
+        print(f"🔍 Processing Day {day} of {days}...")
+        
         day_places = []
         day_duration = 0
-        places_added = 0
         
-        # Get weather for this day
         day_weather = weather_forecast[day - 1] if day <= len(weather_forecast) else None
         
-        # Weather-aware filtering (AI Feature #4)
+        # Weather-aware filtering
         day_filtered = filtered.copy()
         if day_weather:
-            weather_condition = day_weather['condition']
-            if weather_condition in ['Rain', 'Thunderstorm', 'Drizzle', 'Snow']:
-                # Prioritize indoor places on bad weather days
-                indoor_places = day_filtered[day_filtered['indoor_outdoor'] == 'indoor']
-                if len(indoor_places) > 0:
-                    day_filtered = indoor_places
-                    print(f"☔ Day {day}: Rain expected, prioritizing indoor places")
+            weather_condition = day_weather.get('condition', '')
+            if weather_condition in ['Rain', 'Thunderstorm', 'Drizzle']:
+                indoor = day_filtered[day_filtered['indoor_outdoor'].isin(['indoor', 'both'])]
+                if len(indoor) > 0:
+                    day_filtered = indoor
+                    print(f"☔ Day {day}: Rain - using {len(indoor)} indoor/covered places")
+                else:
+                    print(f"☔ Day {day}: Rain - no indoor places, using all {len(day_filtered)}")
             elif weather_condition in ['Clear', 'Clouds']:
-                # Prefer outdoor places on good weather days
-                outdoor_places = day_filtered[day_filtered['indoor_outdoor'] == 'outdoor']
-                if len(outdoor_places) > 0:
-                    day_filtered = outdoor_places
-                    print(f"☀️ Day {day}: Good weather, prioritizing outdoor places")
+                outdoor = day_filtered[day_filtered['indoor_outdoor'].isin(['outdoor', 'both'])]
+                if len(outdoor) > 0:
+                    day_filtered = outdoor
+                    print(f"☀ Day {day}: {weather_condition} - using {len(outdoor)} outdoor/flexible places")
+                else:
+                    print(f"☀ Day {day}: {weather_condition} - no outdoor places, using all {len(day_filtered)}")
         
+        # Select places for this day
         for idx in range(len(day_filtered)):
             place = day_filtered.iloc[idx]
             
             if place['place_name'] in used_places:
                 continue
             
-            duration = place.get('duration_hours', 2)
-            if hasattr(duration, 'item'):
-                duration = int(duration.item())
-            else:
-                duration = int(duration)
+            duration = int(place.get('duration_hours', 2))
             
+            # Limit food places
+            is_food = 'Foodie' in str(place.get('category', ''))
+            food_count = sum(1 for p in day_places if 'Foodie' in str(p.get('category', '')))
+            
+            max_food = 2 if traveler_type == 'Foodie' else 1
+            if is_food and food_count >= max_food:
+                continue
+            
+            # Add place if it fits
             if day_duration + duration <= daily_hours or len(day_places) == 0:
                 place_info = {
                     'name': str(place['place_name']),
                     'duration': duration,
+                    'category': str(place.get('category', '')),
+                    'cost_category': str(place.get('cost_category', '')),
+                    'rating': int(place.get('popularity_rating', 0)),
+                    'type': str(place.get('indoor_outdoor', '')),
+                    'latitude': float(place.get('latitude', 0)),
+                    'longitude': float(place.get('longitude', 0)),
+                    'timing': str(place.get('timing', ''))
                 }
                 
-                # Add all metadata
-                if 'cost_category' in place.index and pd.notna(place['cost_category']):
-                    place_info['cost_category'] = str(place['cost_category'])
-                
-                if 'category' in place.index and pd.notna(place['category']):
-                    place_info['category'] = str(place['category'])
-                
-                if 'timing' in place.index and pd.notna(place['timing']):
-                    place_info['timing'] = str(place['timing'])
-                
-                if 'popularity_rating' in place.index and pd.notna(place['popularity_rating']):
-                    rating = place['popularity_rating']
-                    place_info['rating'] = int(rating.item()) if hasattr(rating, 'item') else int(rating)
-                
-                if 'indoor_outdoor' in place.index and pd.notna(place['indoor_outdoor']):
-                    place_info['type'] = str(place['indoor_outdoor'])
-                
-                if 'latitude' in place.index and pd.notna(place['latitude']):
-                    lat = place['latitude']
-                    place_info['latitude'] = float(lat.item()) if hasattr(lat, 'item') else float(lat)
-                
-                if 'longitude' in place.index and pd.notna(place['longitude']):
-                    lon = place['longitude']
-                    place_info['longitude'] = float(lon.item()) if hasattr(lon, 'item') else float(lon)
-                
-                # Add weather info for this day
                 if day_weather:
                     place_info['weather'] = {
                         'condition': day_weather['condition'],
@@ -369,58 +414,50 @@ def plan_trip_csp(user_data):
                         'description': day_weather['description']
                     }
                 
-                # Generate Explainable AI (AI Feature #5)
-                constraints_met = {}
-                if day_weather:
-                    constraints_met['weather_condition'] = day_weather['condition']
-                
-                explanation = generate_explanation(place, user_data, constraints_met, day)
-                place_info['explanation'] = explanation
+                constraints_met = {'weather_condition': day_weather['condition']} if day_weather else {}
+                place_info['explanation'] = generate_explanation(place, user_data, constraints_met, day)
                 
                 day_places.append(place_info)
                 day_duration += duration
                 used_places.add(place['place_name'])
-                places_added += 1
                 
-                if places_added >= places_per_day and day_duration >= 4:
-                    break
-                
-                if day_duration >= 7:
+                if len(day_places) >= places_per_day and day_duration >= 4:
                     break
         
-        # A* Route Optimization (AI Feature #3)
-        if len(day_places) > 1 and all('latitude' in p and 'longitude' in p for p in day_places):
+        # A* Route Optimization
+        if len(day_places) > 1 and all('latitude' in p for p in day_places):
+            print(f"🔄 Day {day}: Optimizing route for {len(day_places)} places using A*...")
             optimized = [day_places[0]]
-            remaining = day_places[1:].copy()
+            remaining = day_places[1:]
             
             while remaining:
                 last = optimized[-1]
-                nearest_idx = 0
-                min_dist = float('inf')
-                
-                for i, p in enumerate(remaining):
-                    dist = haversine_distance(
-                        last['latitude'], last['longitude'],
-                        p['latitude'], p['longitude']
-                    )
-                    if dist < min_dist:
-                        min_dist = dist
-                        nearest_idx = i
-                
-                optimized.append(remaining[nearest_idx])
-                remaining.pop(nearest_idx)
+                nearest_idx = min(range(len(remaining)), 
+                                key=lambda i: haversine_distance(
+                                    last['latitude'], last['longitude'],
+                                    remaining[i]['latitude'], remaining[i]['longitude']
+                                ))
+                optimized.append(remaining.pop(nearest_idx))
             
             day_places = optimized
         
+        # Always add day to itinerary
         itinerary[f'Day {day}'] = day_places
-        print(f"Day {day}: {len(day_places)} places assigned")
+        
+        print(f"✅ Day {day}: {len(day_places)} places, {day_duration}hrs total")
+        if len(day_places) > 0:
+            for p in day_places:
+                print(f"     - {p['name']} ({p['duration']}hrs)")
+        else:
+            print(f"⚠ Day {day}: No places added!")
     
+    print(f"\n{'='*80}\n")
     return itinerary, weather_forecast
 
-# Routes
+
+# ROUTES
 @app.route('/health', methods=['GET'])
 def health():
-    """Health check endpoint"""
     return jsonify({
         'status': 'healthy',
         'service': 'ML Service',
@@ -437,9 +474,9 @@ def health():
         ]
     }), 200
 
+
 @app.route('/predict', methods=['POST'])
 def predict():
-    """Predict traveler type from user answers"""
     try:
         data = request.json
         
@@ -470,9 +507,9 @@ def predict():
         print(f"Error: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
+
 @app.route('/generate-trip', methods=['POST'])
 def generate_trip():
-    """Generate complete trip itinerary using all AI features"""
     try:
         user_data = request.json
         
@@ -480,11 +517,8 @@ def generate_trip():
             return jsonify({'error': 'Missing latestTrip or travelerProfile data'}), 400
         
         if len(places) == 0:
-            return jsonify({
-                'error': 'Places dataset not loaded. Please add CSV files to data folder.'
-            }), 500
+            return jsonify({'error': 'Places dataset not loaded'}), 500
         
-        # Generate itinerary with weather and explanations
         itinerary, weather_forecast = plan_trip_csp(user_data)
         
         total_places = sum([len(day_places) for day_places in itinerary.values()])
@@ -502,7 +536,7 @@ def generate_trip():
             'budget': user_data['latestTrip']['budget'],
             'travelWith': user_data['latestTrip']['travelWith'],
             'travelerType': user_data['travelerProfile']['travelerType'],
-            'weatherForecast': weather_forecast,  # Weather info
+            'weatherForecast': weather_forecast,
             'itinerary': itinerary,
             'stats': {
                 'totalPlaces': total_places,
@@ -522,17 +556,14 @@ def generate_trip():
         return jsonify(response), 200
         
     except Exception as e:
-        print(f"Error generating trip: {str(e)}")
+        print(f"Error: {str(e)}")
         import traceback
         traceback.print_exc()
-        return jsonify({
-            'success': False,
-            'error': str(e)
-        }), 500
+        return jsonify({'success': False, 'error': str(e)}), 500
+
 
 @app.route('/retrain', methods=['POST'])
 def retrain():
-    """Endpoint to retrain model with new data"""
     try:
         csv_path = 'data/training-data.csv'
         classifier.train(csv_path)
@@ -540,6 +571,7 @@ def retrain():
         return jsonify({'message': 'Model retrained successfully'}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
 
 if __name__ == '__main__':
     print("\n🚀 Starting AI Trip Planner Service...")

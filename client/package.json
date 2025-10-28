@@ -19,6 +19,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-leaflet": "^5.0.0",
+    "react-qr-code": "^2.0.18",
     "react-router-dom": "^7.6.3",
     "react-toastify": "^11.0.5"
   },

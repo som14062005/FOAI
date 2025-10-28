@@ -3,10 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import {
   MapPin, Calendar, DollarSign, Users, Clock, Heart, Trash2, 
-  Eye, ArrowLeft, Filter, Search, RefreshCw, Loader, Tag,
-  ChevronLeft, ChevronRight, TrendingUp, Sparkles, BookOpen,
-  Archive, Star, Package, BarChart3, Grid, List, Navigation
+  Eye, ArrowLeft, Search, RefreshCw, Loader, Tag,
+  TrendingUp, Sparkles, BookOpen, Archive, Star, Package, 
+  BarChart3, Grid, List, Navigation
 } from 'lucide-react';
+import TripQRCode from '../components/TripQRCode';
 
 const MyTripsPage = () => {
   const navigate = useNavigate();
@@ -21,13 +22,6 @@ const MyTripsPage = () => {
   const [userProfile, setUserProfile] = useState(null);
   const [profileLoading, setProfileLoading] = useState(true);
   
-  const [pagination, setPagination] = useState({
-    total: 0,
-    page: 1,
-    limit: 12,
-    totalPages: 0
-  });
-
   const [filters, setFilters] = useState({
     search: '',
     district: '',
@@ -190,8 +184,6 @@ const MyTripsPage = () => {
       return;
     }
 
-    console.log('🚀 Generating itinerary for trip:', trip);
-
     const tripInputData = {
       userId: userId,
       district: trip.district,
@@ -200,8 +192,6 @@ const MyTripsPage = () => {
       travelWith: trip.travelWith,
       travelerType: trip.travelerType || userProfile.userType
     };
-
-    console.log('📤 Sending to result page:', tripInputData);
 
     navigate('/result', { 
       state: { 
@@ -725,16 +715,25 @@ const MyTripsPage = () => {
                     <div className="flex gap-3">
                       {isSaved ? (
                         <>
-                          {/* ✅ CORRECTED: Live Map button as proper JSX */}
                           <button
                             onClick={() => navigate(`/live-map/${trip._id}`)}
                             className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition-colors shadow-lg"
                           >
                             <Navigation className="w-4 h-4" />
-                            Live Map
+                            Map
                           </button>
 
-                          
+                          <TripQRCode 
+                            tripId={trip._id} 
+                            tripName={district}
+                          />
+
+                          <button
+                            onClick={() => handleViewTrip(trip._id)}
+                            className="flex items-center justify-center gap-2 px-4 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition-colors shadow-lg"
+                          >
+                            <Eye className="w-4 h-4" />
+                          </button>
 
                           <button
                             onClick={() => handleDeleteSavedTrip(trip._id)}
@@ -823,14 +822,18 @@ const MyTripsPage = () => {
                     <div className="flex gap-2">
                       {isSaved ? (
                         <>
-                          {/* ✅ Live Map button in list view */}
                           <button
                             onClick={() => navigate(`/live-map/${trip._id}`)}
                             className="px-4 py-3 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition-colors flex items-center gap-2"
                           >
                             <Navigation className="w-4 h-4" />
-                            Live Map
+                            Map
                           </button>
+
+                          <TripQRCode 
+                            tripId={trip._id} 
+                            tripName={district}
+                          />
 
                           <button
                             onClick={() => handleToggleFavorite(trip._id, trip.favorite)}

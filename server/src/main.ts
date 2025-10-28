@@ -1,36 +1,29 @@
+// src/main.ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import { ValidationPipe } from '@nestjs/common';
-import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // ✅ Enable CORS for React frontend
+  // ✅ Enable CORS for network access
   app.enableCors({
-    origin: 'http://localhost:5173', // React dev server URL
+    origin: [
+      'http://localhost:5173',
+      'http://127.0.0.1:5173',
+      'http://192.168.1.35:5173', // ✅ Your network IP
+    ],
     credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
   });
 
-  // ✅ Global validation for DTOs
-  app.useGlobalPipes(
-    new ValidationPipe({
-      whitelist: true, // Remove extra fields
-      forbidNonWhitelisted: true, // Throw error for extra fields
-      transform: true, // Auto-transform payloads to DTO types
-    }),
-  );
-
-  // ✅ Swagger configuration
-  const config = new DocumentBuilder()
-    .setTitle('Hackathon API')
-    .setDescription('Live API Documentation for Judges & Team')
-    .setVersion('1.0')
-    .build();
-
-  const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api-docs', app, document);
-
-  await app.listen(3000);
+  const port = process.env.PORT || 3000;
+  
+  // ✅ Listen on all network interfaces
+  await app.listen(port, '0.0.0.0');
+  
+  console.log(`🚀 Backend running on:`);
+  console.log(`   Local:   http://localhost:${port}`);
+  console.log(`   Network: http://10.252.100.1:${port}`);
 }
 bootstrap();

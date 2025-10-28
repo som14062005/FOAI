@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-leaflet';
 import L from 'leaflet';
+import { API_CONFIG } from '../config';
 
 const LiveMapPage = () => {
   const { tripId } = useParams();
@@ -103,6 +104,44 @@ const LiveMapPage = () => {
     
     return welcomeMessage;
   };
+// Add this function before the return statement
+const checkLocationPermission = async () => {
+  console.log('🔍 Checking location status...');
+  
+  // Check if API exists
+  if (!navigator.geolocation) {
+    alert('❌ Geolocation API not available in this browser');
+    return;
+  }
+
+  // Try to get permission state
+  if (navigator.permissions) {
+    try {
+      const result = await navigator.permissions.query({ name: 'geolocation' });
+      alert(`📍 Location Permission: ${result.state}\n\n` +
+            `Browser: ${navigator.userAgent.includes('Chrome') ? 'Chrome' : 
+                       navigator.userAgent.includes('Safari') ? 'Safari' : 
+                       navigator.userAgent.includes('Firefox') ? 'Firefox' : 'Other'}\n\n` +
+            `HTTPS: ${window.location.protocol === 'https:'}\n` +
+            `Origin: ${window.location.origin}`);
+    } catch (error) {
+      alert('❌ Cannot check permission state');
+    }
+  } else {
+    alert('⚠️ Permission API not supported');
+  }
+
+  // Test geolocation
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      alert(`✅ Location Working!\n\nLat: ${pos.coords.latitude}\nLng: ${pos.coords.longitude}`);
+    },
+    (err) => {
+      alert(`❌ Location Error\n\nCode: ${err.code}\nMessage: ${err.message}`);
+    },
+    { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+  );
+};
 
   // ✅ FIXED: Text-to-Speech with proper voice loading
   const speak = (text) => {
@@ -202,41 +241,46 @@ const LiveMapPage = () => {
   }, [tripId]);
 
   const fetchTripData = async () => {
-    try {
-      setLoading(true);
-      const response = await axios.get(`http://localhost:3000/api/saved-trips/${tripId}`);
+  try {
+    setLoading(true);
+    
+    // ✅ Use dynamic API URL that works on mobile
+    const baseURL = API_CONFIG.getBaseURL();
+    const response = await axios.get(`${baseURL}/api/saved-trips/${tripId}`);
+    
+    if (response.data.success) {
+      const trip = response.data.data;
+      setTripData(trip);
       
-      if (response.data.success) {
-        const trip = response.data.data;
-        setTripData(trip);
-        
-        const places = [];
-        if (trip.tripData.itinerary) {
-          Object.entries(trip.tripData.itinerary).forEach(([day, dayPlaces], dayIdx) => {
-            dayPlaces.forEach((place, placeIdx) => {
-              if (place.latitude && place.longitude) {
-                places.push({
-                  ...place,
-                  day: day,
-                  dayIndex: dayIdx,
-                  placeIndex: placeIdx,
-                  isFirst: placeIdx === 0 && dayIdx === 0,
-                  isLast: placeIdx === dayPlaces.length - 1 && dayIdx === Object.keys(trip.tripData.itinerary).length - 1
-                });
-              }
-            });
+      const places = [];
+      if (trip.tripData.itinerary) {
+        Object.entries(trip.tripData.itinerary).forEach(([day, dayPlaces], dayIdx) => {
+          dayPlaces.forEach((place, placeIdx) => {
+            if (place.latitude && place.longitude) {
+              places.push({
+                ...place,
+                day: day,
+                dayIndex: dayIdx,
+                placeIndex: placeIdx,
+                isFirst: placeIdx === 0 && dayIdx === 0,
+                isLast: placeIdx === dayPlaces.length - 1 && dayIdx === Object.keys(trip.tripData.itinerary).length - 1
+              });
+            }
           });
-        }
-        setAllPlaces(places);
-        console.log('📍 Extracted places:', places);
+        });
       }
-      setLoading(false);
-    } catch (error) {
-      console.error('Error fetching trip:', error);
-      alert('Failed to load trip data');
-      setLoading(false);
+      setAllPlaces(places);
+      console.log('📍 Extracted places:', places);
+      console.log('🔗 API URL used:', baseURL); // ✅ Debug log
     }
-  };
+    setLoading(false);
+  } catch (error) {
+    console.error('Error fetching trip:', error);
+    console.error('API URL:', API_CONFIG.getBaseURL()); // ✅ Debug log
+    alert(`Failed to load trip data: ${error.message}`);
+    setLoading(false);
+  }
+};
 
   // Location tracking
   useEffect(() => {
